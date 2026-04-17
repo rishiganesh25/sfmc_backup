@@ -195,21 +195,6 @@
     "contentSource": "views.html.content+slots"
   },
   {
-    "file": "101418_FORD.html",
-    "id": 101418,
-    "name": "FORD",
-    "customerKey": "af35a496-145d-43d4-931e-ebfabda49474",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU",
-    "preheader": "",
-    "createdDate": "2024-07-19T11:38:08.307-06:00",
-    "modifiedDate": "2024-07-19T11:38:27.967-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+slots"
-  },
-  {
     "file": "101501_TATA.html",
     "id": 101501,
     "name": "TATA ",
@@ -265,7 +250,7 @@
     "subject": "Github demo",
     "preheader": "",
     "createdDate": "2026-04-05T23:07:50.063-06:00",
-    "modifiedDate": "2026-04-15T06:21:26.177-06:00",
+    "modifiedDate": "2026-04-17T00:42:52.963-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.text.content"
   },
@@ -281,6 +266,21 @@
     "preheader": "",
     "createdDate": "2026-04-08T00:42:41.597-06:00",
     "modifiedDate": "2026-04-08T01:04:30.833-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "views.html.content+slots"
+  },
+  {
+    "file": "206589_GitHub_DemoTATA_-_20260417_121318.html",
+    "id": 206589,
+    "name": "[GitHub Demo]TATA  - 20260417_121318",
+    "customerKey": "0166e43b-75a4-42fa-8740-5d0e297bdbd6",
+    "assetType": "Template-Based Email",
+    "status": "Draft",
+    "category": "Content Builder",
+    "subject": "THANK YOU",
+    "preheader": "",
+    "createdDate": "2026-04-17T00:43:35.04-06:00",
+    "modifiedDate": "2026-04-17T00:43:35.04-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+slots"
   }
