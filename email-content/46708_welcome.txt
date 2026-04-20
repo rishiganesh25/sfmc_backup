@@ -1,3 +1,0 @@
-(Text Only Email - no HTML content)
-Name: welcome
-Subject: welcome
