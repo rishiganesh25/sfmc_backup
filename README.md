@@ -50,69 +50,18 @@ Each category also gets a `manifest.json` with metadata for every asset.
    - **Client Secret**
    - **Subdomain** (the `XXXXX` part from your SFMC URL: `https://XXXXX.auth.marketingcloudapis.com`)
 
-### Step 2: Clone the Repository
+### Step 2: Fork the Repository
 
-```bash
-git clone https://github.com/rishiganesh25/sfmc_backup.git
-cd sfmc_backup
-```
+Fork this repo and create a private repo
 
-### Step 3: Install Dependencies
-
-```bash
-pip install httpx
-```
-
-### Step 4: Set Environment Variables
-
-Set these three environment variables with the credentials from Step 1:
-
-**macOS / Linux:**
-
-```bash
-export SFMC_CLIENT_ID="your-client-id"
-export SFMC_CLIENT_SECRET="your-client-secret"
-export SFMC_SUBDOMAIN="your-subdomain"
-```
-
-**Windows (PowerShell):**
-
-```powershell
-$env:SFMC_CLIENT_ID = "your-client-id"
-$env:SFMC_CLIENT_SECRET = "your-client-secret"
-$env:SFMC_SUBDOMAIN = "your-subdomain"
-```
-
-### Step 5: Run the Sync Manually (First Time)
-
-```bash
-python scripts/sync_emails.py
-```
-
-You should see output like:
-
-```
-Authenticating with SFMC...
-Authenticated. REST endpoint: https://XXXXX.rest.marketingcloudapis.com
-Fetching emails...
-  [emails] Page 1: 15 items (total 15/15)
-Retrieved 15 email(s).
-Re-fetching 15 email(s) individually for full content...
-  [emails] Enriched 15/15
-Fetching templates...
-...
-Done. 120 asset(s) synced (15 emails, 3 templates, 52 content blocks, 50 images).
-```
-
-### Step 6: Set Up Automated Daily Sync (GitHub Actions)
+### Step 3: Set Up Automated Daily Sync (GitHub Actions)
 
 The repository includes a GitHub Actions workflow at `.github/workflows/sync-sfmc-emails.yml` that runs the sync automatically every day at midnight UTC.
 
 To enable it:
 
-1. Push the repo to your own GitHub account (or fork it)
-2. Go to **Settings > Secrets and variables > Actions** in your GitHub repo
-3. Add these three **repository secrets**:
+1. Go to **Settings > Secrets and variables > Actions** in your GitHub repo
+2. Add these three **repository secrets**:
 
    | Secret Name | Value |
    |---|---|
@@ -120,8 +69,8 @@ To enable it:
    | `SFMC_CLIENT_SECRET` | Your SFMC Client Secret |
    | `SFMC_SUBDOMAIN` | Your SFMC subdomain |
 
-4. Go to the **Actions** tab and enable the workflow if prompted
-5. Optionally, click **Run workflow** to trigger it manually
+3. Go to the **Actions** tab and enable the workflow if prompted
+4. Optionally, click **Run workflow** to trigger it manually
 
 From now on, the workflow will:
 - Run `scripts/sync_emails.py` daily
