@@ -323,18 +323,6 @@ def _build_metadata_header(item: dict[str, Any]) -> str:
     return "\n".join(parts) + "\n---\n"
 
 
-def _get_slot_content(slots: dict[str, Any], slot_key: str) -> str:
-    """Extract the combined HTML content for a single slot key."""
-    slot = slots.get(slot_key, {})
-    blocks = slot.get("blocks", {})
-    parts: list[str] = []
-    for block_key in sorted(blocks.keys()):
-        block_content = blocks[block_key].get("content", "")
-        if block_content:
-            parts.append(block_content)
-    return "".join(parts)
-
-
 _SLOT_DIV_RE = re.compile(
     r'<div\s+data-type="slot"\s+data-key="([^"]+)"[^>]*>'
     r'[\s]*'
@@ -343,92 +331,173 @@ _SLOT_DIV_RE = re.compile(
 )
 
 
-def _merge_slots_into_template(template_html: str, slots: dict[str, Any]) -> str:
-    """Replace empty <div data-type="slot" data-key="..."></div> placeholders
-    in the template HTML with the actual slot content from views.html.slots.
+def _render_block(block: dict[str, Any]) -> str:
+    """Return the rendered HTML for a single block, recursively resolving any
+    nested <div data-type="slot"> placeholders that live inside the block's
+    own content (e.g. custom / reference / layout blocks that wrap their
+    own slots).
 
-    This produces the same compiled HTML that the SFMC UI displays.
+    SFMC stores the final rendered HTML for each block in `block.content`.
+    For image blocks this is the full `<img ...>` tag; for text / html blocks
+    it is the authored HTML; for buttons it is the button markup; etc.
+    The same merge logic therefore handles every block type transparently.
     """
-    if not slots:
-        return template_html
-
-    def _replace_slot(match: re.Match) -> str:
-        slot_key = match.group(1)
-        content = _get_slot_content(slots, slot_key)
-        return content if content else match.group(0)
-
-    return _SLOT_DIV_RE.sub(_replace_slot, template_html)
-
-
-def _compile_slots_only(html_view: dict[str, Any]) -> str:
-    """Last-resort extraction: concatenate all slot block content when
-    views.html.content is completely empty."""
-    slots = html_view.get("slots", {})
-    if not slots:
+    if not isinstance(block, dict):
         return ""
+    html = block.get("content", "") or ""
+    nested_slots = block.get("slots")
+    if isinstance(nested_slots, dict) and nested_slots and html:
+        rendered = _render_slot_map(nested_slots)
+        if rendered:
+            html = _substitute_slot_placeholders(html, rendered)
+    return html
 
-    parts: list[str] = []
-    for slot_key in sorted(slots.keys()):
-        content = _get_slot_content(slots, slot_key)
-        if content:
-            parts.append(content)
-    return "\n".join(parts)
+
+def _render_slot_map(slots: dict[str, Any]) -> dict[str, str]:
+    """Walk a {slot_key: {blocks: {block_key: block}}} tree and return
+    {slot_key: concatenated_block_html}. Block order follows the numeric
+    sort of block keys, which matches how SFMC authors them."""
+    result: dict[str, str] = {}
+    if not isinstance(slots, dict):
+        return result
+    for slot_key, slot_data in slots.items():
+        if not isinstance(slot_data, dict):
+            continue
+        blocks = slot_data.get("blocks") or {}
+        if not isinstance(blocks, dict):
+            continue
+        parts: list[str] = []
+        for block_key in sorted(blocks.keys()):
+            rendered = _render_block(blocks[block_key])
+            if rendered:
+                parts.append(rendered)
+        result[slot_key] = "".join(parts)
+    return result
+
+
+def _substitute_slot_placeholders(
+    skeleton: str, slot_html: dict[str, str],
+) -> str:
+    """Replace every `<div data-type="slot" data-key="...">...</div>`
+    placeholder in `skeleton` with the rendered HTML for that slot key.
+    Placeholders whose slot key has no rendered content are left intact."""
+    if not skeleton or not slot_html:
+        return skeleton
+
+    def _replace(match: re.Match) -> str:
+        key = match.group(1)
+        html = slot_html.get(key)
+        return html if html else match.group(0)
+
+    return _SLOT_DIV_RE.sub(_replace, skeleton)
+
+
+# Field paths (relative to the root asset item) where SFMC is known to place
+# slot data. Ordered from the most common modern location to legacy fallbacks.
+# All of them use the same {slot_key: {blocks: {...}}} shape.
+SLOT_LOCATIONS: list[tuple[str, ...]] = [
+    ("views", "html", "slots"),
+    ("slots",),
+    ("views", "slots"),
+]
+
+
+def _dig(item: dict[str, Any], path: tuple[str, ...]) -> Any:
+    cur: Any = item
+    for key in path:
+        if not isinstance(cur, dict):
+            return None
+        cur = cur.get(key)
+    return cur
+
+
+def _find_slot_map(item: dict[str, Any]) -> tuple[dict[str, Any], str]:
+    """Return (slot_map, location_label) — the first non-empty slots dict
+    discovered via SLOT_LOCATIONS, or ({}, "") if none have data."""
+    for path in SLOT_LOCATIONS:
+        candidate = _dig(item, path)
+        if isinstance(candidate, dict) and candidate:
+            return candidate, ".".join(path)
+    return {}, ""
 
 
 def _extract_content(item: dict[str, Any]) -> tuple[str, str, str]:
-    """Determine filename extension and text content for any asset type.
+    """Determine filename extension, content string, and diagnostic
+    `extraction_source` for any Content Builder asset.
 
-    Returns (extension, content_string, extraction_source).
-    extraction_source describes where the content came from for diagnostics.
+    Strategy (first match wins, but slot merging applies whenever both a
+    skeleton and slot data exist, regardless of where they live):
+
+      1. Skeleton candidates: views.html.content, then item.content.
+      2. Slot map candidates: views.html.slots, item.slots, views.slots.
+      3. If BOTH exist, replace every `<div data-type="slot">` placeholder
+         in the skeleton with the rendered HTML of that slot. Nested slots
+         inside blocks (custom / reference / layout blocks) are resolved
+         recursively.
+      4. Otherwise fall back to: skeleton-only, slot-only, text content,
+         design JSON, or a diagnostic stub.
     """
-    views = item.get("views", {})
+    views = item.get("views", {}) if isinstance(item.get("views"), dict) else {}
     meta_header = _build_metadata_header(item)
-    html_view = views.get("html", {})
-    html_content = html_view.get("content", "")
-    slots = html_view.get("slots", {})
 
-    # --- Source 1: template-based emails - merge slot content into template skeleton ---
-    if _is_template_based(item) and html_content and slots:
-        compiled = _merge_slots_into_template(html_content, slots)
+    html_view = views.get("html", {}) if isinstance(views.get("html"), dict) else {}
+    skeleton_candidates: list[tuple[str, str]] = [
+        ("views.html.content", html_view.get("content", "") or ""),
+        ("item.content", item.get("content", "") or ""),
+    ]
+    skeleton = ""
+    skeleton_source = ""
+    for src, value in skeleton_candidates:
+        if isinstance(value, str) and value.strip():
+            skeleton = value
+            skeleton_source = src
+            break
+
+    slot_map, slot_source = _find_slot_map(item)
+    slot_html = _render_slot_map(slot_map) if slot_map else {}
+    has_rendered_slot_content = any(v for v in slot_html.values())
+
+    # --- Primary: merge skeleton + slot content (templates, template-based
+    # emails, and any future asset shape where both coexist) ---
+    if skeleton and has_rendered_slot_content:
+        compiled = _substitute_slot_placeholders(skeleton, slot_html)
         if meta_header:
             compiled = f"<!--\n{meta_header}-->\n{compiled}"
-        return ".html", compiled, "views.html.content+slots"
+        return ".html", compiled, f"{skeleton_source}+{slot_source}"
 
-    # --- Source 2: views.html.content (HTML paste emails, non-template) ---
-    if html_content:
+    # --- Skeleton only (no slot content to merge) ---
+    if skeleton:
+        if _is_text_only(item):
+            return ".txt", meta_header + skeleton, skeleton_source
         if meta_header:
-            html_content = f"<!--\n{meta_header}-->\n{html_content}"
-        return ".html", html_content, "views.html.content"
+            skeleton = f"<!--\n{meta_header}-->\n{skeleton}"
+        return ".html", skeleton, skeleton_source
 
-    # --- Source 3: views.html.slots only (template-based but content is empty) ---
-    if _is_template_based(item) and slots:
-        slot_html = _compile_slots_only(html_view)
-        if slot_html:
-            if meta_header:
-                slot_html = f"<!--\n{meta_header}-->\n{slot_html}"
-            return ".html", slot_html, "views.html.slots"
+    # --- Slot content only (skeleton missing / empty) ---
+    if has_rendered_slot_content:
+        parts: list[str] = []
+        for slot_key in sorted(slot_html.keys()):
+            if slot_html[slot_key]:
+                parts.append(slot_html[slot_key])
+        combined = "\n".join(parts)
+        if meta_header:
+            combined = f"<!--\n{meta_header}-->\n{combined}"
+        return ".html", combined, slot_source
 
-    # --- Source 4: views.text.content (text-only emails) ---
-    text_content = views.get("text", {}).get("content", "")
+    # --- Text-only emails ---
+    text_content = views.get("text", {}).get("content", "") if isinstance(views.get("text"), dict) else ""
     if text_content:
         return ".txt", meta_header + text_content, "views.text.content"
 
-    # --- Source 5: top-level content field ---
-    raw_content = item.get("content", "")
-    if raw_content:
-        ext = ".txt" if _is_text_only(item) else ".html"
-        prefix = meta_header if ext == ".txt" else (f"<!--\n{meta_header}-->\n" if meta_header else "")
-        return ext, prefix + raw_content, "item.content"
-
-    # --- Source 6: design field (some blocks store JSON design data) ---
+    # --- Design JSON (some content blocks store authored state here) ---
     design = item.get("design", "")
     if design:
         return ".json", design if isinstance(design, str) else json.dumps(design, indent=2), "item.design"
 
-    # --- Fallback ---
+    # --- Diagnostic fallback ---
     name = item.get("name", "unnamed")
     asset_type = item.get("assetType", {}).get("displayName", "unknown")
-    subject = views.get("subjectline", {}).get("content", "")
+    subject = views.get("subjectline", {}).get("content", "") if isinstance(views.get("subjectline"), dict) else ""
     fallback = f"(No extractable content)\nName: {name}\nType: {asset_type}\n"
     if subject:
         fallback += f"Subject: {subject}\n"
