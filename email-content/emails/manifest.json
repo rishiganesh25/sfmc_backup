@@ -180,21 +180,6 @@
     "contentSource": "views.html.content+slots"
   },
   {
-    "file": "101416_ravi.html",
-    "id": 101416,
-    "name": "ravi",
-    "customerKey": "760cd231-95c9-4e89-a8f9-dfd9d310a335",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU ",
-    "preheader": "",
-    "createdDate": "2024-07-19T11:33:24.043-06:00",
-    "modifiedDate": "2024-07-19T11:35:16.063-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+slots"
-  },
-  {
     "file": "101501_TATA.html",
     "id": 101501,
     "name": "TATA ",
