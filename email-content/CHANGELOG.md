@@ -1,5 +1,26 @@
 # SFMC Content Builder Changelog
 
+## 2026-04-24T05:47:44Z
+
+### Modified (1)
+- `content-blocks/209241_Content_Block_Backup.html` -- "Content Block Backup" (modified in SFMC by Rishi Ganesh on 2026-04-23)
+
+<details>
+<summary>Diff for content-blocks/209241_Content_Block_Backup.html</summary>
+
+```diff
+--- a/content-blocks/209241_Content_Block_Backup.html
++++ b/content-blocks/209241_Content_Block_Backup.html
+@@ -1 +1 @@
+-<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">Text1</td></tr></table>+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">Text3</td></tr></table>
+```
+
+</details>
+
+### Unchanged: 59 asset(s)
+
+---
+
 ## 2026-04-24T05:44:43Z
 
 ### Modified (1)
