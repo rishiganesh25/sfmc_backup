@@ -193,5 +193,20 @@
     "modifiedDate": "2024-07-12T02:11:09.883-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "fallback"
+  },
+  {
+    "file": "209224_My_Definition_-_April_24_2026_at_102306_AM.txt",
+    "id": 209224,
+    "name": "My Definition - April 24, 2026 at 10:23:06 AM",
+    "customerKey": "a0bb9d3a-2fff-4e35-b817-60a6e6d120b0",
+    "assetType": "packagedefinition",
+    "status": "Draft",
+    "category": "Content Builder",
+    "subject": "",
+    "preheader": "",
+    "createdDate": "2026-04-23T22:53:19.557-06:00",
+    "modifiedDate": "2026-04-23T22:53:26.32-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "fallback"
   }
 ]

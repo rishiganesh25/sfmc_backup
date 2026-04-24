@@ -1,5 +1,36 @@
 # SFMC Content Builder Changelog
 
+## 2026-04-24T05:36:25Z
+
+### Added (1)
+- `content-blocks/209224_My_Definition_-_April_24_2026_at_102306_AM.txt` -- "My Definition - April 24, 2026 at 10:23:06 AM" (modified in SFMC by Rishi Ganesh on 2026-04-23)
+
+### Modified (1)
+- `emails/139009_HK_Autocumulus_Main_Message_-_20250508_213248.html` -- "HK_Autocumulus_Main_Message - 20250508_213248" (modified in SFMC by Rishi Ganesh on 2026-04-23)
+
+<details>
+<summary>Diff for emails/139009_HK_Autocumulus_Main_Message_-_20250508_213248.html</summary>
+
+```diff
+--- a/emails/139009_HK_Autocumulus_Main_Message_-_20250508_213248.html
++++ b/emails/139009_HK_Autocumulus_Main_Message_-_20250508_213248.html
+@@ -251,7 +251,7 @@
+ 									
+ 										<tr>
+ 											<td align="left" style="font-family:Arial,sans-serif; font-size:16px; line-height:24px; color:#333333; font-weight:400;" valign="top">
+-												Dear Sarah Mathwes,<br>
++												Dear Sarah Norton,<br>
+ 												<br>
+ 												%%=v(@DynamicEmailContent)=%%<br>
+ 												<br>
+```
+
+</details>
+
+### Unchanged: 57 asset(s)
+
+---
+
 ## 2026-04-24T04:27:10Z
 
 ### Modified (22)
