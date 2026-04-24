@@ -58,7 +58,13 @@ body {
 <div class="layout layout-canvas-g">
 	<div class="section">
 		<div class="columns col1">
-			<div data-type="slot" data-key="col1"></div>
+			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
+     var str = '[{ "prop1": "propVal","prop2": "propVal2" }]';
+     var obj = Platform.Function.ParseJSON(Stringify(str));
+     var val = obj.prop1;
+  
+  Write((obj));
+</script></td></tr></table>
 		</div>
 	</div>
 </div>

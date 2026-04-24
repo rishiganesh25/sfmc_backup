@@ -57,7 +57,7 @@
     "createdDate": "2023-01-17T04:24:19.737-06:00",
     "modifiedDate": "2023-01-17T04:24:34.11-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+views.html.slots"
   },
   {
     "file": "52923_trg.html",
@@ -72,7 +72,7 @@
     "createdDate": "2023-02-03T11:51:34.743-06:00",
     "modifiedDate": "2023-02-03T12:10:52.73-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+views.html.slots"
   },
   {
     "file": "57944_My_Definition_-_April_25_2023_at_32947_PM.txt",
@@ -102,7 +102,7 @@
     "createdDate": "2023-05-02T03:06:19.693-06:00",
     "modifiedDate": "2023-05-02T03:10:42.527-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+views.html.slots"
   },
   {
     "file": "66965_test_cc.html",
@@ -117,7 +117,7 @@
     "createdDate": "2023-09-01T01:58:52.303-06:00",
     "modifiedDate": "2023-09-01T02:17:44.33-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+views.html.slots"
   },
   {
     "file": "68364_Full_Width_Banner.html",
@@ -162,7 +162,7 @@
     "createdDate": "2024-03-05T02:38:23.457-06:00",
     "modifiedDate": "2024-03-05T02:42:51.237-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+views.html.slots"
   },
   {
     "file": "100369_test.html",
@@ -177,7 +177,7 @@
     "createdDate": "2024-07-12T00:52:05.48-06:00",
     "modifiedDate": "2025-09-03T05:40:21.917-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+views.html.slots"
   },
   {
     "file": "100379_Mobile_Message_July_12_202413943_PM.txt",

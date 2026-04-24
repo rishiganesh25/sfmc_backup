@@ -12,7 +12,7 @@
     "createdDate": "2023-09-22T04:35:38.303-06:00",
     "modifiedDate": "2023-09-22T04:35:38.303-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "100332_contest.html",
@@ -27,7 +27,7 @@
     "createdDate": "2024-07-11T09:12:55.053-06:00",
     "modifiedDate": "2024-07-11T09:20:04.633-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "100373_male.html",
@@ -42,7 +42,7 @@
     "createdDate": "2024-07-12T01:50:22.737-06:00",
     "modifiedDate": "2024-07-12T01:50:22.737-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "100374_female.html",
@@ -57,7 +57,7 @@
     "createdDate": "2024-07-12T01:51:51.363-06:00",
     "modifiedDate": "2024-07-12T01:51:51.363-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "101386_BMW.html",
@@ -72,7 +72,7 @@
     "createdDate": "2024-07-19T09:38:52.137-06:00",
     "modifiedDate": "2024-07-19T09:38:52.137-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "101412_TATA_CAR.html",
@@ -87,7 +87,7 @@
     "createdDate": "2024-07-19T10:03:13.82-06:00",
     "modifiedDate": "2024-07-19T10:03:13.82-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "101413_FORD_CAR.html",
@@ -102,7 +102,7 @@
     "createdDate": "2024-07-19T10:24:10.407-06:00",
     "modifiedDate": "2024-07-19T10:24:10.407-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "101414_SWIFT_CAR.html",
@@ -117,7 +117,7 @@
     "createdDate": "2024-07-19T10:39:48.797-06:00",
     "modifiedDate": "2024-07-19T10:43:31.69-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   },
   {
     "file": "209210_New_template_for_emails.html",
@@ -132,6 +132,6 @@
     "createdDate": "2026-04-23T21:23:04.423-06:00",
     "modifiedDate": "2026-04-23T21:23:04.423-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content"
+    "contentSource": "item.content+slots"
   }
 ]

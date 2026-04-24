@@ -1,8 +1,15 @@
-chore: sync SFMC content 2026-04-24T04:03:08Z
+chore: sync SFMC content 2026-04-24T04:27:10Z
 
-Added: 9 | Modified: 0 | Deleted: 0 | Unchanged: 49
+Added: 0 | Modified: 22 | Deleted: 0 | Unchanged: 36
 
-Added:
+Modified:
+  - emails/139009_HK_Autocumulus_Main_Message_-_20250508_213248.html (HK_Autocumulus_Main_Message - 20250508_213248)
+  - emails/204341_Github_Test_for_tracking.html (Github Test for tracking)
+  - emails/68365_HK_Autocumulus_Main_Message.html (HK_Autocumulus_Main_Message)
+  - emails/101502_BMW_CAR.html (BMW CAR)
+  - emails/100378_female_emaIl.html (female emaIl)
+  - emails/100377_male_email.html (male email)
+  - emails/100333_CONTEST_WINNER.html (CONTEST WINNER)
   - templates/101386_BMW.html (BMW)
   - templates/68363_Autocumulus_Main_Template.html (Autocumulus_Main_Template)
   - templates/100332_contest.html (contest )
@@ -12,3 +19,9 @@ Added:
   - templates/101413_FORD_CAR.html (FORD CAR)
   - templates/101414_SWIFT_CAR.html (SWIFT CAR)
   - templates/209210_New_template_for_emails.html (New template for emails)
+  - content-blocks/100369_test.html (test)
+  - content-blocks/82515_json_test.html (json test)
+  - content-blocks/66965_test_cc.html (test cc)
+  - content-blocks/58266_gs_lp.html (gs_lp)
+  - content-blocks/52923_trg.html (trg)
+  - content-blocks/51998_Populate_CDP_data_extensions.html (Populate CDP data extensions)
