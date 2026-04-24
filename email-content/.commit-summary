@@ -1,6 +1,14 @@
-chore: sync SFMC content 2026-04-24T03:23:38Z
+chore: sync SFMC content 2026-04-24T04:03:08Z
 
-Added: 0 | Modified: 0 | Deleted: 1 | Unchanged: 49
+Added: 9 | Modified: 0 | Deleted: 0 | Unchanged: 49
 
-Deleted:
-  - emails/101416_ravi.html
+Added:
+  - templates/101386_BMW.html (BMW)
+  - templates/68363_Autocumulus_Main_Template.html (Autocumulus_Main_Template)
+  - templates/100332_contest.html (contest )
+  - templates/100373_male.html (male)
+  - templates/100374_female.html (female )
+  - templates/101412_TATA_CAR.html (TATA CAR)
+  - templates/101413_FORD_CAR.html (FORD CAR)
+  - templates/101414_SWIFT_CAR.html (SWIFT CAR)
+  - templates/209210_New_template_for_emails.html (New template for emails)

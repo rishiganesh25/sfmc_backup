@@ -1,5 +1,22 @@
 # SFMC Content Builder Changelog
 
+## 2026-04-24T04:03:08Z
+
+### Added (9)
+- `templates/101386_BMW.html` -- "BMW" (modified in SFMC by Rishi Ganesh on 2024-07-19)
+- `templates/68363_Autocumulus_Main_Template.html` -- "Autocumulus_Main_Template" (modified in SFMC by Rishi Ganesh on 2023-09-22)
+- `templates/100332_contest.html` -- "contest " (modified in SFMC by Rishi Ganesh on 2024-07-11)
+- `templates/100373_male.html` -- "male" (modified in SFMC by Rishi Ganesh on 2024-07-12)
+- `templates/100374_female.html` -- "female " (modified in SFMC by Rishi Ganesh on 2024-07-12)
+- `templates/101412_TATA_CAR.html` -- "TATA CAR" (modified in SFMC by Rishi Ganesh on 2024-07-19)
+- `templates/101413_FORD_CAR.html` -- "FORD CAR" (modified in SFMC by Rishi Ganesh on 2024-07-19)
+- `templates/101414_SWIFT_CAR.html` -- "SWIFT CAR" (modified in SFMC by Rishi Ganesh on 2024-07-19)
+- `templates/209210_New_template_for_emails.html` -- "New template for emails" (modified in SFMC by Rishi Ganesh on 2026-04-23)
+
+### Unchanged: 49 asset(s)
+
+---
+
 ## 2026-04-24T03:23:38Z
 
 ### Deleted (1)
