@@ -49,8 +49,14 @@ EMAIL_TYPE_IDS = [
 ]
 
 TEMPLATE_TYPE_IDS = [
-    210,  # template
+    4,    # template (legacy / pre-Content Builder; some "Save as Template" flows)
+    210,  # template (Content Builder)
 ]
+
+# Name-based catch-all for future / unknown template asset-type IDs.
+# The canonical assetType.name for every template flavor in SFMC is "template",
+# so filtering by name covers any tenant that surfaces an ID we haven't listed.
+TEMPLATE_TYPE_NAMES = ["template"]
 
 CONTENT_BLOCK_TYPE_IDS = [
     195,  # webpage
@@ -123,21 +129,56 @@ def authenticate(client_id: str, client_secret: str, subdomain: str) -> tuple[st
 # Content Builder API
 # ---------------------------------------------------------------------------
 
-def fetch_assets(token: str, rest_url: str, type_ids: list[int], label: str) -> list[dict[str, Any]]:
+def _build_asset_query(
+    type_ids: list[int], type_names: list[str] | None = None,
+) -> dict[str, Any]:
+    """Build a Content Builder Asset query clause.
+
+    If type_names is provided, the resulting query matches assets whose
+    assetType.id is in type_ids OR whose assetType.name equals any of
+    type_names. This guards against SFMC introducing new asset-type IDs
+    for the same conceptual category (e.g. new "template" subtypes).
+    """
+    id_clause: dict[str, Any] = {
+        "property": "assetType.id",
+        "simpleOperator": "in",
+        "value": type_ids,
+    }
+    if not type_names:
+        return id_clause
+
+    name_clauses: list[dict[str, Any]] = [
+        {"property": "assetType.name", "simpleOperator": "equal", "value": n}
+        for n in type_names
+    ]
+    combined: dict[str, Any] = id_clause
+    for clause in name_clauses:
+        combined = {
+            "leftOperand": combined,
+            "logicalOperator": "OR",
+            "rightOperand": clause,
+        }
+    return combined
+
+
+def fetch_assets(
+    token: str,
+    rest_url: str,
+    type_ids: list[int],
+    label: str,
+    type_names: list[str] | None = None,
+) -> list[dict[str, Any]]:
     """Paginate through the Content Builder Asset query and return all items
-    matching the given asset type IDs."""
+    matching the given asset type IDs (and optional type names)."""
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
     all_items: list[dict[str, Any]] = []
     page = 1
+    query = _build_asset_query(type_ids, type_names)
 
     while True:
         body: dict[str, Any] = {
             "page": {"page": page, "pageSize": PAGE_SIZE},
-            "query": {
-                "property": "assetType.id",
-                "simpleOperator": "in",
-                "value": type_ids,
-            },
+            "query": query,
         }
         resp = httpx.post(
             f"{rest_url}/asset/v1/content/assets/query",
@@ -151,7 +192,16 @@ def fetch_assets(token: str, rest_url: str, type_ids: list[int], label: str) -> 
         all_items.extend(items)
 
         count = data.get("count", 0)
-        print(f"  [{label}] Page {page}: {len(items)} items (total {len(all_items)}/{count})")
+        type_breakdown: dict[str, int] = {}
+        for it in items:
+            at = it.get("assetType", {})
+            key = f"{at.get('id', '?')}:{at.get('name', '?')}"
+            type_breakdown[key] = type_breakdown.get(key, 0) + 1
+        breakdown_str = ", ".join(f"{k}={v}" for k, v in sorted(type_breakdown.items()))
+        print(
+            f"  [{label}] Page {page}: {len(items)} items "
+            f"(total {len(all_items)}/{count}) | types: {breakdown_str or 'none'}"
+        )
 
         if not items or page * PAGE_SIZE >= count:
             break
@@ -237,13 +287,22 @@ def _load_previous_manifest(directory: Path) -> dict[str, dict[str, Any]]:
 
 TEMPLATE_BASED_TYPE_ID = 207
 
+# Asset IDs whose content is authored as a skeleton + slot blocks and should
+# therefore be compiled (slot placeholders replaced with slot content) before
+# writing to disk. Covers template-based emails AND the template assets
+# themselves so templates with pre-filled default blocks render correctly.
+SLOT_MERGE_TYPE_IDS: set[int] = {TEMPLATE_BASED_TYPE_ID, *TEMPLATE_TYPE_IDS}
+
 
 def _is_text_only(item: dict[str, Any]) -> bool:
     return item.get("assetType", {}).get("id", 0) == TEXT_ONLY_TYPE_ID
 
 
 def _is_template_based(item: dict[str, Any]) -> bool:
-    return item.get("assetType", {}).get("id", 0) == TEMPLATE_BASED_TYPE_ID
+    at = item.get("assetType", {})
+    if at.get("id", 0) in SLOT_MERGE_TYPE_IDS:
+        return True
+    return at.get("name", "") == "template"
 
 
 def _build_metadata_header(item: dict[str, Any]) -> str:
@@ -816,12 +875,28 @@ def main() -> int:
         emails = enrich_assets(emails, token, rest_url, "emails")
 
     # --- Fetch templates ---
+    # Uses both ID-based and name-based matching so every flavor of template
+    # is captured: legacy (id=4), Content Builder (id=210), and any future
+    # template subtypes SFMC introduces whose assetType.name is still "template".
     print("Fetching templates...")
     try:
-        templates = fetch_assets(token, rest_url, TEMPLATE_TYPE_IDS, "templates")
+        templates = fetch_assets(
+            token, rest_url, TEMPLATE_TYPE_IDS, "templates",
+            type_names=TEMPLATE_TYPE_NAMES,
+        )
     except httpx.HTTPStatusError as exc:
         print(f"ERROR: Failed to fetch templates: {exc}")
         return 1
+
+    # De-duplicate in case both clauses matched the same asset.
+    seen_ids: set[int] = set()
+    deduped: list[dict[str, Any]] = []
+    for t in templates:
+        tid = t.get("id", 0)
+        if tid and tid not in seen_ids:
+            seen_ids.add(tid)
+            deduped.append(t)
+    templates = deduped
     print(f"Retrieved {len(templates)} template(s).")
 
     if templates:
