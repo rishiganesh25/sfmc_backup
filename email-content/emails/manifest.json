@@ -220,7 +220,7 @@
     "subject": "%%=v(@SubjectLine)=%%",
     "preheader": "",
     "createdDate": "2025-05-08T10:02:54.953-06:00",
-    "modifiedDate": "2026-04-23T23:35:57.383-06:00",
+    "modifiedDate": "2026-04-23T23:40:21.333-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   },
