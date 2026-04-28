@@ -60,21 +60,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "68365_HK_Autocumulus_Main_Message.html",
-    "id": 68365,
-    "name": "HK_Autocumulus_Main_Message",
-    "customerKey": "178593d7-3d56-40d0-8b91-4284f8e23803",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "cumulus",
-    "subject": "%%=v(@SubjectLine)=%%",
-    "preheader": "",
-    "createdDate": "2023-09-22T04:39:58.03-06:00",
-    "modifiedDate": "2026-04-28T01:51:37.52-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "74492_test1.html",
     "id": 74492,
     "name": "test1",
@@ -225,21 +210,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "204341_Github_Test_for_tracking.html",
-    "id": 204341,
-    "name": "Github Test for tracking",
-    "customerKey": "11a3739d-f886-4251-90f5-898bc664bd19",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU",
-    "preheader": "",
-    "createdDate": "2026-04-08T00:42:41.597-06:00",
-    "modifiedDate": "2026-04-28T01:51:30.63-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "206589_GitHub_DemoTATA_-_20260417_121318.html",
     "id": 206589,
     "name": "[GitHub Demo]TATA  - 20260417_121318",
@@ -255,21 +225,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "210089_Cars_-_Demo.html",
-    "id": 210089,
-    "name": "Cars - Demo",
-    "customerKey": "0ce0556f-5d65-4812-a0c7-c30d5adeb303",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU",
-    "preheader": "",
-    "createdDate": "2026-04-28T01:34:31.983-06:00",
-    "modifiedDate": "2026-04-28T01:49:51.97-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "210091_SFMCVault_-_Github.html",
     "id": 210091,
     "name": "SFMCVault - Github",
@@ -280,7 +235,22 @@
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2026-04-28T01:44:36.117-06:00",
-    "modifiedDate": "2026-04-28T01:46:18.16-06:00",
+    "modifiedDate": "2026-04-28T01:58:34.007-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "views.html.content+views.html.slots"
+  },
+  {
+    "file": "210092_GitHub_Tracking_-_New_Email.html",
+    "id": 210092,
+    "name": "GitHub Tracking - New Email",
+    "customerKey": "8429c0c4-7fac-41bf-a324-cf014d4514a2",
+    "assetType": "Template-Based Email",
+    "status": "Draft",
+    "category": "",
+    "subject": "%%=v(@SubjectLine)=%%",
+    "preheader": "",
+    "createdDate": "2026-04-28T01:54:15.147-06:00",
+    "modifiedDate": "2026-04-28T01:54:33.657-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   }

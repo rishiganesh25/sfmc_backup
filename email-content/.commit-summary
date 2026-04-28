@@ -1,11 +1,12 @@
-chore: sync SFMC content 2026-04-28T07:52:17Z
+chore: sync SFMC content 2026-04-28T07:59:25Z
 
-Added: 4 | Modified: 0 | Deleted: 1 | Unchanged: 56
+Added: 1 | Modified: 1 | Deleted: 3 | Unchanged: 56
 
 Added:
-  - emails/68365_HK_Autocumulus_Main_Message.html (HK_Autocumulus_Main_Message)
-  - emails/204341_Github_Test_for_tracking.html (Github Test for tracking)
-  - emails/210089_Cars_-_Demo.html (Cars - Demo)
+  - emails/210092_GitHub_Tracking_-_New_Email.html (GitHub Tracking - New Email)
+Modified:
   - emails/210091_SFMCVault_-_Github.html (SFMCVault - Github)
 Deleted:
-  - templates/209210_New_template_for_emails.html
+  - emails/204341_Github_Test_for_tracking.html
+  - emails/210089_Cars_-_Demo.html
+  - emails/68365_HK_Autocumulus_Main_Message.html
