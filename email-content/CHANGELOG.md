@@ -1,5 +1,241 @@
 # SFMC Content Builder Changelog
 
+## 2026-04-28T07:52:17Z
+
+### Added (4)
+- `emails/68365_HK_Autocumulus_Main_Message.html` -- "HK_Autocumulus_Main_Message" (modified in SFMC by Rishi Ganesh on 2026-04-28)
+- `emails/204341_Github_Test_for_tracking.html` -- "Github Test for tracking" (modified in SFMC by Rishi Ganesh on 2026-04-28)
+- `emails/210089_Cars_-_Demo.html` -- "Cars - Demo" (modified in SFMC by Rishi Ganesh on 2026-04-28)
+- `emails/210091_SFMCVault_-_Github.html` -- "SFMCVault - Github" (modified in SFMC by Rishi Ganesh on 2026-04-28)
+
+### Deleted (1)
+- `templates/209210_New_template_for_emails.html`
+
+<details>
+<summary>Last known content of templates/209210_New_template_for_emails.html</summary>
+
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style type="text/css">
+            ReadMsgBody{ width: 100%;}
+            .ExternalClass {width: 100%;}
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+            body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+            p { margin: 1em 0;}
+            table td { border-collapse: collapse;}
+            img {outline:0;}
+            a img {border:none;}
+            @-ms-viewport{ width: device-width;}
+        </style>
+        <style type="text/css">
+            @media only screen and (max-width: 480px) {
+            .container {width: 100% !important;}
+            .footer { width:auto !important; margin-left:0; }
+            .mobile-hidden { display:none !important; }
+            .logo { display:block !important; padding:0 !important; }
+            img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+            .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+            .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+            .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+            .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+            .nav4, .nav5, .nav6 { display: none !important; }
+            .tableBlock {width:100% !important;}
+            .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+            .fluid, .fluid-centered {
+            width: 100% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            .fluid-centered {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+            body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+            h1 { font-size: 22px !important; line-height: normal !important;}
+            h2 { font-size: 20px !important; line-height: normal !important;}
+            h3 { font-size: 18px !important; line-height: normal !important;}
+            .buttonstyles {
+            font-family:arial,helvetica,sans-serif !important;
+            font-size: 16px !important;
+            color: #FFFFFF !important;
+            padding: 10px !important;
+            }
+            /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+            }
+            @media only screen and (max-width: 640px) {
+            .container { width:100% !important; }
+            .mobile-hidden { display:none !important; }
+            .logo { display:block !important; padding:0 !important; }
+            .photo img { width:100% !important; height:auto !important;}
+            .nav5, .nav6 { display: none !important;}
+            .fluid, .fluid-centered {
+            width: 100% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            .fluid-centered {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            }
+        </style>
+        <!--[if mso]>
+        <style type="text/css">
+            /* Begin Outlook Font Fix */
+            body, table, td {
+            font-family: Arial, Helvetica, sans-serif ;
+            font-size:16px;
+            color:#000000;
+            line-height:1;
+            }
+            /* End Outlook Font Fix */
+        </style>
+        <![endif]-->
+  <!--%%[]%%-->
+    </head>
+    <body bgcolor="#ffffff" text="#000000" style="background-color:#FFFFFF; color:#000000; padding:0px; -webkit-text-size-adjust:none; font-size:15px; font-family:Verdana,sans-serif;">
+        <div style="font-size:0; line-height:0;">
+            <custom name="opencounter" type="tracking">
+            <custom name="usermatch" type="tracking" />
+        </div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+                <td align="center">
+                    <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+                        <tr>
+                            <td>
+                                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" width="100%">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <!-- added padding here -->
+                                                    <td class="content_padding" style="">
+                                                        <!-- end of comment -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+               <tr>
+                                                                <!-- HEADER and LOGO-->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101411" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/cd8056f1-c69b-4819-8703-087d0a3d3027.jpeg" alt="" height="183" width="276" style="display: block; padding: 0px; text-align: center; height: 183px; width: 276px;"></td></tr></table></td></tr></table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+               <tr>
+                                                                <!-- BANNER -->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="bannerimage" data-label="Banner">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+               <tr>
+                                                                <!-- CONTENT -->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="contentarea" data-label="Content">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+               <tr>
+                                                                <!-- FOOTER -->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="footer" data-label="Footer">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+</details>
+
+### Unchanged: 56 asset(s)
+
+---
+
 ## 2026-04-28T07:39:38Z
 
 ### Added (1)

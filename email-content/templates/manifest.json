@@ -118,20 +118,5 @@
     "modifiedDate": "2024-07-19T10:43:31.69-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "item.content+slots"
-  },
-  {
-    "file": "209210_New_template_for_emails.html",
-    "id": 209210,
-    "name": "New template for emails",
-    "customerKey": "50630960-a259-4e41-95c8-521b6f3e08de",
-    "assetType": "Template",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "",
-    "preheader": "",
-    "createdDate": "2026-04-23T21:23:04.423-06:00",
-    "modifiedDate": "2026-04-23T21:23:04.423-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "item.content+slots"
   }
 ]
