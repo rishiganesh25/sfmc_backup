@@ -140,7 +140,9 @@ Subject: THANK YOU
   Set @cars= LookupRows("car","varient","diesel")
   Set @rowCount = RowCount(@cars)
   
- 
+   If @rowCount > 0 then
+    For @counter = 1 to @rowCount do
+      Set @row = Row(@cars, @counter)
       Set @coustemerid = Field(@row, "coustemer id")
       set @emailid = field(@row,"email id")
       Set @firstName = Field(@row, "first name")

@@ -60,21 +60,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "68365_HK_Autocumulus_Main_Message.html",
-    "id": 68365,
-    "name": "HK_Autocumulus_Main_Message",
-    "customerKey": "178593d7-3d56-40d0-8b91-4284f8e23803",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "cumulus",
-    "subject": "%%=v(@SubjectLine)=%%",
-    "preheader": "",
-    "createdDate": "2023-09-22T04:39:58.03-06:00",
-    "modifiedDate": "2025-05-08T10:06:37.387-06:00",
-    "modifiedBy": "Kunal",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "74492_test1.html",
     "id": 74492,
     "name": "test1",
@@ -240,21 +225,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "210087_Cars_Campaign_-_Demo.html",
-    "id": 210087,
-    "name": "Cars Campaign - Demo",
-    "customerKey": "72a4dea4-2ba1-4336-a720-e9d97d4848d9",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU",
-    "preheader": "",
-    "createdDate": "2026-04-28T01:28:05.82-06:00",
-    "modifiedDate": "2026-04-28T01:30:17.257-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "210088_SFMCVault.html",
     "id": 210088,
     "name": "SFMCVault",
@@ -265,7 +235,22 @@
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2026-04-28T01:29:14.863-06:00",
-    "modifiedDate": "2026-04-28T01:29:14.863-06:00",
+    "modifiedDate": "2026-04-28T01:38:39.02-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "views.html.content+views.html.slots"
+  },
+  {
+    "file": "210089_Cars_-_Demo.html",
+    "id": 210089,
+    "name": "Cars - Demo",
+    "customerKey": "0ce0556f-5d65-4812-a0c7-c30d5adeb303",
+    "assetType": "Template-Based Email",
+    "status": "Draft",
+    "category": "Content Builder",
+    "subject": "THANK YOU",
+    "preheader": "",
+    "createdDate": "2026-04-28T01:34:31.983-06:00",
+    "modifiedDate": "2026-04-28T01:34:31.983-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   }
