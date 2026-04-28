@@ -60,6 +60,21 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
+    "file": "68365_HK_Autocumulus_Main_Message.html",
+    "id": 68365,
+    "name": "HK_Autocumulus_Main_Message",
+    "customerKey": "178593d7-3d56-40d0-8b91-4284f8e23803",
+    "assetType": "Template-Based Email",
+    "status": "Draft",
+    "category": "cumulus",
+    "subject": "%%=v(@SubjectLine)=%%",
+    "preheader": "",
+    "createdDate": "2023-09-22T04:39:58.03-06:00",
+    "modifiedDate": "2026-04-28T02:07:56.77-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "views.html.content+views.html.slots"
+  },
+  {
     "file": "74492_test1.html",
     "id": 74492,
     "name": "test1",
@@ -235,22 +250,7 @@
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2026-04-28T01:44:36.117-06:00",
-    "modifiedDate": "2026-04-28T01:58:34.007-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
-    "file": "210092_GitHub_Tracking_-_New_Email.html",
-    "id": 210092,
-    "name": "GitHub Tracking - New Email",
-    "customerKey": "8429c0c4-7fac-41bf-a324-cf014d4514a2",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "",
-    "subject": "%%=v(@SubjectLine)=%%",
-    "preheader": "",
-    "createdDate": "2026-04-28T01:54:15.147-06:00",
-    "modifiedDate": "2026-04-28T01:54:33.657-06:00",
+    "modifiedDate": "2026-04-28T02:07:42.46-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   }

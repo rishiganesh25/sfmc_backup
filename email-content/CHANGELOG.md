@@ -1,5 +1,50 @@
 # SFMC Content Builder Changelog
 
+## 2026-04-28T08:08:43Z
+
+### Added (1)
+- `emails/68365_HK_Autocumulus_Main_Message.html` -- "HK_Autocumulus_Main_Message" (modified in SFMC by Rishi Ganesh on 2026-04-28)
+
+### Modified (1)
+- `emails/210091_SFMCVault_-_Github.html` -- "SFMCVault - Github" (modified in SFMC by Rishi Ganesh on 2026-04-28)
+
+<details>
+<summary>Diff for emails/210091_SFMCVault_-_Github.html</summary>
+
+```diff
+--- a/emails/210091_SFMCVault_-_Github.html
++++ b/emails/210091_SFMCVault_-_Github.html
+@@ -138,12 +138,21 @@
+   /* Note that case of data extension, column name, and value don't match the source data */
+   
+   
+-  S
++Set @cars= LookupRows("car","varient","diesel")
++ Set @rowCount = RowCount(@cars)
++  
++   If @rowCount > 0 then
++    For @counter = 1 to @rowCount do
++      Set @row = Row(@cars, @counter)
++      Set @coustemerid = Field(@row, "coustemer id")
++      set @emailid = field(@row,"email id")
++      Set @firstName = Field(@row, "first name")
++      Set @lastname = Field(@row, "last name")
+       set @brandname = field(@row,"brand name")
+       set @varient = field(@row,"varient")
+       set @deliverydate = field(@row,"delivery date") 
+       
+-     set @message = 'SFMC Vault'
++
+       
+       ]%%
+```
+
+</details>
+
+### Unchanged: 56 asset(s)
+
+---
+
 ## 2026-04-28T07:59:25Z
 
 ### Added (1)
