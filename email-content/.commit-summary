@@ -1,4 +1,10 @@
-chore: sync SFMC content 2026-04-28T02:35:01Z
+chore: sync SFMC content 2026-04-28T07:31:05Z
 
-Added: 0 | Modified: 0 | Deleted: 0 | Unchanged: 60
+Added: 2 | Modified: 0 | Deleted: 2 | Unchanged: 58
 
+Added:
+  - emails/210087_Cars_Campaign_-_Demo.html (Cars Campaign - Demo)
+  - emails/210088_SFMCVault.html (SFMCVault)
+Deleted:
+  - emails/203823_github_demo.txt
+  - emails/204341_Github_Test_for_tracking.html
