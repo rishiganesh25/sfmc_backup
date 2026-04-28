@@ -60,21 +60,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "68365_HK_Autocumulus_Main_Message.html",
-    "id": 68365,
-    "name": "HK_Autocumulus_Main_Message",
-    "customerKey": "178593d7-3d56-40d0-8b91-4284f8e23803",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "cumulus",
-    "subject": "%%=v(@SubjectLine)=%%",
-    "preheader": "",
-    "createdDate": "2023-09-22T04:39:58.03-06:00",
-    "modifiedDate": "2026-04-28T02:07:56.77-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "74492_test1.html",
     "id": 74492,
     "name": "test1",
@@ -210,21 +195,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "139009_HK_Autocumulus_Main_Message_-_20250508_213248.html",
-    "id": 139009,
-    "name": "HK_Autocumulus_Main_Message - 20250508_213248",
-    "customerKey": "35fd92cd-c166-48c6-8a95-04b965025295",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "cumulus",
-    "subject": "%%=v(@SubjectLine)=%%",
-    "preheader": "",
-    "createdDate": "2025-05-08T10:02:54.953-06:00",
-    "modifiedDate": "2026-04-23T23:44:04.28-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "206589_GitHub_DemoTATA_-_20260417_121318.html",
     "id": 206589,
     "name": "[GitHub Demo]TATA  - 20260417_121318",
@@ -250,7 +220,22 @@
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2026-04-28T01:44:36.117-06:00",
-    "modifiedDate": "2026-04-28T02:07:42.46-06:00",
+    "modifiedDate": "2026-04-28T02:17:27.627-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "views.html.content+views.html.slots"
+  },
+  {
+    "file": "210094_New_Email_-_Git_Tracking.html",
+    "id": 210094,
+    "name": "New Email - Git Tracking",
+    "customerKey": "e562ce8d-2671-4600-898f-544dfc99b875",
+    "assetType": "Template-Based Email",
+    "status": "Draft",
+    "category": "Content Builder",
+    "subject": "THANK YOU",
+    "preheader": "",
+    "createdDate": "2026-04-28T02:10:10.113-06:00",
+    "modifiedDate": "2026-04-28T02:10:38.32-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   }

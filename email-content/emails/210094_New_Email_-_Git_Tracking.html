@@ -137,13 +137,22 @@ Subject: THANK YOU
   /* Retrieve rows */
   /* Note that case of data extension, column name, and value don't match the source data */
   
- 
+  
+Set @cars= LookupRows("car","varient","diesel")
+ Set @rowCount = RowCount(@cars)
+  
+   If @rowCount > 0 then
+    For @counter = 1 to @rowCount do
+      Set @row = Row(@cars, @counter)
+      Set @coustemerid = Field(@row, "coustemer id")
+      set @emailid = field(@row,"email id")
       Set @firstName = Field(@row, "first name")
       Set @lastname = Field(@row, "last name")
       set @brandname = field(@row,"brand name")
       set @varient = field(@row,"varient")
       set @deliverydate = field(@row,"delivery date") 
-      set @message = 'SFMC Vault'
+      
+
       
       ]%%
 
