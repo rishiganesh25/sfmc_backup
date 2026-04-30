@@ -1,5 +1,36 @@
 # SFMC Content Builder Changelog
 
+## 2026-04-30T06:58:29Z
+
+### Modified (1)
+- `emails/210091_SFMCVault_-_Github.html` -- "SFMCVault - Github" (modified in SFMC by Rishi Ganesh on 2026-04-30)
+
+<details>
+<summary>Diff for emails/210091_SFMCVault_-_Github.html</summary>
+
+```diff
+--- a/emails/210091_SFMCVault_-_Github.html
++++ b/emails/210091_SFMCVault_-_Github.html
+@@ -140,10 +140,9 @@
+  
+       Set @firstName = Field(@row, "first name")
+       Set @lastname = Field(@row, "last name")
+-      set @brandname = field(@row,"brand name")
+-      set @varient = field(@row,"varient")
+-      set @deliverydate = field(@row,"delivery date") 
++      set @brandname = fieldate") 
+       set @message = 'SFMC Vault'
++      set @test = "SFMC Vault Demo"
+       
+       ]%%
+```
+
+</details>
+
+### Unchanged: 56 asset(s)
+
+---
+
 ## 2026-04-28T08:18:24Z
 
 ### Added (1)
