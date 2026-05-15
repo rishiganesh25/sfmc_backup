@@ -138,8 +138,8 @@ Subject: THANK YOU
   /* Note that case of data extension, column name, and value don't match the source data */
   
   
-Set @cars= LookupRows("car","varient","diesel")
- Set @rowCount = RowCount(@cars)
+  Set @cars= LookupRows("car","varient","diesel")
+  Set @rowCount = RowCount(@cars)
   
    If @rowCount > 0 then
     For @counter = 1 to @rowCount do
@@ -152,10 +152,23 @@ Set @cars= LookupRows("car","varient","diesel")
       set @varient = field(@row,"varient")
       set @deliverydate = field(@row,"delivery date") 
       
-
+     
       
       ]%%
 
+<p>
+  
+  %%=v(@coustemerid)=%% ||| %%=v(@emailid)=%% <br>
+   <br>
+  
+  
+  
+</p>%%[
+
+ Next @counter
+  EndIf
+
+]%%
 <p>
   
   %%=v(@coustemerid)=%% ||| %%=v(@emailid)=%% <br>

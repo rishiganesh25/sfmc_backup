@@ -180,9 +180,9 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "101502_BMW_CAR.html",
+    "file": "101502_Old_Email_-_for_Deletion.html",
     "id": 101502,
-    "name": "BMW CAR",
+    "name": "Old Email - for Deletion",
     "customerKey": "2c21f66c-c816-428b-b983-1be4f9b47ee8",
     "assetType": "Template-Based Email",
     "status": "Draft",
@@ -190,7 +190,7 @@
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2024-07-19T11:40:48.56-06:00",
-    "modifiedDate": "2024-07-29T09:08:59.363-06:00",
+    "modifiedDate": "2026-05-15T03:19:45.697-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   },
@@ -210,32 +210,17 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "210091_SFMCVault_-_Github.html",
+    "file": "210091_Test_Email.html",
     "id": 210091,
-    "name": "SFMCVault - Github",
+    "name": "Test Email",
     "customerKey": "eab73a3d-e75e-4be2-83e6-82611e66f85e",
     "assetType": "Template-Based Email",
     "status": "Draft",
-    "category": "Content Builder",
+    "category": "",
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2026-04-28T01:44:36.117-06:00",
-    "modifiedDate": "2026-04-30T00:57:30.833-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
-    "file": "210094_New_Email_-_Git_Tracking.html",
-    "id": 210094,
-    "name": "New Email - Git Tracking",
-    "customerKey": "e562ce8d-2671-4600-898f-544dfc99b875",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU",
-    "preheader": "",
-    "createdDate": "2026-04-28T02:10:10.113-06:00",
-    "modifiedDate": "2026-04-28T02:10:38.32-06:00",
+    "modifiedDate": "2026-05-15T03:18:30.663-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   }
