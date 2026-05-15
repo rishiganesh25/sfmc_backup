@@ -1,11 +1,10 @@
-chore: sync SFMC content 2026-05-15T09:20:40Z
+chore: sync SFMC content 2026-05-15T09:58:34Z
 
-Added: 2 | Modified: 0 | Deleted: 3 | Unchanged: 54
+Added: 1 | Modified: 1 | Deleted: 1 | Unchanged: 54
 
 Added:
-  - emails/101502_Old_Email_-_for_Deletion.html (Old Email - for Deletion)
+  - emails/212949_SFMC_Vault_test.html (SFMC Vault test)
+Modified:
   - emails/210091_Test_Email.html (Test Email)
 Deleted:
-  - emails/101502_BMW_CAR.html
-  - emails/210091_SFMCVault_-_Github.html
-  - emails/210094_New_Email_-_Git_Tracking.html
+  - emails/101502_Old_Email_-_for_Deletion.html

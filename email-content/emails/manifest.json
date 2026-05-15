@@ -180,21 +180,6 @@
     "contentSource": "views.html.content+views.html.slots"
   },
   {
-    "file": "101502_Old_Email_-_for_Deletion.html",
-    "id": 101502,
-    "name": "Old Email - for Deletion",
-    "customerKey": "2c21f66c-c816-428b-b983-1be4f9b47ee8",
-    "assetType": "Template-Based Email",
-    "status": "Draft",
-    "category": "Content Builder",
-    "subject": "THANK YOU",
-    "preheader": "",
-    "createdDate": "2024-07-19T11:40:48.56-06:00",
-    "modifiedDate": "2026-05-15T03:19:45.697-06:00",
-    "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
-  },
-  {
     "file": "206589_GitHub_DemoTATA_-_20260417_121318.html",
     "id": 206589,
     "name": "[GitHub Demo]TATA  - 20260417_121318",
@@ -220,7 +205,22 @@
     "subject": "THANK YOU",
     "preheader": "",
     "createdDate": "2026-04-28T01:44:36.117-06:00",
-    "modifiedDate": "2026-05-15T03:18:30.663-06:00",
+    "modifiedDate": "2026-05-15T03:56:52.453-06:00",
+    "modifiedBy": "Rishi Ganesh",
+    "contentSource": "views.html.content+views.html.slots"
+  },
+  {
+    "file": "212949_SFMC_Vault_test.html",
+    "id": 212949,
+    "name": "SFMC Vault test",
+    "customerKey": "8ed9ef1c-1622-42df-a1fa-27379e3ee029",
+    "assetType": "Template-Based Email",
+    "status": "Draft",
+    "category": "Content Builder",
+    "subject": "THANK YOU",
+    "preheader": "",
+    "createdDate": "2026-05-15T03:57:16.363-06:00",
+    "modifiedDate": "2026-05-15T03:57:16.363-06:00",
     "modifiedBy": "Rishi Ganesh",
     "contentSource": "views.html.content+views.html.slots"
   }
