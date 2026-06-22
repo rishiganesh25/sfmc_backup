@@ -1,0 +1,48 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:39.063",
+  "customerKey": "PI_ABANDONED_CART_ITEMS",
+  "description": "Template for creating data extension for journey builder integration",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "sku",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "cart_id",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "price",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Number",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "quantity",
+      "ordinal": "4"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:45.71",
+  "name": "PI_ABANDONED_CART_ITEMS"
+}

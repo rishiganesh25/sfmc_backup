@@ -1,0 +1,129 @@
+{
+  "activities": [
+    {
+      "arguments": {
+        "activityData": {
+          "updateContactFields": [
+            {
+              "dataExtensionId": "6699d4b4-9017-f111-a5f3-5cba2c705978",
+              "field": "6dd3c954-87db-4e26-a3a8-6b152e9d2ced",
+              "value": 1
+            }
+          ]
+        },
+        "contactKey": "{{Context.ContactKey}}"
+      },
+      "configurationArguments": {
+        "isActivityBatchValidated": true
+      },
+      "description": "",
+      "id": "d74cc51e-f9e7-4608-a39f-be3277d8b434",
+      "key": "UPDATECONTACTDATAV2-1",
+      "metaData": {
+        "isConfigured": true
+      },
+      "name": "Update Contact - DC_MC_Actioin_trigger_flow_UCA",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "72b61950-70ce-4f25-b99d-fd2fadf8975a",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityData": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "UPDATECONTACTDATA"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "",
+  "createdDate": "2026-03-10T01:20:13.687",
+  "defaults": {
+    "email": [
+      "{{Event.APIEvent-5bd641c9-2fcf-692e-3aeb-6f2f590927f1.\"Email\"}}"
+    ],
+    "properties": {
+      "analyticsTracking": {
+        "analyticsType": "google",
+        "enabled": false,
+        "urlDomainsToTrack": []
+      }
+    }
+  },
+  "definitionId": "21c816b0-cdad-4a4d-8752-7cd298563fc4",
+  "definitionType": "Multistep",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "21c816b0-cdad-4a4d-8752-7cd298563fc4",
+  "key": "6793e1b3-aaf8-3eee-a574-03ed47387d0f",
+  "lastPublishedDate": "2026-03-10T01:23:38",
+  "metaData": {
+    "dataSource": "ContactsModel",
+    "disableEndWait": true,
+    "highThroughputSending": {
+      "email": false
+    }
+  },
+  "modifiedDate": "2026-03-10T01:23:38.007",
+  "name": "DC_MC_ATF_RelatedAttributes_Multi_Record_Journey",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Published",
+  "triggers": [
+    {
+      "arguments": {
+        "dequeueReason": "{{Context.DequeueReason}}",
+        "filterResult": "true",
+        "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+        "startActivityKey": "{{Context.StartActivityKey}}"
+      },
+      "configurationArguments": {
+        "criteria": "",
+        "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+        "schemaVersionId": 0
+      },
+      "description": "",
+      "id": "a76a7f61-cdd1-485b-be83-17cd37fa9ba0",
+      "key": "TRIGGER",
+      "metaData": {
+        "category": "Event",
+        "chainType": "None",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "jb:///data/entry/api-event/entrysourcegroupconfig.json",
+        "eventDefinitionId": "1994d466-e280-42aa-a20a-099b6a5ce59d",
+        "eventDefinitionKey": "APIEvent-5bd641c9-2fcf-692e-3aeb-6f2f590927f1",
+        "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+        "scheduleState": "No Schedule",
+        "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+        "title": ""
+      },
+      "name": "New Journey - March 10 2026 at 12.48 PM",
+      "outcomes": [],
+      "type": "APIEvent"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

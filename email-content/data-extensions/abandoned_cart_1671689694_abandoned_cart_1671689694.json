@@ -1,0 +1,39 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-12-22T00:15:00.383",
+  "customerKey": "abandoned_cart_1671689694",
+  "description": "Data Extension for Triggers",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "100",
+      "name": "subscriber_key",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "timestamp",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "data",
+      "ordinal": "2"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2022-12-22T00:15:00.383",
+  "name": "abandoned_cart_1671689694"
+}

@@ -1,0 +1,138 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:23.14",
+  "customerKey": "02F5C2B3-A6F0-42AA-B0DE-6A9DAA00C867",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "200",
+      "name": "_SubscriptionDefinitionID",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "15",
+      "name": "_MobileNumber",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptOutStatusID",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptOutMethodID",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptOutDate",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_OptInStatusID",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptInMethodID",
+      "ordinal": "7"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptInDate",
+      "ordinal": "8"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_Source",
+      "ordinal": "9"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "200",
+      "name": "_SourceObjectId",
+      "ordinal": "10"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_CreatedDate",
+      "ordinal": "10"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_CreatedBy",
+      "ordinal": "11"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_ModifiedDate",
+      "ordinal": "12"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_ModifiedBy",
+      "ordinal": "13"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:23.14",
+  "name": "_MobileSubscription"
+}

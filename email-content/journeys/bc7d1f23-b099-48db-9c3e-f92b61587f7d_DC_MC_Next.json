@@ -1,0 +1,127 @@
+{
+  "activities": [
+    {
+      "arguments": {
+        "activityData": {
+          "updateContactFields": [
+            {
+              "dataExtensionId": "6699d4b4-9017-f111-a5f3-5cba2c705978",
+              "field": "6dd3c954-87db-4e26-a3a8-6b152e9d2ced",
+              "value": 1
+            }
+          ]
+        },
+        "contactKey": "{{Context.ContactKey}}"
+      },
+      "configurationArguments": {
+        "isActivityBatchValidated": true
+      },
+      "description": "",
+      "id": "4cf4a1a9-c71e-4960-b549-f7857a40a9ae",
+      "key": "UPDATECONTACTDATAV2-1",
+      "metaData": {
+        "isConfigured": true
+      },
+      "name": "Update Contact - DC_MC_Actioin_trigger_flow_UCA",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "c9d50bc2-9175-4a0a-a7cf-3446b6ea0d53",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityData": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "UPDATECONTACTDATA"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "",
+  "createdDate": "2026-03-03T23:59:35.503",
+  "defaults": {
+    "email": [
+      "{{Event.APIEvent-4ebeec77-5fdf-526a-f8bd-f6baef48103a.\"Email\"}}"
+    ],
+    "properties": {
+      "analyticsTracking": {
+        "analyticsType": "google",
+        "enabled": false,
+        "urlDomainsToTrack": []
+      }
+    }
+  },
+  "definitionId": "bc7d1f23-b099-48db-9c3e-f92b61587f7d",
+  "definitionType": "Multistep",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "bc7d1f23-b099-48db-9c3e-f92b61587f7d",
+  "key": "e8c8c770-a8cf-1f35-9624-ca828cf55265",
+  "lastPublishedDate": "2026-03-04T00:12:39",
+  "metaData": {
+    "dataSource": "ContactsModel",
+    "disableEndWait": true,
+    "highThroughputSending": {
+      "email": false
+    }
+  },
+  "modifiedDate": "2026-03-04T00:12:39.38",
+  "name": "DC_MC_Next",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Published",
+  "triggers": [
+    {
+      "arguments": {
+        "dequeueReason": "{{Context.DequeueReason}}",
+        "filterResult": "true",
+        "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+        "startActivityKey": "{{Context.StartActivityKey}}"
+      },
+      "configurationArguments": {
+        "criteria": "",
+        "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+        "schemaVersionId": 0
+      },
+      "description": "",
+      "id": "e2e33fbf-e064-4090-9a7a-a953f9cf96fd",
+      "key": "TRIGGER",
+      "metaData": {
+        "chainType": "None",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "jb:///data/entry/api-event/entrysourcegroupconfig.json",
+        "eventDefinitionId": "c9c6aa75-7214-425e-9dc2-b8d810d0646c",
+        "eventDefinitionKey": "APIEvent-4ebeec77-5fdf-526a-f8bd-f6baef48103a",
+        "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+        "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+        "title": ""
+      },
+      "name": "DC_MC_Next",
+      "outcomes": [],
+      "type": "APIEvent"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

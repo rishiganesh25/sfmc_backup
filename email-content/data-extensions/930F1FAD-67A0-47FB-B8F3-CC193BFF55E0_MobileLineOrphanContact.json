@@ -1,0 +1,201 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:24.607",
+  "customerKey": "930F1FAD-67A0-47FB-B8F3-CC193BFF55E0",
+  "description": "Used for storing Group Connect orphen contacts.",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "100",
+      "name": "AddressId",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "_MobileNumber",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "_ChannelId",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "ContactID",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "ContactKey",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "20",
+      "name": "_ChannelType",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedDate",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptOutStatusID",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "Source",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedBy",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptOutMethodID",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptOutDate",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_OptInStatusID",
+      "ordinal": "7"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptInMethodID",
+      "ordinal": "8"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_OptInDate",
+      "ordinal": "9"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_Source",
+      "ordinal": "10"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "200",
+      "name": "_SourceObjectId",
+      "ordinal": "11"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_CreatedDate",
+      "ordinal": "12"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_CreatedBy",
+      "ordinal": "13"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_ModifiedDate",
+      "ordinal": "14"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_ModifiedBy",
+      "ordinal": "15"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:24.607",
+  "name": "MobileLineOrphanContact"
+}

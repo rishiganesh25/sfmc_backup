@@ -1,0 +1,57 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:38.537",
+  "customerKey": "PI_CONTENTVIEWS",
+  "description": "PI_CONTENTVIEWS",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "content_id",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "user_Id",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "session_id",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "1000",
+      "name": "Search",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "Timestamp",
+      "ordinal": "5"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:45.71",
+  "name": "PI_CONTENTVIEWS"
+}

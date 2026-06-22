@@ -1,0 +1,84 @@
+{
+  "categoryId": "415572",
+  "createdDate": "2023-01-17T04:53:27.213",
+  "customerKey": "211E69C8-4D35-4265-8B89-CABCAC3F7839",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Order Number",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Order Line Number",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "SKU",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Quantity",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "Unit Price",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "Subtotal",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Related Activity",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Loyalty Points",
+      "ordinal": "7"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2023-01-17T04:53:27.213",
+  "name": "S3_Order_Line_Items"
+}

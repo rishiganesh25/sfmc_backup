@@ -1,0 +1,75 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:24.607",
+  "customerKey": "7740331B-20B5-49A7-AD7A-BFCB78631179",
+  "description": "Used for storing Group Connect channel subscription.",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "100",
+      "name": "AddressId",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "100",
+      "name": "ChannelId",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "false",
+      "fieldType": "Boolean",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "IsSubscribed",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedDate",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedBy",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "ModifiedDate",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "ModifiedBy",
+      "ordinal": "7"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:24.607",
+  "name": "_MobileLineSubscription"
+}

@@ -1,0 +1,39 @@
+{
+  "categoryId": "661189",
+  "createdDate": "2025-01-28T23:58:35.56",
+  "customerKey": "1sgKj00000000GZIAY_85RKj000000KymUMAS",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "SubscriberKey",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "Id",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "EmailAddress",
+      "ordinal": "2"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2025-01-28T23:58:35.56",
+  "name": "Test1_BU_AWARE_ON_1_1sgKj00000000GZIAY_85RKj000000KymUMAS"
+}

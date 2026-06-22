@@ -1,0 +1,57 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:38.72",
+  "customerKey": "PI_CONTENTATTRIBS",
+  "description": "PI_CONTENTATTRIBS",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "content_id",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "1000",
+      "name": "AttribName",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "1000",
+      "name": "AttribValue",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "updated_at",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Number",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "attributeValueIndex",
+      "ordinal": "5"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:45.71",
+  "name": "PI_CONTENTATTRIBS"
+}

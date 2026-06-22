@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "Test automation created via Claude MCP",
+  "id": "2bd19f37-a0b9-4faa-ad0c-3d7d1894f773",
+  "lastRunInstanceId": "",
+  "lastRunTime": "",
+  "modifiedDate": "",
+  "name": "Test_Automation_Claude",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Building",
+  "statusCode": "Building",
+  "steps": []
+}

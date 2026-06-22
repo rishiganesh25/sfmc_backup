@@ -1,0 +1,1 @@
+select DISTINCT (id), name, age from customer_info

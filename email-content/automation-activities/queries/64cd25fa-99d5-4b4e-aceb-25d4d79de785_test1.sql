@@ -1,0 +1,1 @@
+select 電話番号 from テスト

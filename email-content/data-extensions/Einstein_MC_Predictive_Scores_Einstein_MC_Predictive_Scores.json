@@ -1,0 +1,120 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:38.86",
+  "customerKey": "Einstein_MC_Predictive_Scores",
+  "description": "Einstein_MC_Predictive_Scores",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "email_address",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "EmailClickLikelihood",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "EmailClickScore",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "EmailOpenLikelihood",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "EmailOpenScore",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "EmailSubscribeLikelihood",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "EmailSubscribeScore",
+      "ordinal": "7"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "EmailEngagementPersona",
+      "ordinal": "8"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "ConversionLikelihood",
+      "ordinal": "9"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "ConversionScore",
+      "ordinal": "10"
+    },
+    {
+      "defaultValue": "getdate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "UpdatedDate",
+      "ordinal": "11"
+    },
+    {
+      "defaultValue": "getdate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedDate",
+      "ordinal": "12"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:45.71",
+  "name": "Einstein_MC_Predictive_Scores"
+}

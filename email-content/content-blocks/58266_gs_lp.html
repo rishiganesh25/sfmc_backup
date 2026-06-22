@@ -58,33 +58,7 @@ body {
 <div class="layout layout-canvas-g">
 	<div class="section">
 		<div class="columns col1">
-			
-
-<script runat="server">
-  Platform.Load("Core", "1.1.1");
-  try {
-      var paramtskey = Request.GetQueryStringParameter("tskey");
-      var parammetric = Request.GetQueryStringParameter("metric");
-
-      if (parammetric === "all") {
-          var tsd = TriggeredSend.Init(paramtskey);
-          var triggerSendTracking = tsd.Tracking.Retrieve();
-          var tsTracking = Stringify(triggerSendTracking);
-          if (tsTracking.length > 2) {
-            var outputmetric = Stringify(triggerSendTracking);
-          } else {
-            var outputmetric = '{"CustomerKey":"' + paramtskey + '"}';
-          } 
-      }
-   
-    else {
-          var outputmetric = '{"Name":"0","Unique":"0"}';
-      }
-      Write(outputmetric);
-  } catch (ex) {
-      Write("error message: " + ex);
-  }
-  </script>
+			<div data-type="slot" data-key="col1"></div>
 		</div>
 	</div>
 </div>

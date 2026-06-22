@@ -1,0 +1,48 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2026-06-05T01:34:23.643",
+  "customerKey": "MCP_Claude_Test",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "SubscriberKey",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "EmailAddress",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "100",
+      "name": "FirstName",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "100",
+      "name": "LastName",
+      "ordinal": "4"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2026-06-05T01:34:23.643",
+  "name": "MCP_Claude_Test"
+}

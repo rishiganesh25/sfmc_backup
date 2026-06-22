@@ -1,0 +1,21 @@
+{
+  "categoryId": "418970",
+  "createdDate": "2023-11-27T01:47:25.403",
+  "customerKey": "58FAE1F6-E5EB-4419-9CF3-A9FB598BDD6E",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "\u96fb\u8a71\u756a\u53f7",
+      "ordinal": "0"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2023-11-27T01:47:47.043",
+  "name": "\u30c6\u30b9\u30c8"
+}

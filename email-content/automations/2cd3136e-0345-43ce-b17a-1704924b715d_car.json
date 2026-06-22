@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "",
+  "id": "2cd3136e-0345-43ce-b17a-1704924b715d",
+  "lastRunInstanceId": "47714023-2984-4c73-acbd-88cef266c364",
+  "lastRunTime": "2024-07-23T08:14:01.377",
+  "modifiedDate": "",
+  "name": "car\n",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

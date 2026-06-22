@@ -1,0 +1,632 @@
+[
+  {
+    "file": "560cac58-b702-4e2a-bde8-8adc3ec4b7eb_523015076-ActivityIncView-PS.json",
+    "id": "560cac58-b702-4e2a-bde8-8adc3ec4b7eb",
+    "name": "523015076-ActivityIncView-PS",
+    "status": "PausedSchedule",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-03-04T00:15:18.447"
+  },
+  {
+    "file": "68cd3eb2-deea-455c-9004-97584e4d0793_523015076-ChatMessagingMOLogView-PS.json",
+    "id": "68cd3eb2-deea-455c-9004-97584e4d0793",
+    "name": "523015076-ChatMessagingMOLogView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.63"
+  },
+  {
+    "file": "a691459c-8571-40d4-af2e-10a62346d5c3_523015076-ChatMessagingSendEventView-PS.json",
+    "id": "a691459c-8571-40d4-af2e-10a62346d5c3",
+    "name": "523015076-ChatMessagingSendEventView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.11"
+  },
+  {
+    "file": "e5934bd7-6665-41bd-a8e3-dc0da903a093_523015076-ChatMessagingWhatsAppTrackingView-PS.json",
+    "id": "e5934bd7-6665-41bd-a8e3-dc0da903a093",
+    "name": "523015076-ChatMessagingWhatsAppTrackingView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.737"
+  },
+  {
+    "file": "d53a2bfc-63e8-488d-8f1b-4d53d802df29_523015076-Customer.json",
+    "id": "d53a2bfc-63e8-488d-8f1b-4d53d802df29",
+    "name": "523015076-Customer",
+    "status": "PausedSchedule",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2024-03-28T06:26:00.793"
+  },
+  {
+    "file": "a4527033-5b58-4c98-b96a-9a86f4d8b300_523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json",
+    "id": "a4527033-5b58-4c98-b96a-9a86f4d8b300",
+    "name": "523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-05-18T03:16:00.927"
+  },
+  {
+    "file": "9f05d4d4-3cfc-4e6d-9f67-1ef1d5ccff0a_523015076-DefinitionIncView-PS.json",
+    "id": "9f05d4d4-3cfc-4e6d-9f67-1ef1d5ccff0a",
+    "name": "523015076-DefinitionIncView-PS",
+    "status": "PausedSchedule",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-03-04T00:12:24.183"
+  },
+  {
+    "file": "f6f44785-fab7-4433-9e14-ddc36b521218_523015076-Deletion_2.json",
+    "id": "f6f44785-fab7-4433-9e14-ddc36b521218",
+    "name": "523015076-Deletion_2",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2025-05-15T12:47:00.787"
+  },
+  {
+    "file": "ee4b1a7d-5ebf-4e48-8403-311db2a6f846_523015076-Deletion_3.json",
+    "id": "ee4b1a7d-5ebf-4e48-8403-311db2a6f846",
+    "name": "523015076-Deletion_3",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2025-05-15T12:59:01.707"
+  },
+  {
+    "file": "78853647-2307-4e64-9cb6-6909b7360308_523015076-Deletion_DC.json",
+    "id": "78853647-2307-4e64-9cb6-6909b7360308",
+    "name": "523015076-Deletion_DC",
+    "status": "PausedSchedule",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2025-04-14T06:51:02.207"
+  },
+  {
+    "file": "94f8becd-480f-4d40-a789-f728223ffa59_523015076-GA_Events.json",
+    "id": "94f8becd-480f-4d40-a789-f728223ffa59",
+    "name": "523015076-GA Events",
+    "status": "PausedSchedule",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2024-03-28T08:40:02.28"
+  },
+  {
+    "file": "a4c81bf1-5186-4bf1-b2af-2f221705a1ab_523015076-PSExtended-24.json",
+    "id": "a4c81bf1-5186-4bf1-b2af-2f221705a1ab",
+    "name": "523015076-PSExtended-24",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-26T03:19:00.443"
+  },
+  {
+    "file": "a006c266-7939-46f3-8863-03bfd4bed88a_523015076-PSHist01.json",
+    "id": "a006c266-7939-46f3-8863-03bfd4bed88a",
+    "name": "523015076-PSHist#01",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.037"
+  },
+  {
+    "file": "9f30b442-ce81-4b79-b121-3112dfd1fcad_523015076-PSMain.json",
+    "id": "9f30b442-ce81-4b79-b121-3112dfd1fcad",
+    "name": "523015076-PSMain",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-26T03:19:01.023"
+  },
+  {
+    "file": "26b6b0d3-c10b-40d8-bb8c-79132f0c8b60_523015076-PSMain_1h.json",
+    "id": "26b6b0d3-c10b-40d8-bb8c-79132f0c8b60",
+    "name": "523015076-PSMain_1h",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:04.547"
+  },
+  {
+    "file": "bc2aa83d-6af0-45d2-a616-8e3939a109de_523015076-PSSub.json",
+    "id": "bc2aa83d-6af0-45d2-a616-8e3939a109de",
+    "name": "523015076-PSSub",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:04.043"
+  },
+  {
+    "file": "95ea2d64-e11c-4171-a6a5-576697c159e5_523015076-SFMCEmailBulkMessage-PS.json",
+    "id": "95ea2d64-e11c-4171-a6a5-576697c159e5",
+    "name": "523015076-SFMCEmailBulkMessage-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:00.747"
+  },
+  {
+    "file": "de3fe3de-67c6-4c26-ab65-64974b7287e2_523015076-SFMCSMSBulkMessage-PS.json",
+    "id": "de3fe3de-67c6-4c26-ab65-64974b7287e2",
+    "name": "523015076-SFMCSMSBulkMessage-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:02.903"
+  },
+  {
+    "file": "d429c4b4-e5e0-4233-9f3f-ccac2366aed2_523015076-SFMCSMSEngagementDR-PS.json",
+    "id": "d429c4b4-e5e0-4233-9f3f-ccac2366aed2",
+    "name": "523015076-SFMCSMSEngagementDR-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.783"
+  },
+  {
+    "file": "370e4ed6-2578-4ca2-9efe-e9a247435125_523015076-SFMCSMSEngagementMO-PS.json",
+    "id": "370e4ed6-2578-4ca2-9efe-e9a247435125",
+    "name": "523015076-SFMCSMSEngagementMO-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:07.867"
+  },
+  {
+    "file": "a9a0b6e0-7fed-4232-a4b6-3ec2070dd014_523015076-SFMCSMSEngagementMOResponse-PS.json",
+    "id": "a9a0b6e0-7fed-4232-a4b6-3ec2070dd014",
+    "name": "523015076-SFMCSMSEngagementMOResponse-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.27"
+  },
+  {
+    "file": "d19179c6-81fa-4b94-8f6f-36f4a8c353c8_523015076-SFMCSMSEngagementMOResponseClick-PS.json",
+    "id": "d19179c6-81fa-4b94-8f6f-36f4a8c353c8",
+    "name": "523015076-SFMCSMSEngagementMOResponseClick-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.637"
+  },
+  {
+    "file": "6be87c13-ffa5-4851-9691-ea3f6099779a_523015076-SFMCSMSEngagementSendClick-PS.json",
+    "id": "6be87c13-ffa5-4851-9691-ea3f6099779a",
+    "name": "523015076-SFMCSMSEngagementSendClick-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.263"
+  },
+  {
+    "file": "c81ef06d-3546-4f93-93db-0159e739e7e3_523015076-SFMCSMSEngagementSendV2-PS.json",
+    "id": "c81ef06d-3546-4f93-93db-0159e739e7e3",
+    "name": "523015076-SFMCSMSEngagementSendV2-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.547"
+  },
+  {
+    "file": "c7daa5fb-2e44-4844-a1fb-6360fd90d5f0_523015076-_ChatMessagingSubscriptionView-PS.json",
+    "id": "c7daa5fb-2e44-4844-a1fb-6360fd90d5f0",
+    "name": "523015076-_ChatMessagingSubscriptionView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:00.61"
+  },
+  {
+    "file": "51ee8860-da5a-450f-ad77-008856bc0ac0_523015076-_MobileSubscriptionView-PS.json",
+    "id": "51ee8860-da5a-450f-ad77-008856bc0ac0",
+    "name": "523015076-_MobileSubscriptionView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:03.693"
+  },
+  {
+    "file": "559fa91b-ec6a-4c7f-9649-f130f0e8e5fd_523015076-tests3.json",
+    "id": "559fa91b-ec6a-4c7f-9649-f130f0e8e5fd",
+    "name": "523015076-tests3",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2024-07-25T02:42:00.923"
+  },
+  {
+    "file": "e433a9c9-458d-477a-a675-7964ec163c94_523025841-BU1_Customer_Data.json",
+    "id": "e433a9c9-458d-477a-a675-7964ec163c94",
+    "name": "523025841-BU1_Customer_Data",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2025-02-26T11:27:02.29"
+  },
+  {
+    "file": "eb1b2cd8-e4db-424a-b0e9-be215785f3db_523025841-ChatMessagingMOLogView-PS.json",
+    "id": "eb1b2cd8-e4db-424a-b0e9-be215785f3db",
+    "name": "523025841-ChatMessagingMOLogView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.29"
+  },
+  {
+    "file": "57f5fc3b-0537-4c2b-b655-6c3b553b6949_523025841-ChatMessagingSendEventView-PS.json",
+    "id": "57f5fc3b-0537-4c2b-b655-6c3b553b6949",
+    "name": "523025841-ChatMessagingSendEventView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.23"
+  },
+  {
+    "file": "05881d6f-648b-41c0-9b19-7d017764fd93_523025841-ChatMessagingWhatsAppTrackingView-PS.json",
+    "id": "05881d6f-648b-41c0-9b19-7d017764fd93",
+    "name": "523025841-ChatMessagingWhatsAppTrackingView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.403"
+  },
+  {
+    "file": "44b06454-f773-4b5e-b2f9-b5c164fc1f19_523025841-SFMCSMSBulkMessage-PS.json",
+    "id": "44b06454-f773-4b5e-b2f9-b5c164fc1f19",
+    "name": "523025841-SFMCSMSBulkMessage-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:01.753"
+  },
+  {
+    "file": "b54c29a7-7db1-48e4-8279-393bc30a0891_523025841-SFMCSMSEngagementDR-PS.json",
+    "id": "b54c29a7-7db1-48e4-8279-393bc30a0891",
+    "name": "523025841-SFMCSMSEngagementDR-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.02"
+  },
+  {
+    "file": "316aed5d-983c-4800-be14-31b310c2b7e0_523025841-SFMCSMSEngagementMO-PS.json",
+    "id": "316aed5d-983c-4800-be14-31b310c2b7e0",
+    "name": "523025841-SFMCSMSEngagementMO-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.41"
+  },
+  {
+    "file": "1491b368-7ba3-4245-927c-b493da7ec632_523025841-SFMCSMSEngagementMOResponse-PS.json",
+    "id": "1491b368-7ba3-4245-927c-b493da7ec632",
+    "name": "523025841-SFMCSMSEngagementMOResponse-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.893"
+  },
+  {
+    "file": "51162411-2e5e-442d-9755-53535b3e037d_523025841-SFMCSMSEngagementMOResponseClick-PS.json",
+    "id": "51162411-2e5e-442d-9755-53535b3e037d",
+    "name": "523025841-SFMCSMSEngagementMOResponseClick-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.813"
+  },
+  {
+    "file": "31421e89-6297-4b60-9cfb-246e79fb28c6_523025841-SFMCSMSEngagementSendClick-PS.json",
+    "id": "31421e89-6297-4b60-9cfb-246e79fb28c6",
+    "name": "523025841-SFMCSMSEngagementSendClick-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.933"
+  },
+  {
+    "file": "db3cc85d-4ad1-4eb9-bb01-023a0a9af7a2_523025841-SFMCSMSEngagementSendV2-PS.json",
+    "id": "db3cc85d-4ad1-4eb9-bb01-023a0a9af7a2",
+    "name": "523025841-SFMCSMSEngagementSendV2-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:07.58"
+  },
+  {
+    "file": "18eb34fb-f5f7-403d-9df0-280628cd6b9b_523025841-SFMCWhatsAppBulkMessageView-PS.json",
+    "id": "18eb34fb-f5f7-403d-9df0-280628cd6b9b",
+    "name": "523025841-SFMCWhatsAppBulkMessageView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:02.74"
+  },
+  {
+    "file": "901c86ea-1ed9-4315-baef-1f01d1c6d571_523025841-_ChatMessagingSubscriptionView-PS.json",
+    "id": "901c86ea-1ed9-4315-baef-1f01d1c6d571",
+    "name": "523025841-_ChatMessagingSubscriptionView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:01.287"
+  },
+  {
+    "file": "5c6b9bd4-6ad1-4faf-af14-c83c14eb119c_523025841-_MobileSubscriptionView-PS.json",
+    "id": "5c6b9bd4-6ad1-4faf-af14-c83c14eb119c",
+    "name": "523025841-_MobileSubscriptionView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:02.86"
+  },
+  {
+    "file": "81b310f0-6482-408f-9291-a86159967d6f_523025842-BU2_Customers.json",
+    "id": "81b310f0-6482-408f-9291-a86159967d6f",
+    "name": "523025842-BU2_Customers",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2025-02-26T11:29:00.6"
+  },
+  {
+    "file": "479c97ff-2ef7-4972-9114-9f4012b87237_523025842-ChatMessagingMOLogView-PS.json",
+    "id": "479c97ff-2ef7-4972-9114-9f4012b87237",
+    "name": "523025842-ChatMessagingMOLogView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.78"
+  },
+  {
+    "file": "bc7d89da-1459-4e7c-8603-886f263c5957_523025842-ChatMessagingSendEventView-PS.json",
+    "id": "bc7d89da-1459-4e7c-8603-886f263c5957",
+    "name": "523025842-ChatMessagingSendEventView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.553"
+  },
+  {
+    "file": "c3361761-8354-4feb-9803-c67757de11c0_523025842-ChatMessagingWhatsAppTrackingView-PS.json",
+    "id": "c3361761-8354-4feb-9803-c67757de11c0",
+    "name": "523025842-ChatMessagingWhatsAppTrackingView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:07.707"
+  },
+  {
+    "file": "803f924b-e21b-4718-9489-b2199e476243_523025842-SFMCSMSBulkMessage-PS.json",
+    "id": "803f924b-e21b-4718-9489-b2199e476243",
+    "name": "523025842-SFMCSMSBulkMessage-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:04.55"
+  },
+  {
+    "file": "57a891e9-568b-4fe9-886c-4a43115cb32a_523025842-SFMCSMSEngagementDR-PS.json",
+    "id": "57a891e9-568b-4fe9-886c-4a43115cb32a",
+    "name": "523025842-SFMCSMSEngagementDR-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.787"
+  },
+  {
+    "file": "22c0f361-53d2-4b66-acc2-5c0af1802953_523025842-SFMCSMSEngagementMO-PS.json",
+    "id": "22c0f361-53d2-4b66-acc2-5c0af1802953",
+    "name": "523025842-SFMCSMSEngagementMO-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:07.243"
+  },
+  {
+    "file": "f78da0b1-1236-409b-9740-dc7898f37091_523025842-SFMCSMSEngagementMOResponse-PS.json",
+    "id": "f78da0b1-1236-409b-9740-dc7898f37091",
+    "name": "523025842-SFMCSMSEngagementMOResponse-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.797"
+  },
+  {
+    "file": "b2c8ad00-20bb-45fc-b195-841d1df32a81_523025842-SFMCSMSEngagementMOResponseClick-PS.json",
+    "id": "b2c8ad00-20bb-45fc-b195-841d1df32a81",
+    "name": "523025842-SFMCSMSEngagementMOResponseClick-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:06.203"
+  },
+  {
+    "file": "c9838b47-7012-4417-b54d-dc0cfafb55b0_523025842-SFMCSMSEngagementSendClick-PS.json",
+    "id": "c9838b47-7012-4417-b54d-dc0cfafb55b0",
+    "name": "523025842-SFMCSMSEngagementSendClick-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:08.487"
+  },
+  {
+    "file": "3dc8576b-7c65-410b-a26c-079f3bb02b1a_523025842-SFMCSMSEngagementSendV2-PS.json",
+    "id": "3dc8576b-7c65-410b-a26c-079f3bb02b1a",
+    "name": "523025842-SFMCSMSEngagementSendV2-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-01-27T02:20:05.87"
+  },
+  {
+    "file": "93b7e229-e200-4473-b3c0-c4475b46bcca_523025842-SFMCWhatsAppBulkMessageView-PS.json",
+    "id": "93b7e229-e200-4473-b3c0-c4475b46bcca",
+    "name": "523025842-SFMCWhatsAppBulkMessageView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:01.323"
+  },
+  {
+    "file": "b9bbc160-9163-4726-b91f-5350dade6c7f_523025842-_ChatMessagingSubscriptionView-PS.json",
+    "id": "b9bbc160-9163-4726-b91f-5350dade6c7f",
+    "name": "523025842-_ChatMessagingSubscriptionView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:03.817"
+  },
+  {
+    "file": "7d0ea93d-f766-4021-aac4-7e892bbb32d8_523025842-_MobileSubscriptionView-PS.json",
+    "id": "7d0ea93d-f766-4021-aac4-7e892bbb32d8",
+    "name": "523025842-_MobileSubscriptionView-PS",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-02-27T02:19:00.47"
+  },
+  {
+    "file": "c19d53fb-59ef-4e4b-ae81-283896aae5f7_DFUAPIBUMapping.json",
+    "id": "c19d53fb-59ef-4e4b-ae81-283896aae5f7",
+    "name": "DFUAPIBUMapping",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2026-03-25T02:10:01.037"
+  },
+  {
+    "file": "cefae37a-9fb2-4a8d-ab0c-fca68bfb705f_HK_Autocumulus_Automation.json",
+    "id": "cefae37a-9fb2-4a8d-ab0c-fca68bfb705f",
+    "name": "HK_Autocumulus_Automation",
+    "status": "PausedSchedule",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2023-10-04T23:50:05.497"
+  },
+  {
+    "file": "bc398d36-0ca4-4286-bd76-943c8309941d_Test.json",
+    "id": "bc398d36-0ca4-4286-bd76-943c8309941d",
+    "name": "Test",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": ""
+  },
+  {
+    "file": "2bd19f37-a0b9-4faa-ad0c-3d7d1894f773_Test_Automation_Claude.json",
+    "id": "2bd19f37-a0b9-4faa-ad0c-3d7d1894f773",
+    "name": "Test_Automation_Claude",
+    "status": "Building",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": ""
+  },
+  {
+    "file": "2cd3136e-0345-43ce-b17a-1704924b715d_car.json",
+    "id": "2cd3136e-0345-43ce-b17a-1704924b715d",
+    "name": "car\n",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2024-07-23T08:14:01.377"
+  },
+  {
+    "file": "0c1de56f-04af-4560-8cdc-fbf250013ab7_cars.json",
+    "id": "0c1de56f-04af-4560-8cdc-fbf250013ab7",
+    "name": "cars",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2024-07-23T09:20:17.83"
+  },
+  {
+    "file": "f5271a93-c2df-45f1-98ce-12d4f422d513_datatype_check.json",
+    "id": "f5271a93-c2df-45f1-98ce-12d4f422d513",
+    "name": "datatype check",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2025-05-15T00:07:09.64"
+  },
+  {
+    "file": "cb0319f9-7d8b-4b17-b8f7-41e9ef8e2f91_test1.json",
+    "id": "cb0319f9-7d8b-4b17-b8f7-41e9ef8e2f91",
+    "name": "test1",
+    "status": "Ready",
+    "stepCount": 0,
+    "createdDate": "",
+    "modifiedDate": "",
+    "lastRunTime": "2023-11-27T01:57:00.813"
+  }
+]

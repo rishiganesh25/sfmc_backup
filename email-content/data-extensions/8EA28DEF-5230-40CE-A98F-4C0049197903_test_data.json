@@ -1,0 +1,102 @@
+{
+  "categoryId": "418970",
+  "createdDate": "2023-09-28T06:18:12.523",
+  "customerKey": "8EA28DEF-5230-40CE-A98F-4C0049197903",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "SubscriberKey",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "FirstName",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "LastName",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "BirthDate",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "EmailAddress",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "User_Goal",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "20",
+      "name": "User_GoalTarget",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "User_LoanTaken",
+      "ordinal": "7"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "User_Score",
+      "ordinal": "8"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "20",
+      "name": "User_AvgBalance",
+      "ordinal": "9"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2023-09-28T06:18:12.523",
+  "name": "test data"
+}

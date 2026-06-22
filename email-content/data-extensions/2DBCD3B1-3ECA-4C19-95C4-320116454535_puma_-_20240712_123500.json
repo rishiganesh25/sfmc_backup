@@ -1,0 +1,66 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2024-07-12T01:06:20.473",
+  "customerKey": "2DBCD3B1-3ECA-4C19-95C4-320116454535",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "customer id",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "email id",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "dob",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "first name",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "last name",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "gender",
+      "ordinal": "5"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "true",
+  "modifiedDate": "2024-07-12T01:35:22.793",
+  "name": "puma - 20240712_123500"
+}

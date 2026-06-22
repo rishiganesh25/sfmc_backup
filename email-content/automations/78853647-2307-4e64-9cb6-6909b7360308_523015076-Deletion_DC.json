@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the Deletion_DC Data Extension for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "78853647-2307-4e64-9cb6-6909b7360308",
+  "lastRunInstanceId": "eb3275d0-d1b6-4a18-b12f-16d671f77ffa",
+  "lastRunTime": "2025-04-14T06:51:02.207",
+  "modifiedDate": "",
+  "name": "523015076-Deletion_DC",
+  "schedule": {
+    "scheduleStatus": "paused"
+  },
+  "status": "PausedSchedule",
+  "statusCode": "PausedSchedule",
+  "steps": []
+}

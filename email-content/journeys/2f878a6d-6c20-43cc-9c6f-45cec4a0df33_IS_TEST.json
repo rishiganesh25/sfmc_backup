@@ -1,0 +1,319 @@
+{
+  "activities": [
+    {
+      "arguments": {},
+      "configurationArguments": {},
+      "description": "",
+      "id": "f94e3ce1-17f2-434b-8f56-75849fe6be63",
+      "key": "RANDOMSPLITV2-1",
+      "metaData": {
+        "category": "flow",
+        "icon": "/extensions/activities/random-split/images/randomsplit.svg",
+        "iconSmall": "/extensions/activities/random-split/images/randomsplit.svg",
+        "isConfigured": true,
+        "original_icon": "/extensions/activities/random-split/images/randomsplit.svg",
+        "original_iconSmall": "/extensions/activities/random-split/images/randomsplit.svg",
+        "original_statsContactIcon": "",
+        "statsContactIcon": ""
+      },
+      "name": "",
+      "outcomes": [
+        {
+          "arguments": {
+            "percentage": "50"
+          },
+          "key": "branchResult-1",
+          "metaData": {
+            "invalid": false,
+            "label": "50%",
+            "pathName": "Path 1"
+          },
+          "next": "WAITBYDURATION-1"
+        },
+        {
+          "arguments": {
+            "percentage": "50"
+          },
+          "key": "branchResult-2",
+          "metaData": {
+            "invalid": false,
+            "label": "50%",
+            "pathName": "Path 2"
+          },
+          "next": "WAITBYDURATION-3"
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "actualChoice": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "randomNumber": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "RANDOMSPLIT"
+    },
+    {
+      "arguments": {
+        "executionMode": "{{Context.ExecutionMode}}",
+        "startActivityKey": "{{Context.StartActivityKey}}",
+        "waitDefinitionId": "e53d25b1-3936-4176-a13b-11dc19dc93fb",
+        "waitEndDateAttributeDataBound": "",
+        "waitForEventId": "",
+        "waitQueueId": "{{Context.WaitQueueId}}"
+      },
+      "configurationArguments": {
+        "description": "",
+        "specificDate": "",
+        "specifiedTime": "00:00",
+        "timeZone": "Eastern Standard Time",
+        "waitDuration": 1,
+        "waitEndDateAttributeExpression": "",
+        "waitForEventKey": "",
+        "waitUnit": "MINUTES"
+      },
+      "description": "",
+      "id": "53de5173-bee4-4eae-b86e-7a742e5f63c6",
+      "key": "WAITBYDURATION-1",
+      "metaData": {
+        "guidanceCardKey": "",
+        "isConfigured": true,
+        "isExtended": false,
+        "uiType": "WAITBYDURATION",
+        "waitType": "duration"
+      },
+      "name": "1 minute",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "19b58853-a5fb-4f33-965e-04df9a1b2a30",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "endDate": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "executionMode": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "startActivityKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitDefinitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "waitEndDateAttributeDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitForEventId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitQueueId": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "WAIT"
+    },
+    {
+      "arguments": {
+        "executionMode": "{{Context.ExecutionMode}}",
+        "startActivityKey": "{{Context.StartActivityKey}}",
+        "waitDefinitionId": "4f3bf6af-ea65-4130-894a-2019de74f54c",
+        "waitEndDateAttributeDataBound": "",
+        "waitForEventId": "",
+        "waitQueueId": "{{Context.WaitQueueId}}"
+      },
+      "configurationArguments": {
+        "description": "",
+        "specificDate": "",
+        "specifiedTime": "",
+        "timeZone": "",
+        "waitDuration": 1,
+        "waitEndDateAttributeExpression": "",
+        "waitForEventKey": "",
+        "waitUnit": "DAYS"
+      },
+      "description": "",
+      "id": "9e87a8c9-e8c6-4af7-bcf7-d1678352c356",
+      "key": "WAITBYDURATION-3",
+      "metaData": {
+        "isConfigured": true,
+        "uiType": "WAITBYDURATION"
+      },
+      "name": "1 day",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "96d769f4-ad7c-447c-b7b3-5ebea121d63f",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "endDate": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "executionMode": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "startActivityKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitDefinitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "waitEndDateAttributeDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitForEventId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitQueueId": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "WAIT"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "",
+  "createdDate": "2022-12-06T07:13:03.95",
+  "defaults": {
+    "email": [
+      "{{Event.APIEvent-6c4a2be2-0645-121a-3b18-e2ebbdae3280.\"EmailAddress\"}}"
+    ],
+    "properties": {
+      "analyticsTracking": {
+        "analyticsType": "google",
+        "enabled": false,
+        "urlDomainsToTrack": []
+      }
+    }
+  },
+  "definitionId": "8b25aa78-4bc6-4a10-8dda-8560bb73c18b",
+  "definitionType": "Multistep",
+  "description": "",
+  "entryMode": "SingleEntryAcrossAllVersions",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "2f878a6d-6c20-43cc-9c6f-45cec4a0df33",
+  "key": "8da52da7-36f1-5cb1-0063-bd5cd8002f65",
+  "lastPublishedDate": "0001-01-01T00:00:00",
+  "metaData": {
+    "dataSource": "ContactsModel"
+  },
+  "modifiedDate": "2022-12-06T07:13:03.95",
+  "name": "IS TEST",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Draft",
+  "triggers": [
+    {
+      "arguments": {
+        "dequeueReason": "{{Context.DequeueReason}}",
+        "filterResult": "true",
+        "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+        "startActivityKey": "{{Context.StartActivityKey}}"
+      },
+      "configurationArguments": {
+        "criteria": "",
+        "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+        "schemaVersionId": 0
+      },
+      "description": "",
+      "id": "f73d6883-43d3-4178-b8ab-582c3ecf5377",
+      "key": "TRIGGER",
+      "metaData": {
+        "chainType": "None",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "jb:///data/entry/api-event/entrysourcegroupconfig.json",
+        "eventDefinitionId": "46446e15-7538-4464-bb6f-5be950c40d33",
+        "eventDefinitionKey": "APIEvent-6c4a2be2-0645-121a-3b18-e2ebbdae3280",
+        "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+        "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+        "title": ""
+      },
+      "name": "New Journey - December 6 2022 at 11.43 AM",
+      "outcomes": [],
+      "type": "APIEvent"
+    }
+  ],
+  "version": 3,
+  "workflowApiVersion": 1.0
+}

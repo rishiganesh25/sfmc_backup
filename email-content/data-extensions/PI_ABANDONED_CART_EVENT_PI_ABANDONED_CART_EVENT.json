@@ -1,0 +1,84 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:38.987",
+  "customerKey": "PI_ABANDONED_CART_EVENT",
+  "description": "Template for creating data extension for journey builder integration",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "user_id",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "256",
+      "name": "cart_id",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "email_address",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "contact_key",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "256",
+      "name": "currency_type",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Number",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "no_items_cart",
+      "ordinal": "6"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Decimal",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "18",
+      "name": "cart_value",
+      "ordinal": "7"
+    },
+    {
+      "defaultValue": "getdate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "timestamp",
+      "ordinal": "8"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:45.71",
+  "name": "PI_ABANDONED_CART_EVENT"
+}

@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "",
+  "id": "cb0319f9-7d8b-4b17-b8f7-41e9ef8e2f91",
+  "lastRunInstanceId": "f7dbe06b-0c46-4e9e-a966-b2b3477918ba",
+  "lastRunTime": "2023-11-27T01:57:00.813",
+  "modifiedDate": "",
+  "name": "test1",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

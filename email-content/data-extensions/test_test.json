@@ -1,0 +1,30 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-10-22T08:28:47.99",
+  "customerKey": "test",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "jhg",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "firstName",
+      "ordinal": "1"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2023-02-03T11:51:03.503",
+  "name": "test"
+}

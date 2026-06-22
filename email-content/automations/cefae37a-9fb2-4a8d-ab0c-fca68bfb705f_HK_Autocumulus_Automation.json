@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "",
+  "id": "cefae37a-9fb2-4a8d-ab0c-fca68bfb705f",
+  "lastRunInstanceId": "f1f5eb52-3219-4587-906d-2396a2007b67",
+  "lastRunTime": "2023-10-04T23:50:05.497",
+  "modifiedDate": "",
+  "name": "HK_Autocumulus_Automation",
+  "schedule": {
+    "scheduleStatus": "paused"
+  },
+  "status": "PausedSchedule",
+  "statusCode": "PausedSchedule",
+  "steps": []
+}

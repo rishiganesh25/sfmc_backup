@@ -58,25 +58,7 @@ body {
 <div class="layout layout-canvas-g">
 	<div class="section">
 		<div class="columns col1">
-			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
- Platform.Load("core","1");
- var vfirstName='firstName';
- var vSubscriberKey="key";
- var vEmailAddress="test@test.com";
- var test = DataExtension.Init("ts_test");
- test.Rows.Add(
-  {
-   firstName:vfirstName,
-  
-   EmailAddress:vEmailAddress
-  }
- );
-  
-  Write(vfirstName);
-  Write(vEmailAddress);
-  Write(vSubscriberKey);
-
-</script></td></tr></table>
+			<div data-type="slot" data-key="col1"></div>
 		</div>
 	</div>
 </div>

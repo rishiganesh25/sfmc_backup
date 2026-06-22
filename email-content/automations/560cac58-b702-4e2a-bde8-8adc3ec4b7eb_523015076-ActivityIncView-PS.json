@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends CURRENT data to the Data Scientists for scoring and is an important componentof the Einstein Engagement Scoring application.",
+  "id": "560cac58-b702-4e2a-bde8-8adc3ec4b7eb",
+  "lastRunInstanceId": "b27dc345-8a63-4d6a-895d-55d924479365",
+  "lastRunTime": "2026-03-04T00:15:18.447",
+  "modifiedDate": "",
+  "name": "523015076-ActivityIncView-PS",
+  "schedule": {
+    "scheduleStatus": "paused"
+  },
+  "status": "PausedSchedule",
+  "statusCode": "PausedSchedule",
+  "steps": []
+}

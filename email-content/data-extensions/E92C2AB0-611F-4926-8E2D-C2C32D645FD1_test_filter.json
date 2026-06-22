@@ -1,0 +1,48 @@
+{
+  "categoryId": "415572",
+  "createdDate": "2024-07-06T08:30:21.203",
+  "customerKey": "E92C2AB0-611F-4926-8E2D-C2C32D645FD1",
+  "description": "Contains marketing communication preferences for the customers",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "Customer ID",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "200",
+      "name": "Marketing Preference",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Boolean",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "Opted In",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "Date Added",
+      "ordinal": "3"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2024-07-06T08:30:21.203",
+  "name": "test filter"
+}

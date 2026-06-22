@@ -1,0 +1,237 @@
+{
+  "activities": [
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "applicationExtensionKey": "jb-email-activity",
+        "isModified": true,
+        "triggeredSend": {
+          "autoAddSubscribers": true,
+          "autoUpdateSubscribers": true,
+          "bccEmail": "",
+          "ccEmail": "",
+          "created": {},
+          "deliveryProfileId": "f4a7a89f-4bfd-ec11-b857-48df376a1421",
+          "domainExclusions": [],
+          "dynamicEmailSubject": "Elevate Your Clinical Practice with Our Healthcare Equipment Solutions",
+          "emailId": 30085,
+          "emailSubject": "Elevate Your Clinical Practice with Our Healthcare Equipment Solutions",
+          "exclusionFilter": "",
+          "isMultipart": true,
+          "isSalesforceTracking": true,
+          "isSendLogging": true,
+          "isStoppedOnJobError": false,
+          "isTrackingClicks": true,
+          "modified": {},
+          "preHeader": "",
+          "priority": 4,
+          "publicationListId": 8362,
+          "sendClassificationId": "f5a7a89f-4bfd-ec11-b857-48df376a1421",
+          "senderProfileId": "6cf4bdd6-213e-ed11-b859-48df3777448d",
+          "throttleCloses": "1/1/0001 12:00:00 AM",
+          "throttleLimit": 0,
+          "throttleOpens": "1/1/0001 12:00:00 AM"
+        }
+      },
+      "description": "",
+      "id": "c095cde2-9f15-4f7d-b792-a35c251d3ec3",
+      "key": "EMAILV2-1",
+      "metaData": {
+        "category": "message",
+        "icon": "https://jb-email-activity.s4.marketingcloudapps.com/img/email-icon.svg",
+        "iconSmall": "https://jb-email-activity.s4.marketingcloudapps.com/img/email-icon.svg",
+        "isConfigured": true,
+        "original_icon": "/img/email-icon.svg",
+        "original_iconSmall": "/img/email-icon.svg",
+        "sections": {},
+        "statsContactIcon": null,
+        "version": "1.0"
+      },
+      "name": "Lead Engagement",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "d9e03b03-068e-4022-aed6-844889f08e40",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactId": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "customObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionInstanceId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailAddress": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailSubjectDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "eventData": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "fieldType": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "messageKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "obfuscationProperties": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "requestID": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "EMAILV2"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "email",
+  "createdDate": "2024-07-10T06:57:31.56",
+  "defaults": {
+    "email": [
+      "{{Event.DEAudience-1e594f34-1ae2-4807-bdb1-d805ac3b0010.\"EmailAddress\"}}"
+    ],
+    "properties": {
+      "analyticsTracking": {
+        "analyticsType": "google",
+        "enabled": false,
+        "urlDomainsToTrack": []
+      }
+    }
+  },
+  "definitionId": "26c42072-3035-4a2d-9442-df2afce0a1d0",
+  "definitionType": "Quicksend",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "26c42072-3035-4a2d-9442-df2afce0a1d0",
+  "key": "9481f14f-acdd-f666-c68d-e1c1ba5070ca",
+  "lastPublishedDate": "0001-01-01T00:00:00",
+  "metaData": {
+    "dataSource": "ContactsModel",
+    "highThroughputSending": {
+      "email": false
+    },
+    "isScheduleSet": true
+  },
+  "modifiedDate": "2024-07-10T06:57:31.56",
+  "name": "New Journey - July 10 2024 at 6.22 PM",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Draft",
+  "triggers": [
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "criteria": "<FilterDefinition><ConditionSet Operator=\"AND\" ConditionSetName=\"Individual Filter Grouping\"><Condition Key=\"Email Demographics.Contacts ID\" Operator=\"Equal\" UiMetaData=\"{&quot;groupToSetRelationshipId&quot;:&quot;5f57f6bd-4bfd-ec11-b857-48df376a1421&quot;}\"><Value><![CDATA[100]]></Value></Condition></ConditionSet></FilterDefinition>",
+        "schemaVersionId": 28
+      },
+      "description": "Contacts ID equal 100",
+      "id": "272ea7b4-e214-47fe-9037-7bbb143b3b37",
+      "key": "TRIGGER",
+      "metaData": {
+        "chainType": "None",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "jb:///data/entry/audience/entrysourcegroupconfig.json",
+        "eventDefinitionId": "ebf12eb7-334b-46e5-b915-7cb8d025c8f0",
+        "eventDefinitionKey": "DEAudience-1e594f34-1ae2-4807-bdb1-d805ac3b0010",
+        "iconUrl": "/images/icon-data-extension.svg",
+        "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+        "title": "Data Extension"
+      },
+      "name": "TRIGGER",
+      "outcomes": [],
+      "type": "EmailAudience"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

@@ -1,0 +1,48 @@
+{
+  "categoryId": "415572",
+  "createdDate": "2026-03-04T00:07:21.067",
+  "customerKey": "215D45A9-BB0E-4F81-BD62-158301AC780E",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "ID",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "FirstName",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "LastName",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "Email",
+      "ordinal": "3"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "true",
+  "modifiedDate": "2026-03-04T00:07:21.067",
+  "name": "DC_MC_Action_triggered_Flow_Journey"
+}

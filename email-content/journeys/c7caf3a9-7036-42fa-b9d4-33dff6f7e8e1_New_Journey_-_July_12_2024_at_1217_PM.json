@@ -1,0 +1,218 @@
+{
+  "activities": [
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "applicationExtensionKey": "jb-email-activity",
+        "isModified": true,
+        "triggeredSend": {
+          "autoAddSubscribers": true,
+          "autoUpdateSubscribers": true,
+          "bccEmail": "",
+          "ccEmail": "",
+          "created": {},
+          "deliveryProfileId": "f4a7a89f-4bfd-ec11-b857-48df376a1421",
+          "domainExclusions": [],
+          "dynamicEmailSubject": "Elevate Your Clinical Practice with Our Healthcare Equipment Solutions",
+          "emailId": 30085,
+          "emailSubject": "Elevate Your Clinical Practice with Our Healthcare Equipment Solutions",
+          "exclusionFilter": "",
+          "isMultipart": true,
+          "isSalesforceTracking": true,
+          "isSendLogging": false,
+          "isStoppedOnJobError": false,
+          "isTrackingClicks": true,
+          "modified": {},
+          "preHeader": "",
+          "priority": 4,
+          "publicationListId": 8362,
+          "sendClassificationId": "f6a7a89f-4bfd-ec11-b857-48df376a1421",
+          "senderProfileId": "6cf4bdd6-213e-ed11-b859-48df3777448d",
+          "throttleCloses": "1/1/0001 12:00:00 AM",
+          "throttleOpens": "1/1/0001 12:00:00 AM"
+        }
+      },
+      "description": "",
+      "id": "51bb4b06-e39d-4339-a495-17cface4e643",
+      "key": "EMAILV2-1",
+      "metaData": {
+        "highThroughput": {
+          "dataExtensionId": "2a2e1c28-eda3-ed11-b866-48df376a1421",
+          "definitionKey": "test"
+        },
+        "isConfigured": true,
+        "sections": {}
+      },
+      "name": "Lead Engagement",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "cbc17d3b-8b4e-460d-915f-08c3628cf53e",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactId": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "customObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionInstanceId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailAddress": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailSubjectDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "eventData": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "fieldType": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "messageKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "obfuscationProperties": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "requestID": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "EMAILV2"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "email",
+  "createdDate": "2024-07-12T00:49:43.72",
+  "defaults": {
+    "properties": {}
+  },
+  "definitionId": "c7caf3a9-7036-42fa-b9d4-33dff6f7e8e1",
+  "definitionType": "Transactional",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "c7caf3a9-7036-42fa-b9d4-33dff6f7e8e1",
+  "key": "50f3845f-dd60-4b3c-9d39-6c61be9baaf4",
+  "lastPublishedDate": "0001-01-01T00:00:00",
+  "metaData": {
+    "dataSource": "ContactsModel",
+    "highThroughputSending": {
+      "email": false
+    }
+  },
+  "modifiedDate": "2024-07-12T00:49:43.72",
+  "name": "New Journey - July 12 2024 at 12.17 PM",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Draft",
+  "triggers": [
+    {
+      "arguments": {},
+      "configurationArguments": {},
+      "description": "",
+      "id": "c8f3a9d3-4a2e-4b79-a090-b5c2a9e6d149",
+      "key": "TRIGGER",
+      "metaData": {
+        "category": "Transactional",
+        "chainType": "none",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "null",
+        "iconUrl": "/images/icon_journeyBuilder-event-transactional-blue.svg",
+        "title": "Transactional API Event"
+      },
+      "name": "TRIGGER",
+      "outcomes": [],
+      "type": "transactional-api"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

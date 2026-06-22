@@ -1,0 +1,39 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2024-06-26T00:35:24.167",
+  "customerKey": "DF7868C0-2125-44C1-80B7-3027D3B494A8",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "Id",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Name",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "Email",
+      "ordinal": "2"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2024-06-26T00:35:24.167",
+  "name": "tests3"
+}

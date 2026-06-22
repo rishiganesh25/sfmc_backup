@@ -1,0 +1,454 @@
+{
+  "activities": [
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "applicationExtensionKey": "f828061a-5f0e-46a9-975e-18c414192d17",
+        "params": {
+          "enableRandomTime": false,
+          "slidingWindowHours": 24
+        }
+      },
+      "description": "",
+      "id": "998bdd32-9b6c-4ff1-a824-7912c72e3f5e",
+      "key": "STOWAIT-1",
+      "metaData": {
+        "backgroundColor": "#032e61",
+        "category": "flow",
+        "icon": "https://sto.us.sfmc-einstein.com/activity/static/media/Einstein_STO.png",
+        "iconSmall": null,
+        "isConfigured": true,
+        "original_icon": "static/media/Einstein_STO.png",
+        "sections": {},
+        "statsContactIcon": null
+      },
+      "name": "Einstein STO - 24 Hours",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "2205b326-1865-4a1b-b3d2-676dd35ad066",
+          "metaData": {
+            "invalid": false
+          },
+          "next": "EMAILV2-1"
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "contactTagsIn": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactTagsOut": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "endDate": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "executionMode": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "jbActivityId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "jbJourneyId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "jbJourneyVersion": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "scheduledExpireTimeIn": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "scheduledExpireTimeOut": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "startActivityKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitDefinitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "waitForEventId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitQueueId": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "STOWAIT"
+    },
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "waitDuration": 1,
+        "waitUnit": "DAYS"
+      },
+      "description": "",
+      "id": "66590b2b-7319-4a64-89ff-12e5e7b037a6",
+      "key": "WAITBYDURATION-1",
+      "metaData": {
+        "isConfigured": true,
+        "uiType": "WAITBYDURATION"
+      },
+      "name": "1 day",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "03a70411-0150-484b-be1f-7477404c3bc5",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "endDate": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "executionMode": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "startActivityKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitDefinitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "waitEndDateAttributeDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitForEventId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "waitQueueId": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "WAIT"
+    },
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "applicationExtensionKey": "jb-email-activity",
+        "isModified": true,
+        "triggeredSend": {
+          "autoAddSubscribers": true,
+          "autoUpdateSubscribers": true,
+          "bccEmail": "",
+          "ccEmail": "",
+          "created": {
+            "date": "",
+            "name": ""
+          },
+          "deliveryProfileId": "f4a7a89f-4bfd-ec11-b857-48df376a1421",
+          "domainExclusions": [],
+          "dynamicEmailSubject": "%%=v(@SubjectLine)=%%",
+          "emailId": 26953,
+          "emailSubject": "%%=v(@SubjectLine)=%%",
+          "exclusionFilter": "",
+          "isMultipart": true,
+          "isSalesforceTracking": true,
+          "isSendLogging": true,
+          "isStoppedOnJobError": false,
+          "isTrackingClicks": true,
+          "modified": {
+            "date": "",
+            "name": ""
+          },
+          "preHeader": "",
+          "priority": 4,
+          "publicationListId": 8362,
+          "sendClassificationId": "f5a7a89f-4bfd-ec11-b857-48df376a1421",
+          "senderProfileId": "6cf4bdd6-213e-ed11-b859-48df3777448d",
+          "throttleCloses": "1/1/0001 12:00:00 AM",
+          "throttleOpens": "1/1/0001 12:00:00 AM"
+        }
+      },
+      "description": "",
+      "id": "73c87668-3d94-4651-9874-849b2a1bc6e4",
+      "key": "EMAILV2-1",
+      "metaData": {
+        "category": "message",
+        "icon": "https://jb-email-activity.s4.marketingcloudapps.com/img/email-icon.svg",
+        "iconSmall": "https://jb-email-activity.s4.marketingcloudapps.com/img/email-icon.svg",
+        "isConfigured": true,
+        "original_icon": "/img/email-icon.svg",
+        "original_iconSmall": "/img/email-icon.svg",
+        "sections": {},
+        "statsContactIcon": null,
+        "version": "1.0"
+      },
+      "name": "HK_Autocumulus_Main_Message",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "5f61e8b3-3c57-4b9a-ac52-9a2871ee12aa",
+          "metaData": {
+            "invalid": false
+          },
+          "next": "WAITBYDURATION-1"
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactId": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "customObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionInstanceId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailAddress": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailSubjectDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "eventData": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "fieldType": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "messageKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "obfuscationProperties": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "requestID": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "EMAILV2"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "",
+  "createdDate": "2025-05-08T05:51:31.777",
+  "defaults": {
+    "email": [
+      "{{Event.DEAudience-56a2cbc6-b18c-4e4e-c667-14825667878f.\"EmailAddress\"}}"
+    ],
+    "properties": {
+      "analyticsTracking": {
+        "analyticsType": "google",
+        "enabled": false,
+        "urlDomainsToTrack": []
+      }
+    }
+  },
+  "definitionId": "53bdbfff-0771-4cd2-b9c5-0e7da098824e",
+  "definitionType": "Multistep",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "53bdbfff-0771-4cd2-b9c5-0e7da098824e",
+  "key": "337a3ebc-e8e2-2f57-871d-fcab5751f23b",
+  "lastPublishedDate": "0001-01-01T00:00:00",
+  "metaData": {
+    "dataSource": "ContactsModel",
+    "highThroughputSending": {
+      "email": false
+    }
+  },
+  "modifiedDate": "2025-05-08T05:53:21.45",
+  "name": "TD_Bank_Customer_Journey",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Draft",
+  "triggers": [
+    {
+      "arguments": {},
+      "configurationArguments": {},
+      "description": "",
+      "id": "eb73cd0a-e9df-48bf-8bf3-ef5899414b33",
+      "key": "TRIGGER",
+      "metaData": {
+        "chainType": "None",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "jb:///data/entry/audience/entrysourcegroupconfig.json",
+        "eventDefinitionId": "b373334b-d935-47b8-bc2d-eefa60f32396",
+        "eventDefinitionKey": "DEAudience-56a2cbc6-b18c-4e4e-c667-14825667878f",
+        "iconUrl": "/images/icon-data-extension.svg",
+        "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+        "title": "Data Extension"
+      },
+      "name": "TRIGGER",
+      "outcomes": [],
+      "type": "EmailAudience"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

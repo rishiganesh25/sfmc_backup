@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the BUMapping API for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "c19d53fb-59ef-4e4b-ae81-283896aae5f7",
+  "lastRunInstanceId": "d52e6590-47d8-4c93-8e4d-54733c0660ca",
+  "lastRunTime": "2026-03-25T02:10:01.037",
+  "modifiedDate": "",
+  "name": "DFUAPIBUMapping",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

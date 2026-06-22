@@ -1,0 +1,39 @@
+{
+  "categoryId": "661170",
+  "createdDate": "2025-01-28T09:11:19.37",
+  "customerKey": "1sgKj00000000GUIAY_85RKj000000KymPMAS",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "SubscriberKey",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "Id",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "EmailAddress",
+      "ordinal": "2"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2025-01-28T09:11:19.37",
+  "name": "BU_AWARE_ON_BU_AWARE_ON_1sgKj00000000GUIAY_85RKj000000KymPMAS"
+}

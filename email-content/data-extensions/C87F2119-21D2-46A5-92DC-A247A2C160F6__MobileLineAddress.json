@@ -1,0 +1,66 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:24.59",
+  "customerKey": "C87F2119-21D2-46A5-92DC-A247A2C160F6",
+  "description": "Used for storing Group Connect channel addresses.",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "100",
+      "name": "AddressId",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "false",
+      "fieldType": "Boolean",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "IsActive",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedDate",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedBy",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "ModifiedDate",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "ModifiedBy",
+      "ordinal": "6"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:24.59",
+  "name": "_MobileLineAddress"
+}

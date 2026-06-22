@@ -1,0 +1,39 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2025-04-16T10:52:01.91",
+  "customerKey": "EAE9464C-A916-49C7-A030-6EDFCA4B88FE",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "id",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "contact_key",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "account_key",
+      "ordinal": "2"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2025-04-16T10:52:01.91",
+  "name": "Deletion_3"
+}

@@ -1,0 +1,48 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:49:41.68",
+  "customerKey": "45D60799-D6D3-44E6-88B0-63A1AA85B1DC",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Number",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "ID",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "200",
+      "name": "Category",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "200",
+      "name": "Name",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "500",
+      "name": "Value",
+      "ordinal": "4"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:49:41.68",
+  "name": "ExpressionBuilderAttributes"
+}

@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the DC_MC_ATF_RelatedAttributes_Multi_Record_Journey Data Extension for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "a4527033-5b58-4c98-b96a-9a86f4d8b300",
+  "lastRunInstanceId": "5f25b0e9-4867-4340-96bf-1d3a1601fadd",
+  "lastRunTime": "2026-05-18T03:16:00.927",
+  "modifiedDate": "",
+  "name": "523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

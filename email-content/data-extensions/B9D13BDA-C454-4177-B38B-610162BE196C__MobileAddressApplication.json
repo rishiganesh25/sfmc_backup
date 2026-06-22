@@ -1,0 +1,57 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-07-06T10:50:26.9",
+  "customerKey": "B9D13BDA-C454-4177-B38B-610162BE196C",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_ContactID",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "15",
+      "name": "_MobileNumber",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_MobileApplicationID",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "GETDATE()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "_CreatedDate",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "_CreatedBy",
+      "ordinal": "5"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2022-07-06T10:50:26.9",
+  "name": "_MobileAddressApplication"
+}

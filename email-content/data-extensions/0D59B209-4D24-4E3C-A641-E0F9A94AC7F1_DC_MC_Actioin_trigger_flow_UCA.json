@@ -1,0 +1,75 @@
+{
+  "categoryId": "415572",
+  "createdDate": "2026-03-04T00:09:35.45",
+  "customerKey": "0D59B209-4D24-4E3C-A641-E0F9A94AC7F1",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "ID",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "FirstName",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "LastName",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "Email",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Boolean",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "IsUpdated",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "GetDate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "CreatedDate",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "OrderID",
+      "ordinal": "6"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "true",
+  "modifiedDate": "2026-03-10T01:22:13.81",
+  "name": "DC_MC_Actioin_trigger_flow_UCA"
+}

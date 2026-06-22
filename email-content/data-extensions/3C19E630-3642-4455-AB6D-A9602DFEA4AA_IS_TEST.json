@@ -1,0 +1,48 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-12-06T00:12:23.657",
+  "customerKey": "3C19E630-3642-4455-AB6D-A9602DFEA4AA",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "ContactKey",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "EmailAddress",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "SegmentName",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "GetDate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "time_stamp",
+      "ordinal": "3"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "true",
+  "modifiedDate": "2022-12-06T00:12:23.657",
+  "name": "IS_TEST"
+}

@@ -1,0 +1,66 @@
+{
+  "categoryId": "415572",
+  "createdDate": "2023-01-17T04:24:19.52",
+  "customerKey": "0E88736E-1BA1-45EF-9080-850F580105A1",
+  "description": "Membership details for the customers signed up for the loyalty program",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "Profile ID",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "Customer ID",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "50",
+      "name": "Tier",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Number",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "Points Balance",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "",
+      "name": "Join Date",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "GetDate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "Date Added",
+      "ordinal": "5"
+    }
+  ],
+  "isSendable": "false",
+  "isTestable": "false",
+  "modifiedDate": "2023-01-17T04:24:19.52",
+  "name": "Loyalty Profile"
+}

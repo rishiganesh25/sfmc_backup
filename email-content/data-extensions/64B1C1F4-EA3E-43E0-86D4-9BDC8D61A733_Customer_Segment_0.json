@@ -1,0 +1,75 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2024-07-06T08:34:24.14",
+  "customerKey": "64B1C1F4-EA3E-43E0-86D4-9BDC8D61A733",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "true",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "Customer ID",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "true",
+      "maxLength": "254",
+      "name": "Email",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "60",
+      "name": "First Name",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "60",
+      "name": "Last Name",
+      "ordinal": "3"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "DOB",
+      "ordinal": "4"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "Outdoor Interest",
+      "ordinal": "5"
+    },
+    {
+      "defaultValue": "GetDate()",
+      "fieldType": "Date",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "Date Added",
+      "ordinal": "6"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "false",
+  "modifiedDate": "2024-07-06T08:34:24.14",
+  "name": "Customer Segment 0"
+}

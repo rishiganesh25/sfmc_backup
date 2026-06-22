@@ -1,0 +1,217 @@
+{
+  "activities": [
+    {
+      "arguments": {},
+      "configurationArguments": {
+        "applicationExtensionKey": "jb-email-activity",
+        "isModified": true,
+        "triggeredSend": {
+          "autoAddSubscribers": true,
+          "autoUpdateSubscribers": true,
+          "bccEmail": "",
+          "ccEmail": "",
+          "created": {},
+          "deliveryProfileId": "f4a7a89f-4bfd-ec11-b857-48df376a1421",
+          "domainExclusions": [],
+          "dynamicEmailSubject": "welcome",
+          "emailId": 19964,
+          "emailSubject": "welcome",
+          "exclusionFilter": "",
+          "isMultipart": true,
+          "isSalesforceTracking": true,
+          "isSendLogging": false,
+          "isStoppedOnJobError": false,
+          "isTrackingClicks": true,
+          "modified": {},
+          "preHeader": "",
+          "priority": 4,
+          "publicationListId": 8362,
+          "sendClassificationId": "f6a7a89f-4bfd-ec11-b857-48df376a1421",
+          "senderProfileId": "6cf4bdd6-213e-ed11-b859-48df3777448d",
+          "throttleCloses": "1/1/0001 12:00:00 AM",
+          "throttleOpens": "1/1/0001 12:00:00 AM"
+        },
+        "triggeredSendId": "6816c247-e4c3-ed11-b866-48df376a1421",
+        "triggeredSendKey": "trans_api"
+      },
+      "description": "",
+      "id": "0df1dc9a-1674-426b-8101-561a9d6217a9",
+      "key": "EMAILV2-1",
+      "metaData": {
+        "highThroughput": {
+          "dataExtensionId": "2a2e1c28-eda3-ed11-b866-48df376a1421",
+          "definitionKey": "trans_api"
+        },
+        "isConfigured": true,
+        "sections": {}
+      },
+      "name": "welcome",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "c207d985-75b9-4b13-81fd-5d5f49ba9d9d",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactId": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "customObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "definitionInstanceId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailAddress": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "emailSubjectDataBound": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": true
+          },
+          "eventData": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "fieldType": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "messageKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "obfuscationProperties": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "requestID": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "sourceCustomObjectKey": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "EMAILV2"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "email",
+  "createdDate": "2023-03-16T04:21:22.22",
+  "defaults": {
+    "properties": {}
+  },
+  "definitionId": "1a031381-7e7a-408d-9613-92c2546387ea",
+  "definitionType": "Transactional",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "1a031381-7e7a-408d-9613-92c2546387ea",
+  "key": "fc2638e1-cde4-e7f9-b9f2-9e1f7c49992f",
+  "lastPublishedDate": "0001-01-01T00:00:00",
+  "metaData": {
+    "dataSource": "ContactsModel"
+  },
+  "modifiedDate": "2023-03-16T04:21:25.64",
+  "name": "New Journey - March 16 2023 at 3.50 PM",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Published",
+  "triggers": [
+    {
+      "arguments": {},
+      "configurationArguments": {},
+      "description": "",
+      "id": "7e4554fd-0f00-4497-9fd9-1eee9ff78c7d",
+      "key": "TRIGGER",
+      "metaData": {
+        "category": "Transactional",
+        "chainType": "none",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "null",
+        "iconUrl": "/images/icon_journeyBuilder-event-transactional-blue.svg",
+        "title": "Transactional API Event"
+      },
+      "name": "TRIGGER",
+      "outcomes": [],
+      "type": "transactional-api"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

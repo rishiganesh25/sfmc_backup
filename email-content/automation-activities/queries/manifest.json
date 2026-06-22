@@ -1,0 +1,62 @@
+[
+  {
+    "file": "ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.json",
+    "activityType": "queries",
+    "id": "ed246610-9bfd-4a06-bcf1-d3b1e6381a55",
+    "name": "HK_Autocumulus_Generate_Sendable",
+    "hasCode": true,
+    "codeFile": "ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.sql",
+    "createdDate": "2023-09-25T04:11:22.733",
+    "modifiedDate": "2024-07-08T03:42:39.99"
+  },
+  {
+    "file": "d5f429bb-54ff-4672-abc0-440390b35631_car.json",
+    "activityType": "queries",
+    "id": "d5f429bb-54ff-4672-abc0-440390b35631",
+    "name": "car",
+    "hasCode": true,
+    "codeFile": "d5f429bb-54ff-4672-abc0-440390b35631_car.sql",
+    "createdDate": "2024-07-23T09:19:58.153",
+    "modifiedDate": "2024-07-23T09:19:58.153"
+  },
+  {
+    "file": "cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.json",
+    "activityType": "queries",
+    "id": "cf5f54f9-b03b-4a0c-8f81-29c785a30c73",
+    "name": "car_filter",
+    "hasCode": true,
+    "codeFile": "cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.sql",
+    "createdDate": "2024-07-23T06:47:55.97",
+    "modifiedDate": "2024-07-23T06:53:04.52"
+  },
+  {
+    "file": "7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.json",
+    "activityType": "queries",
+    "id": "7baf1181-7db6-4f69-aacd-616cf72f0f5c",
+    "name": "customer_info",
+    "hasCode": true,
+    "codeFile": "7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.sql",
+    "createdDate": "2024-07-23T07:01:12.127",
+    "modifiedDate": "2024-07-23T07:07:50.627"
+  },
+  {
+    "file": "8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.json",
+    "activityType": "queries",
+    "id": "8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7",
+    "name": "datatype check",
+    "hasCode": true,
+    "codeFile": "8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.sql",
+    "createdDate": "2025-05-15T00:06:47.16",
+    "modifiedDate": "2025-05-15T00:06:47.16"
+  },
+  {
+    "file": "64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.json",
+    "activityType": "queries",
+    "id": "64cd25fa-99d5-4b4e-aceb-25d4d79de785",
+    "name": "test1",
+    "hasCode": true,
+    "codeFile": "64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.sql",
+    "createdDate": "2023-11-27T01:56:07.337",
+    "modifiedDate": "2023-11-27T01:56:07.337"
+  }
+]

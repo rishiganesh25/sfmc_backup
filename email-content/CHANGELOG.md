@@ -1,5 +1,2872 @@
 # SFMC Content Builder Changelog
 
+## 2026-06-22T17:02:06Z
+
+### Added (170)
+- `data-extensions/5BD623F3-3724-4176-88E6-6CA42CF09C9B__EnterpriseAttribute.json` -- "_EnterpriseAttribute" (modified 2022-07-06)
+- `data-extensions/45D60799-D6D3-44E6-88B0-63A1AA85B1DC_ExpressionBuilderAttributes.json` -- "ExpressionBuilderAttributes" (modified 2022-07-06)
+- `data-extensions/80C108D2-3709-494B-8403-0E92A8492AAF__MobileAddress.json` -- "_MobileAddress" (modified 2022-07-06)
+- `data-extensions/02F5C2B3-A6F0-42AA-B0DE-6A9DAA00C867__MobileSubscription.json` -- "_MobileSubscription" (modified 2022-07-06)
+- `data-extensions/C3E93DF4-85F5-4D86-A129-51D1353D4353__PushAddress.json` -- "_PushAddress" (modified 2022-07-06)
+- `data-extensions/42463394-5EA6-4D01-995B-71D3E406BAF4__PushTag.json` -- "_PushTag" (modified 2022-07-06)
+- `data-extensions/DDDB8285-A247-43AE-8696-01543400EF9B__MobileLineAddressContact.json` -- "_MobileLineAddressContact" (modified 2022-07-06)
+- `data-extensions/C87F2119-21D2-46A5-92DC-A247A2C160F6__MobileLineAddress.json` -- "_MobileLineAddress" (modified 2022-07-06)
+- `data-extensions/C676D3C5-7504-4119-A796-31ADD4AFA3F5__MobileLineProfile.json` -- "_MobileLineProfile" (modified 2022-07-06)
+- `data-extensions/9C23A24D-B682-4CC6-84BA-58D48C425676__MobileLineProfileAttribute.json` -- "_MobileLineProfileAttribute" (modified 2022-07-06)
+- `data-extensions/7740331B-20B5-49A7-AD7A-BFCB78631179__MobileLineSubscription.json` -- "_MobileLineSubscription" (modified 2022-07-06)
+- `data-extensions/930F1FAD-67A0-47FB-B8F3-CC193BFF55E0_MobileLineOrphanContact.json` -- "MobileLineOrphanContact" (modified 2022-07-06)
+- `data-extensions/B9D13BDA-C454-4177-B38B-610162BE196C__MobileAddressApplication.json` -- "_MobileAddressApplication" (modified 2022-07-06)
+- `data-extensions/D1CA6FAE-102D-4F4A-86DD-0745B2B07172__ChatMessagingSubscription.json` -- "_ChatMessagingSubscription" (modified 2022-07-06)
+- `data-extensions/IGO_PROFILES_IGO_PROFILES.json` -- "IGO_PROFILES" (modified 2022-07-06)
+- `data-extensions/IGO_VIEWS_IGO_VIEWS.json` -- "IGO_VIEWS" (modified 2022-07-06)
+- `data-extensions/PI_SESSION_ENDS_PI_SESSION_ENDS.json` -- "PI_SESSION_ENDS" (modified 2022-07-06)
+- `data-extensions/IGO_PURCHASES_IGO_PURCHASES.json` -- "IGO_PURCHASES" (modified 2022-07-06)
+- `data-extensions/IGO_PRODUCTS_IGO_PRODUCTS.json` -- "IGO_PRODUCTS" (modified 2022-07-06)
+- `data-extensions/IGO_PRODUCTATTRIBS_IGO_PRODUCTATTRIBS.json` -- "IGO_PRODUCTATTRIBS" (modified 2022-07-06)
+- `data-extensions/PI_CONTENTVIEWS_PI_CONTENTVIEWS.json` -- "PI_CONTENTVIEWS" (modified 2022-07-06)
+- `data-extensions/PI_CONTENT_PI_CONTENT.json` -- "PI_CONTENT" (modified 2022-07-06)
+- `data-extensions/PI_CONTENTATTRIBS_PI_CONTENTATTRIBS.json` -- "PI_CONTENTATTRIBS" (modified 2022-07-06)
+- `data-extensions/PI_SESSIONS_PI_SESSIONS.json` -- "PI_SESSIONS" (modified 2022-07-06)
+- `data-extensions/Einstein_MC_Predictive_Scores_Einstein_MC_Predictive_Scores.json` -- "Einstein_MC_Predictive_Scores" (modified 2022-07-06)
+- `data-extensions/PI_ABANDONED_CART_EVENT_PI_ABANDONED_CART_EVENT.json` -- "PI_ABANDONED_CART_EVENT" (modified 2022-07-06)
+- `data-extensions/PI_ABANDONED_CART_ITEMS_PI_ABANDONED_CART_ITEMS.json` -- "PI_ABANDONED_CART_ITEMS" (modified 2022-07-06)
+- `data-extensions/ts_test_ts_test.json` -- "ts_test" (modified 2023-03-16)
+- `data-extensions/FADE0378-BFD0-4960-81B9-AC23E31AC13A_MSD_Enquiry.json` -- "MSD Enquiry" (modified 2023-02-20)
+- `data-extensions/A7028FE6-CF88-4405-9BC2-DF381E4264F8_GA_Events.json` -- "GA Events" (modified 2023-02-20)
+- `data-extensions/C2E7C328-87EC-437A-9977-7C847FEDDC0B_trans_api.json` -- "trans_api" (modified 2023-03-16)
+- `data-extensions/6F050D7C-4E69-47D0-B7E1-B22C37562A14_Demo_Builder_Subscribers.json` -- "Demo Builder Subscribers" (modified 2022-08-19)
+- `data-extensions/A8C14E83-84F9-41E7-9673-0F60C82F8453_welcome_de.json` -- "welcome_de" (modified 2025-05-15)
+- `data-extensions/test_test.json` -- "test" (modified 2023-02-03)
+- `data-extensions/3C19E630-3642-4455-AB6D-A9602DFEA4AA_IS_TEST.json` -- "IS_TEST" (modified 2022-12-06)
+- `data-extensions/3C0A87C1-25D7-45F1-B67E-3B9B24D39EFF_Distributed_Marketing.json` -- "Distributed_Marketing" (modified 2022-12-06)
+- `data-extensions/9D9CCCEC-9DC4-40F9-A36E-59FD35074532_CloudPages_DataExtension.json` -- "CloudPages_DataExtension" (modified 2022-12-07)
+- `data-extensions/abandoned_browse_1670481871_abandoned_browse_1670481871.json` -- "abandoned_browse_1670481871" (modified 2022-12-08)
+- `data-extensions/abandoned_cart_1671689694_abandoned_cart_1671689694.json` -- "abandoned_cart_1671689694" (modified 2022-12-22)
+- `data-extensions/CC67E67C-081F-4CD4-BF6A-9997A2B8455E_Marketing_Preference.json` -- "Marketing Preference" (modified 2023-01-17)
+- `data-extensions/0E88736E-1BA1-45EF-9080-850F580105A1_Loyalty_Profile.json` -- "Loyalty Profile" (modified 2023-01-17)
+- `data-extensions/Customer_Customer.json` -- "Customer" (modified 2024-07-06)
+- `data-extensions/F6D58713-CF5F-45C1-97D0-C4A5D31904D2_S3_Customer_Profile.json` -- "S3_Customer_Profile" (modified 2023-01-17)
+- `data-extensions/53503E6C-BD7E-4E88-92F6-274D9B09B84B_S3_Order_Headers.json` -- "S3_Order_Headers" (modified 2023-01-17)
+- `data-extensions/211E69C8-4D35-4265-8B89-CABCAC3F7839_S3_Order_Line_Items.json` -- "S3_Order_Line_Items" (modified 2023-01-17)
+- `data-extensions/1sgHn000000CadDIAS_85RHn000000002vMAA_I_Customers_with_Score_Customers_with_S_1sgHn000000CadDIAS_85RHn000000002vMAA_I.json` -- "Customers with Score_Customers with S_1sgHn000000CadDIAS_85RHn000000002vMAA_I" (modified 2023-09-20)
+- `data-extensions/4246C343-2D2F-4A85-BC99-FDBF9FD805FB_Customers_with_Score_Sendable.json` -- "Customers with Score_Sendable" (modified 2023-09-25)
+- `data-extensions/8EA28DEF-5230-40CE-A98F-4C0049197903_test_data.json` -- "test data" (modified 2023-09-28)
+- `data-extensions/DF7868C0-2125-44C1-80B7-3027D3B494A8_tests3.json` -- "tests3" (modified 2024-06-26)
+- `data-extensions/E92C2AB0-611F-4926-8E2D-C2C32D645FD1_test_filter.json` -- "test filter" (modified 2024-07-06)
+- `data-extensions/64B1C1F4-EA3E-43E0-86D4-9BDC8D61A733_Customer_Segment_0.json` -- "Customer Segment 0" (modified 2024-07-06)
+- `data-extensions/E4EA06A1-E5C7-49C8-B6CF-B5681610D49D_Customer_Segment_1.json` -- "Customer Segment 1" (modified 2024-07-06)
+- `data-extensions/36B44062-6C2B-4153-B99B-561BBCCA7740_Customer_remaining_subs.json` -- "Customer remaining subs" (modified 2024-07-06)
+- `data-extensions/18237CE0-5E38-4E5F-BBB0-6E8E6615641B_puma.json` -- "puma" (modified 2024-07-10)
+- `data-extensions/2DBCD3B1-3ECA-4C19-95C4-320116454535_puma_-_20240712_123500.json` -- "puma - 20240712_123500" (modified 2024-07-12)
+- `data-extensions/AC98C46E-90A3-46D0-A86E-90202E39F650_car.json` -- "car" (modified 2024-07-23)
+- `data-extensions/B048C73D-18D9-4378-8FFA-816C02CF8271_car2.json` -- "car2" (modified 2024-07-23)
+- `data-extensions/D0F0A226-22E6-4D17-BFB6-D7723A55DBF0_customer_info.json` -- "customer_info" (modified 2024-07-23)
+- `data-extensions/DB8252D7-99E2-4CC0-A073-5B7874F880D3_customer_info_2.json` -- "customer_info_2" (modified 2024-07-23)
+- `data-extensions/DA10F9A8-D6DA-4C8B-B3B7-3A33FF644B57_gmart.json` -- "gmart" (modified 2024-07-29)
+- `data-extensions/6860D71D-67FC-4B2A-ACE7-08FA3A69DE3D_test_DC.json` -- "test_DC" (modified 2024-11-19)
+- `data-extensions/1sgKj00000000GUIAY_85RKj000000KymPMAS_BU_AWARE_ON_BU_AWARE_ON_1sgKj00000000GUIAY_85RKj000000KymPMAS.json` -- "BU_AWARE_ON_BU_AWARE_ON_1sgKj00000000GUIAY_85RKj000000KymPMAS" (modified 2025-01-28)
+- `data-extensions/1sgKj00000000GZIAY_85RKj000000KymUMAS_Test1_BU_AWARE_ON_1_1sgKj00000000GZIAY_85RKj000000KymUMAS.json` -- "Test1_BU_AWARE_ON_1_1sgKj00000000GZIAY_85RKj000000KymUMAS" (modified 2025-01-28)
+- `data-extensions/0E60292F-95B7-4539-847D-1AB60228813D_Deletion_DC.json` -- "Deletion_DC" (modified 2025-03-20)
+- `data-extensions/4B585F9D-9F72-475F-81B1-C4274D1B21E4_Deletion_2.json` -- "Deletion_2" (modified 2025-04-16)
+- `data-extensions/EAE9464C-A916-49C7-A030-6EDFCA4B88FE_Deletion_3.json` -- "Deletion_3" (modified 2025-04-16)
+- `data-extensions/215D45A9-BB0E-4F81-BD62-158301AC780E_DC_MC_Action_triggered_Flow_Journey.json` -- "DC_MC_Action_triggered_Flow_Journey" (modified 2026-03-04)
+- `data-extensions/0D59B209-4D24-4E3C-A641-E0F9A94AC7F1_DC_MC_Actioin_trigger_flow_UCA.json` -- "DC_MC_Actioin_trigger_flow_UCA" (modified 2026-03-10)
+- `data-extensions/8FF58788-A1E3-445C-9C87-919A1F8A12BD_DC_MC_ATF_RelatedAttribute_Journey.json` -- "DC_MC_ATF_RelatedAttribute_Journey" (modified 2026-03-04)
+- `data-extensions/E43C5B82-EE78-4C1D-857B-C7E39598E430_DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json` -- "DC_MC_ATF_RelatedAttributes_Multi_Record_Journey" (modified 2026-03-15)
+- `data-extensions/58FAE1F6-E5EB-4419-9CF3-A9FB598BDD6E_テスト.json` -- "テスト" (modified 2023-11-27)
+- `data-extensions/C099F9BC-D0FC-475C-932C-8ED23CF5E45E_テスト_1.json` -- "テスト_1" (modified 2023-11-27)
+- `data-extensions/5BDD6023-CEFE-4209-9BCB-00AB2A47CA79_tested.json` -- "tested" (modified 2024-04-17)
+- `data-extensions/1sgGB00000000ChYAI_85RGB00000000432AA_I_TD_Segments_MCE_Activation_1sgGB00000000ChYAI_85RGB00000000432AA_I.json` -- "TD Segments_MCE Activation_1sgGB00000000ChYAI_85RGB00000000432AA_I" (modified 2025-05-08)
+- `data-extensions/CD3FC2C7-A3D6-4584-B3C2-518E0A29C855_welcome_de_target.json` -- "welcome_de_target" (modified 2025-05-15)
+- `data-extensions/MCP_Claude_Test_MCP_Claude_Test.json` -- "MCP_Claude_Test" (modified 2026-06-05)
+- `automations/c7daa5fb-2e44-4844-a1fb-6360fd90d5f0_523015076-_ChatMessagingSubscriptionView-PS.json` -- "523015076-_ChatMessagingSubscriptionView-PS" (modified 2026-02-27)
+- `automations/51ee8860-da5a-450f-ad77-008856bc0ac0_523015076-_MobileSubscriptionView-PS.json` -- "523015076-_MobileSubscriptionView-PS" (modified 2026-02-27)
+- `automations/560cac58-b702-4e2a-bde8-8adc3ec4b7eb_523015076-ActivityIncView-PS.json` -- "523015076-ActivityIncView-PS" (modified 2026-03-04)
+- `automations/68cd3eb2-deea-455c-9004-97584e4d0793_523015076-ChatMessagingMOLogView-PS.json` -- "523015076-ChatMessagingMOLogView-PS" (modified 2026-01-27)
+- `automations/a691459c-8571-40d4-af2e-10a62346d5c3_523015076-ChatMessagingSendEventView-PS.json` -- "523015076-ChatMessagingSendEventView-PS" (modified 2026-01-27)
+- `automations/e5934bd7-6665-41bd-a8e3-dc0da903a093_523015076-ChatMessagingWhatsAppTrackingView-PS.json` -- "523015076-ChatMessagingWhatsAppTrackingView-PS" (modified 2026-01-27)
+- `automations/d53a2bfc-63e8-488d-8f1b-4d53d802df29_523015076-Customer.json` -- "523015076-Customer" (modified 2024-03-28)
+- `automations/a4527033-5b58-4c98-b96a-9a86f4d8b300_523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json` -- "523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey" (modified 2026-05-18)
+- `automations/9f05d4d4-3cfc-4e6d-9f67-1ef1d5ccff0a_523015076-DefinitionIncView-PS.json` -- "523015076-DefinitionIncView-PS" (modified 2026-03-04)
+- `automations/f6f44785-fab7-4433-9e14-ddc36b521218_523015076-Deletion_2.json` -- "523015076-Deletion_2" (modified 2025-05-15)
+- `automations/ee4b1a7d-5ebf-4e48-8403-311db2a6f846_523015076-Deletion_3.json` -- "523015076-Deletion_3" (modified 2025-05-15)
+- `automations/78853647-2307-4e64-9cb6-6909b7360308_523015076-Deletion_DC.json` -- "523015076-Deletion_DC" (modified 2025-04-14)
+- `automations/94f8becd-480f-4d40-a789-f728223ffa59_523015076-GA_Events.json` -- "523015076-GA Events" (modified 2024-03-28)
+- `automations/a4c81bf1-5186-4bf1-b2af-2f221705a1ab_523015076-PSExtended-24.json` -- "523015076-PSExtended-24" (modified 2026-02-26)
+- `automations/a006c266-7939-46f3-8863-03bfd4bed88a_523015076-PSHist01.json` -- "523015076-PSHist#01" (modified 2026-01-27)
+- `automations/9f30b442-ce81-4b79-b121-3112dfd1fcad_523015076-PSMain.json` -- "523015076-PSMain" (modified 2026-02-26)
+- `automations/26b6b0d3-c10b-40d8-bb8c-79132f0c8b60_523015076-PSMain_1h.json` -- "523015076-PSMain_1h" (modified 2026-02-27)
+- `automations/bc2aa83d-6af0-45d2-a616-8e3939a109de_523015076-PSSub.json` -- "523015076-PSSub" (modified 2026-02-27)
+- `automations/95ea2d64-e11c-4171-a6a5-576697c159e5_523015076-SFMCEmailBulkMessage-PS.json` -- "523015076-SFMCEmailBulkMessage-PS" (modified 2026-02-27)
+- `automations/de3fe3de-67c6-4c26-ab65-64974b7287e2_523015076-SFMCSMSBulkMessage-PS.json` -- "523015076-SFMCSMSBulkMessage-PS" (modified 2026-02-27)
+- `automations/d429c4b4-e5e0-4233-9f3f-ccac2366aed2_523015076-SFMCSMSEngagementDR-PS.json` -- "523015076-SFMCSMSEngagementDR-PS" (modified 2026-01-27)
+- `automations/370e4ed6-2578-4ca2-9efe-e9a247435125_523015076-SFMCSMSEngagementMO-PS.json` -- "523015076-SFMCSMSEngagementMO-PS" (modified 2026-01-27)
+- `automations/d19179c6-81fa-4b94-8f6f-36f4a8c353c8_523015076-SFMCSMSEngagementMOResponseClick-PS.json` -- "523015076-SFMCSMSEngagementMOResponseClick-PS" (modified 2026-01-27)
+- `automations/a9a0b6e0-7fed-4232-a4b6-3ec2070dd014_523015076-SFMCSMSEngagementMOResponse-PS.json` -- "523015076-SFMCSMSEngagementMOResponse-PS" (modified 2026-01-27)
+- `automations/6be87c13-ffa5-4851-9691-ea3f6099779a_523015076-SFMCSMSEngagementSendClick-PS.json` -- "523015076-SFMCSMSEngagementSendClick-PS" (modified 2026-01-27)
+- `automations/c81ef06d-3546-4f93-93db-0159e739e7e3_523015076-SFMCSMSEngagementSendV2-PS.json` -- "523015076-SFMCSMSEngagementSendV2-PS" (modified 2026-01-27)
+- `automations/559fa91b-ec6a-4c7f-9649-f130f0e8e5fd_523015076-tests3.json` -- "523015076-tests3" (modified 2024-07-25)
+- `automations/901c86ea-1ed9-4315-baef-1f01d1c6d571_523025841-_ChatMessagingSubscriptionView-PS.json` -- "523025841-_ChatMessagingSubscriptionView-PS" (modified 2026-02-27)
+- `automations/5c6b9bd4-6ad1-4faf-af14-c83c14eb119c_523025841-_MobileSubscriptionView-PS.json` -- "523025841-_MobileSubscriptionView-PS" (modified 2026-02-27)
+- `automations/e433a9c9-458d-477a-a675-7964ec163c94_523025841-BU1_Customer_Data.json` -- "523025841-BU1_Customer_Data" (modified 2025-02-26)
+- `automations/eb1b2cd8-e4db-424a-b0e9-be215785f3db_523025841-ChatMessagingMOLogView-PS.json` -- "523025841-ChatMessagingMOLogView-PS" (modified 2026-01-27)
+- `automations/57f5fc3b-0537-4c2b-b655-6c3b553b6949_523025841-ChatMessagingSendEventView-PS.json` -- "523025841-ChatMessagingSendEventView-PS" (modified 2026-01-27)
+- `automations/05881d6f-648b-41c0-9b19-7d017764fd93_523025841-ChatMessagingWhatsAppTrackingView-PS.json` -- "523025841-ChatMessagingWhatsAppTrackingView-PS" (modified 2026-01-27)
+- `automations/44b06454-f773-4b5e-b2f9-b5c164fc1f19_523025841-SFMCSMSBulkMessage-PS.json` -- "523025841-SFMCSMSBulkMessage-PS" (modified 2026-02-27)
+- `automations/b54c29a7-7db1-48e4-8279-393bc30a0891_523025841-SFMCSMSEngagementDR-PS.json` -- "523025841-SFMCSMSEngagementDR-PS" (modified 2026-01-27)
+- `automations/316aed5d-983c-4800-be14-31b310c2b7e0_523025841-SFMCSMSEngagementMO-PS.json` -- "523025841-SFMCSMSEngagementMO-PS" (modified 2026-01-27)
+- `automations/51162411-2e5e-442d-9755-53535b3e037d_523025841-SFMCSMSEngagementMOResponseClick-PS.json` -- "523025841-SFMCSMSEngagementMOResponseClick-PS" (modified 2026-01-27)
+- `automations/1491b368-7ba3-4245-927c-b493da7ec632_523025841-SFMCSMSEngagementMOResponse-PS.json` -- "523025841-SFMCSMSEngagementMOResponse-PS" (modified 2026-01-27)
+- `automations/31421e89-6297-4b60-9cfb-246e79fb28c6_523025841-SFMCSMSEngagementSendClick-PS.json` -- "523025841-SFMCSMSEngagementSendClick-PS" (modified 2026-01-27)
+- `automations/db3cc85d-4ad1-4eb9-bb01-023a0a9af7a2_523025841-SFMCSMSEngagementSendV2-PS.json` -- "523025841-SFMCSMSEngagementSendV2-PS" (modified 2026-01-27)
+- `automations/18eb34fb-f5f7-403d-9df0-280628cd6b9b_523025841-SFMCWhatsAppBulkMessageView-PS.json` -- "523025841-SFMCWhatsAppBulkMessageView-PS" (modified 2026-02-27)
+- `automations/b9bbc160-9163-4726-b91f-5350dade6c7f_523025842-_ChatMessagingSubscriptionView-PS.json` -- "523025842-_ChatMessagingSubscriptionView-PS" (modified 2026-02-27)
+- `automations/7d0ea93d-f766-4021-aac4-7e892bbb32d8_523025842-_MobileSubscriptionView-PS.json` -- "523025842-_MobileSubscriptionView-PS" (modified 2026-02-27)
+- `automations/81b310f0-6482-408f-9291-a86159967d6f_523025842-BU2_Customers.json` -- "523025842-BU2_Customers" (modified 2025-02-26)
+- `automations/479c97ff-2ef7-4972-9114-9f4012b87237_523025842-ChatMessagingMOLogView-PS.json` -- "523025842-ChatMessagingMOLogView-PS" (modified 2026-01-27)
+- `automations/bc7d89da-1459-4e7c-8603-886f263c5957_523025842-ChatMessagingSendEventView-PS.json` -- "523025842-ChatMessagingSendEventView-PS" (modified 2026-01-27)
+- `automations/c3361761-8354-4feb-9803-c67757de11c0_523025842-ChatMessagingWhatsAppTrackingView-PS.json` -- "523025842-ChatMessagingWhatsAppTrackingView-PS" (modified 2026-01-27)
+- `automations/803f924b-e21b-4718-9489-b2199e476243_523025842-SFMCSMSBulkMessage-PS.json` -- "523025842-SFMCSMSBulkMessage-PS" (modified 2026-02-27)
+- `automations/57a891e9-568b-4fe9-886c-4a43115cb32a_523025842-SFMCSMSEngagementDR-PS.json` -- "523025842-SFMCSMSEngagementDR-PS" (modified 2026-01-27)
+- `automations/22c0f361-53d2-4b66-acc2-5c0af1802953_523025842-SFMCSMSEngagementMO-PS.json` -- "523025842-SFMCSMSEngagementMO-PS" (modified 2026-01-27)
+- `automations/b2c8ad00-20bb-45fc-b195-841d1df32a81_523025842-SFMCSMSEngagementMOResponseClick-PS.json` -- "523025842-SFMCSMSEngagementMOResponseClick-PS" (modified 2026-01-27)
+- `automations/f78da0b1-1236-409b-9740-dc7898f37091_523025842-SFMCSMSEngagementMOResponse-PS.json` -- "523025842-SFMCSMSEngagementMOResponse-PS" (modified 2026-01-27)
+- `automations/c9838b47-7012-4417-b54d-dc0cfafb55b0_523025842-SFMCSMSEngagementSendClick-PS.json` -- "523025842-SFMCSMSEngagementSendClick-PS" (modified 2026-01-27)
+- `automations/3dc8576b-7c65-410b-a26c-079f3bb02b1a_523025842-SFMCSMSEngagementSendV2-PS.json` -- "523025842-SFMCSMSEngagementSendV2-PS" (modified 2026-01-27)
+- `automations/93b7e229-e200-4473-b3c0-c4475b46bcca_523025842-SFMCWhatsAppBulkMessageView-PS.json` -- "523025842-SFMCWhatsAppBulkMessageView-PS" (modified 2026-02-27)
+- `automations/2cd3136e-0345-43ce-b17a-1704924b715d_car.json` -- "car
+" (modified 2024-07-23)
+- `automations/0c1de56f-04af-4560-8cdc-fbf250013ab7_cars.json` -- "cars" (modified 2024-07-23)
+- `automations/f5271a93-c2df-45f1-98ce-12d4f422d513_datatype_check.json` -- "datatype check" (modified 2025-05-15)
+- `automations/c19d53fb-59ef-4e4b-ae81-283896aae5f7_DFUAPIBUMapping.json` -- "DFUAPIBUMapping" (modified 2026-03-25)
+- `automations/cefae37a-9fb2-4a8d-ab0c-fca68bfb705f_HK_Autocumulus_Automation.json` -- "HK_Autocumulus_Automation" (modified 2023-10-04)
+- `automations/bc398d36-0ca4-4286-bd76-943c8309941d_Test.json` -- "Test"
+- `automations/2bd19f37-a0b9-4faa-ad0c-3d7d1894f773_Test_Automation_Claude.json` -- "Test_Automation_Claude"
+- `automations/cb0319f9-7d8b-4b17-b8f7-41e9ef8e2f91_test1.json` -- "test1" (modified 2023-11-27)
+- `automation-activities/queries/d5f429bb-54ff-4672-abc0-440390b35631_car.json` -- "car" (modified 2024-07-23)
+- `automation-activities/queries/d5f429bb-54ff-4672-abc0-440390b35631_car.sql` -- "car (.sql)" (modified 2024-07-23)
+- `automation-activities/queries/cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.json` -- "car_filter" (modified 2024-07-23)
+- `automation-activities/queries/cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.sql` -- "car_filter (.sql)" (modified 2024-07-23)
+- `automation-activities/queries/7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.json` -- "customer_info" (modified 2024-07-23)
+- `automation-activities/queries/7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.sql` -- "customer_info (.sql)" (modified 2024-07-23)
+- `automation-activities/queries/8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.json` -- "datatype check" (modified 2025-05-15)
+- `automation-activities/queries/8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.sql` -- "datatype check (.sql)" (modified 2025-05-15)
+- `automation-activities/queries/ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.json` -- "HK_Autocumulus_Generate_Sendable" (modified 2024-07-08)
+- `automation-activities/queries/ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.sql` -- "HK_Autocumulus_Generate_Sendable (.sql)" (modified 2024-07-08)
+- `automation-activities/queries/64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.json` -- "test1" (modified 2023-11-27)
+- `automation-activities/queries/64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.sql` -- "test1 (.sql)" (modified 2023-11-27)
+- `automation-activities/imports/96c4b9ef-0549-ef11-a5b4-5cba2c6f7278_cars.json` -- "cars" (modified 2024-07-23)
+- `automation-activities/imports/00f94c02-fd48-ef11-a5b4-5cba2c6f7278_cars_1.json` -- "cars_1" (modified 2024-07-23)
+- `automation-activities/data-extracts/39781905-ff06-4497-9c35-acba7e5a5fc6_d1.json` -- "d1" (modified 2022-12-22)
+- `automation-activities/file-transfers/58e98dc0-29cc-42dd-85e4-37f66825f09c_test.json` -- "test" (modified 2024-07-09)
+- `journeys/2f878a6d-6c20-43cc-9c6f-45cec4a0df33_IS_TEST.json` -- "IS TEST" (modified 0001-01-01)
+- `journeys/b252fd65-0842-4791-94c8-8e7a14460a99_New_Journey_-_December_6_2022_at_735_PM.json` -- "New Journey - December 6 2022 at 7.35 PM" (modified 2022-12-06)
+- `journeys/1a031381-7e7a-408d-9613-92c2546387ea_New_Journey_-_March_16_2023_at_350_PM.json` -- "New Journey - March 16 2023 at 3.50 PM" (modified 0001-01-01)
+- `journeys/26c42072-3035-4a2d-9442-df2afce0a1d0_New_Journey_-_July_10_2024_at_622_PM.json` -- "New Journey - July 10 2024 at 6.22 PM" (modified 0001-01-01)
+- `journeys/c7caf3a9-7036-42fa-b9d4-33dff6f7e8e1_New_Journey_-_July_12_2024_at_1217_PM.json` -- "New Journey - July 12 2024 at 12.17 PM" (modified 0001-01-01)
+- `journeys/c49b7c66-5a8e-4d07-baa0-b0acf932ba1d_New_Journey_-_July_12_2024_at_1243_PM.json` -- "New Journey - July 12 2024 at 12.43 PM" (modified 0001-01-01)
+- `journeys/acf3f83f-0f8e-40bf-8e69-7a9fc1f2cc56_conte.json` -- "conte" (modified 2024-07-12)
+- `journeys/3c515159-02c4-46f8-bff4-b05d615ef021_New_Journey_-_July_12_2024_at_134_PM.json` -- "New Journey - July 12 2024 at 1.34 PM" (modified 2024-07-12)
+- `journeys/af9b55fb-94b7-4870-8f48-c6fdb4b14c04_New_Journey_-_July_20_2024_at_1211_AM.json` -- "New Journey - July 20 2024 at 12.11 AM" (modified 2024-07-19)
+- `journeys/53bdbfff-0771-4cd2-b9c5-0e7da098824e_TD_Bank_Customer_Journey.json` -- "TD_Bank_Customer_Journey" (modified 0001-01-01)
+- `journeys/ac1247ae-d34b-495b-9d6f-188edfe1a200_HK_Autocumulus_Journey.json` -- "HK_Autocumulus_Journey" (modified 0001-01-01)
+- `journeys/1042465a-00c8-4949-8158-86c105b6c5b6_New_Journey_-_September_29_2025_at_941_PM.json` -- "New Journey - September 29 2025 at 9.41 PM" (modified 2025-09-29)
+- `journeys/bc7d1f23-b099-48db-9c3e-f92b61587f7d_DC_MC_Next.json` -- "DC_MC_Next" (modified 2026-03-04)
+- `journeys/aa57153c-ca0f-4a96-ad4b-b1f96072dfc8_New_Journey_-_March_4_2026_at_126_PM.json` -- "New Journey - March 4 2026 at 1.26 PM" (modified 2026-03-04)
+- `journeys/21c816b0-cdad-4a4d-8752-7cd298563fc4_DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json` -- "DC_MC_ATF_RelatedAttributes_Multi_Record_Journey" (modified 2026-03-10)
+
+### Modified (11)
+- `emails/212949_SFMC_Vault_test.html` -- "SFMC Vault test" (modified in SFMC by Rishi Ganesh on 2026-05-15)
+
+<details>
+<summary>Diff for emails/212949_SFMC_Vault_test.html</summary>
+
+```diff
+--- a/emails/212949_SFMC_Vault_test.html
++++ b/emails/212949_SFMC_Vault_test.html
+@@ -119,9 +119,7 @@
+                               </tr>
+                               <tr>
+                                 <td align="left" class="" valign="top">
+-                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#007FFF" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #007FFF;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #007FFF; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">CLICK HERE </a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+-	<span style="font-family:Comic Sans MS,cursive,sans-serif;"><i>THANK YOU</i>&nbsp;</span></h1><div style="text-align: center;">
+-	THANK YOU FOR YOUR RECENT PURCHASE . YOUR SATISFACTION WITH OUR VEHICLE AND WITH OUR DEALERSHIP IS OUR FIRST PRIORITY.</div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101383" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/11be47db-e780-4211-a51f-af9565ac9b21.jpg" alt="Image placeholder" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
++                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><div data-type="slot" data-key="8eto73r3rhydn8oj2qf0nqaor"></div></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ %%[
+   Var @car
+   Set @car = InsertData("car", "coustemer id",email id", "first name", "last name", "brand name", "varient", "delivery date","5", "4444", "rk@gmail.com","rk","ch","benz","desiel","05/22/2024",null)
+```
+
+</details>
+
+- `emails/210091_Test_Email.html` -- "Test Email" (modified in SFMC by Rishi Ganesh on 2026-05-15)
+
+<details>
+<summary>Diff for emails/210091_Test_Email.html</summary>
+
+```diff
+--- a/emails/210091_Test_Email.html
++++ b/emails/210091_Test_Email.html
+@@ -120,10 +120,7 @@
+                               </tr>
+                               <tr>
+                                 <td align="left" class="" valign="top">
+-                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#007FFF" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #007FFF;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #007FFF; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">CLICK HERE </a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+-	<span style="font-family:Comic Sans MS,cursive,sans-serif;"><i>THANK YOU</i>&nbsp;Very much</span></h1><div style="text-align: center;">
+-	THANK YOU FOR YOUR RECENT PURCHASE . YOUR SATISFACTION WITH OUR BMW CAR AND WITH OUR DEALERSHIP IS OUR FIRST PRIORITY.<br>
+-	Keep purchasing with BMW.</div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101383" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/11be47db-e780-4211-a51f-af9565ac9b21.jpg" alt="Image placeholder" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
++                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><div data-type="slot" data-key="8eto73r3rhydn8oj2qf0nqaor"></div></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ %%[
+   Var @car
+   Set @car = InsertData("car", "coustemer id",email id", "first name", "last name", "brand name", "varient", "delivery date","5", "4444", "rk@gmail.com","rk","ch","benz","diesel","05/22/2024",null)
+```
+
+</details>
+
+- `emails/100378_female_emaIl.html` -- "female emaIl" (modified in SFMC by Rishi Ganesh on 2024-07-12)
+
+<details>
+<summary>Diff for emails/100378_female_emaIl.html</summary>
+
+```diff
+--- a/emails/100378_female_emaIl.html
++++ b/emails/100378_female_emaIl.html
+@@ -119,8 +119,7 @@
+                               </tr>
+                               <tr>
+                                 <td align="left" class="" valign="top">
+-                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#5D5D5D" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #5D5D5D;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #5D5D5D; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">click here</a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+-	Thank you for visiting our store&nbsp;</h1></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="100371" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/a5a78224-53b2-413f-b36a-43e6d501030f.jpg" alt="Image placeholder" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
++                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><div data-type="slot" data-key="8eto73r3rhydn8oj2qf0nqaor"></div></td></tr></table></td></tr></table></td></tr></table>
+                                 </td>
+                               </tr>
+                               <tr>
+```
+
+</details>
+
+- `emails/100377_male_email.html` -- "male email" (modified in SFMC by Rishi Ganesh on 2024-07-12)
+
+<details>
+<summary>Diff for emails/100377_male_email.html</summary>
+
+```diff
+--- a/emails/100377_male_email.html
++++ b/emails/100377_male_email.html
+@@ -119,8 +119,7 @@
+                               </tr>
+                               <tr>
+                                 <td align="left" class="" valign="top">
+-                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+-	Thank you for visiting our store&nbsp;</h1></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#5D5D5D" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #5D5D5D;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #5D5D5D; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">click here</a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="100370" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/bb309797-64a2-41eb-9c6c-3b2a12874f2e.jpg" alt="Placeholder image" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
++                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><div data-type="slot" data-key="jy1e7lxs8c4wpfhlo5usaif6r"></div></td></tr></table></td></tr></table></td></tr></table>
+                                 </td>
+                               </tr>
+                               <tr>
+```
+
+</details>
+
+- `emails/100333_CONTEST_WINNER.html` -- "CONTEST WINNER" (modified in SFMC by Rishi Ganesh on 2024-07-11)
+
+<details>
+<summary>Diff for emails/100333_CONTEST_WINNER.html</summary>
+
+```diff
+--- a/emails/100333_CONTEST_WINNER.html
++++ b/emails/100333_CONTEST_WINNER.html
+@@ -119,13 +119,7 @@
+                               </tr>
+                               <tr>
+                                 <td align="left" class="" valign="top">
+-                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><span style="font-size:18px;"><b>HI</b></span><br>
+-<br>
+-&nbsp; &nbsp; &nbsp;&nbsp;<b>THIS TO INFORM THAT</b><br>
+-<br>
+-&nbsp; &nbsp; &nbsp; &nbsp; WE are happy to anounce that you&nbsp; the winner of contest .<br>
+-<br>
+-&nbsp;click button to fill form</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#0C0C0C" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #0C0C0C;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #0C0C0C; border: 1px solid #5D5D5D; padding: 0px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">click heare to </a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="77275" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/7bb881ce-e59f-4d5e-982a-4d18de92064a.png" alt="Placeholder image" height="66" width="66" style="display: block; height: 66px; width: 66px; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
++                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><div data-type="slot" data-key="jy1e7lxs8c4wpfhlo5usaif6r"></div></td></tr></table></td></tr></table></td></tr></table>
+                                 </td>
+                               </tr>
+                               <tr>
+```
+
+</details>
+
+- `content-blocks/100369_test.html` -- "test" (modified in SFMC by Rishi Ganesh on 2025-09-03)
+
+<details>
+<summary>Diff for content-blocks/100369_test.html</summary>
+
+```diff
+--- a/content-blocks/100369_test.html
++++ b/content-blocks/100369_test.html
+@@ -58,414 +58,7 @@
+ <div class="layout layout-canvas-g">
+ 	<div class="section">
+ 		<div class="columns col1">
+-			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><title></title><meta name="ROBOTS" content="INDEX,FOLLOW"><meta name="keywords" content=""><meta name="description" content="">
+- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+- <style class="main_style">
+-.layout-canvas-g { background-color: #FFFFFF; border: none; box-sizing: border-box; padding: 0px; width: 100%; }
+-.layout-canvas-g > .header, .layout-canvas-g > .section, .layout-canvas-g > .footer { position: relative; overflow: hidden; width: 100%; overflow-wrap: break-word; }
+-.layout-canvas-g > .section { margin: 10px 0px; }
+-.layout-canvas-g > .section > .columns { box-sizing: border-box; overflow-wrap: break-word; }
+-body { color: #000000; font-family: Arial; font-size: 12px; margin: 0px auto; max-width: none; background-color: #FFFFFF; line-height: 1; padding: 0px; }
+-@media only screen and (max-width: 480px) {
+-  .mobile-hidden { display: none !important; }
+-  .responsive-td { width: 100% !important; display: block !important; padding: 0px !important; }
+-}
+-.layout-canvas-g > .section > .columns { width: 100%; }
+-  :disabled{
+-   background-color: #8b8b8b !important;
+-   cursor:default !important;
+-  }
+-</style>
+-
+-<script src="chrome-extension://mhmpepeohaddbhkhecaldflljggicedf/pageContext.js" type="text/javascript"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=HgY/d=0/rs=AN8SPfonBlm1MHZ-AdvB-IHVmngdYetLMQ/m=el_main_css">
+-
+-<div class="layout layout-canvas-g" style="background-color:white!important;width:100%">
+- <div class="section">
+-  <div class="columns col1">
+-   <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div align="left" style="background-color:black">
+- <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+-<table width="100%" cellspacing="0" cellpadding="0" style="background-color:#ffffff" align="left">
+-   
+-   <tr style="background-color:#000000">
+-  
+-  <td width="100%" height="80" align="left" valign="center">
+-    <a href="https://www.mbfs.ca/"><img width="350" style="display: block; text-align: left; " src="https://image.mbfsdev.com/lib/fe3515707564057a701078/m/1/82170333-904c-48c9-b23e-d932b780d8e9.png" data-assetid="1255"></a>
+-   
+-  </td>
+-
+-   </tr>
+-   
+-</table></td></tr></table></div><center align="center" style="background-color:white">
+- <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+-
+-
+-
+-<style>
+-  :disabled{
+-   background-color: #4dc6f4 !important;
+-   color: #b8e8fb !important;
+-  }
+-  
+-  li {
+-   text-align:left;
+-   padding-bottom:5px;
+-  }
+-  ul {
+-   padding-left:10px !important
+-  }
+-  a{
+-   color: #00adef;
+-  }
+-  body {
+-   font-family: arial !important;
+-   color: #333333;
+-   text-align: left !important;
+-   font-size: 14px;
+-  }
+-  input[type=button] {
+-   text-align: center !important;
+-  }
+-  b{
+-   text-align: left;
+-  }
+-
+-</style>
+-
+-
+-<script>
+-  window.onload = function(){
+-   console.log('test');
+-    var selectedOption = document.getElementById("optionVariable").value;
+-var selectedSubOption = document.getElementById("subOptionVariable").value;
+-  if (selectedOption){
+-   document.querySelector('.submit').disabled= true;
+-  } else{
+-   document.querySelector('.submit').disabled= false;
+-}
+- }
+-  
+-   function SaveChecker(){
+-   console.log('test');
+-var selectedOption = document.getElementById("optionVariable").value;
+-var selectedSubOption = document.getElementById("subOptionVariable").value;
+-  if (selectedOption){
+-   document.querySelector('.submit').disabled= true;
+-  }
+- }
+-  function SaveCheck(option)
+-  {
+-    console.log('Savecheck');
+-var selectedOption = document.getElementById("optionVariable").value;
+-var selectedSubOption = document.getElementById("subOptionVariable").value;
+-
+-    if(document.getElementById('12') != null)
+-    {
+-       /* document.getElementById('12').checked=false;
+-        document.getElementById('22').checked=false;
+-        document.getElementById('32').checked=false;
+-        document.getElementById(option+'2').checked=true;*/
+-    }
+-    
+-    if(option==selectedOption){
+-       document.querySelector('.submit').disabled=true;
+-       if(selectedSubOption){
+-          console.log(document.querySelector('[name="subOption"]:checked').value)
+-         if(document.querySelector('subOption:checked')==selectedSubOption){
+-          if(document.getElementById('12') != null)
+-          {
+-            // document.querySelector('.submit2').disabled= true;
+-          }
+-        }
+-      }
+-    }else{
+-       document.querySelector('.submit').disabled=false;
+-       if(document.getElementById('12') != null)
+-      {
+-        // document.querySelector('.submit2').disabled= false;
+-      }
+-    }
+-  }
+-
+-function SubSaveCheck(subOption)
+-  {
+-    console.log('Savecheck');
+-var selectedOption = document.getElementById("optionVariable").value;
+-var selectedSubOption = document.getElementById("subOptionVariable").value;
+-
+-    if(document.getElementById('1a2') != null)
+-    {
+-       /* document.getElementById('12').checked=false;
+-        document.getElementById('22').checked=false;*/
+-        document.getElementById('32').checked=false;
+-
+-        document.getElementById('1a2').checked=false;
+-        document.getElementById('1b2').checked=false;
+-        /*document.getElementById('1c2').checked=false;*/
+-        document.getElementById('2a2').checked=false;
+-        /*document.getElementById('2b2').checked=false;
+-        document.getElementById('2c2').checked=false;*/
+-        document.getElementById('2d2').checked=false;
+-        document.getElementById(subOption+'2').checked=true;
+-    }
+-    
+-    if(subOption==selectedSubOption||subOption==selectedOption){
+-       document.querySelector('.submit').disabled=true;
+-        if(document.getElementById('1a2') != null)
+-        {
+-           document.querySelector('.submit2').disabled= true;
+-        }
+-    }else{
+-       document.querySelector('.submit').disabled=false;
+-       if(document.getElementById('1a2') != null)
+-      {
+-         document.querySelector('.submit2').disabled= false;
+-      }
+-    }
+-  }
+-</script>
+-
+-
+-<style>
+-  img.hero {
+-   width: 1600px;
+-   height: auto;
+-  }
+-  img.contain { object-fit: contain;}
+-  img.cover {object-fit:cover;}
+-  img.scale {object-fit:scale-down;}
+-  
+-.sub1, .sub2 { display: none; }
+-
+-:checked ~ .sub1, :checked ~ .sub2 {
+-    display: block;
+-    margin-left: 40px;
+-}
+-  .panelNew{
+-  display: block;
+-  margin-left: 40px}
+-  ul{
+-  margin: 0px !important}
+-  li{
+-  padding-bottom:0px !important}
+-  .intent{
+-  padding-bottom:5px
+-  }
+- 
+-</style>    
+-    <img class="" src="https://image.mbfsdev.com/lib/fe3515707564057a701078/m/1/bf1da76d-bd62-4548-a08d-3109ab850b97.png" style="max-width:100%">
+-<input id="optionVariable" type="hidden" value="1">
+-<input id="subOptionVariable" type="hidden" value="1a">
+-<input id="languages" type="hidden" value="2">
+-<table width="100%">
+-  <tr><td width="4%"></td><td align="left" style="">
+-    <p style="padding: 0 0 0px 0;text-align:left;padding-left:10px;margin-bottom:0px !important"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-      For French see below / For French see below 
+-    </font></font></p></td><td width="4%"></td></tr>
+-  <tr>
+-<td width="4%"></td><td align="left" style="">
+-    <p style="padding: 0 0 10px 0;text-align:left;padding-left:10px;font-size:24px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-      
+-               We have captured your intent to </font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">return your existing vehicle and lease or finance a new Mercedes-Benz</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . 
+-
+-    </font></font></p></td><td width="4%"></td></tr>
+-   <tr><td width="4%"></td><td>
+-    
+-   <div style="padding-left:10px;text-align:left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">You should visit your local dealer to order your new vehicle at least 60 days before the end of your lease to minimize delivery delays. If you are unable to take delivery of your new vehicle before your lease contract expires, please call Mercedes-Benz Financial Services at 866-202-6969 to request a contract extension. </font></font><br><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">We offer courtesy pre-inspections to ensure no surprise charges when you return your vehicle. Schedule yours today at </font></font><b><u><a href="https://autovinlive.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AutoVIN</font></font></a></u></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font></font><br><br><span style="color:red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">If your lease matures in less than 60 days and you have not yet selected your new vehicle, please contact Mercedes-Benz Financial Services at 866-202-6969 to determine next steps.</font></font></span></div> 
+-    
+-   </td><td width="4%"></td></tr><tr><td>&nbsp;</td></tr>
+-     <tr><td width="4%"></td><td align="left" style=""><form style="padding: 0 0 10px 0;text-align:left;background-color:#ececec;width:100%;font-weight:bold;vertical-alignment:centre" action="https://cloud.mbfsdev.com/retention-intent-capture?qs=4916aa3e1272030f1f74b8b02c90745166ef75d5da5eee691c7bb45187eb227f470726e4d9ddfb9c7439921e243cb94b765cef93d16f21a87129e440e5ea0d8f0fcf7bc93ed7edacd088778e8fee847d1ba8d698c2b5e47ba03119f3b72caedd31ebbf206691a63406f220c0426136116649e41302c853a32a2fd37dc6fc9e8a22567955c43bfad935d117e8635842b80eb63b4864eeae8ed722b706ff77c833ed5cc3a460479436b090ae1d94e4dab3b526d22a9f5e20fd100e523aa1176649d51bd3e639f7854d3bbeaeb1784bb95fc66de66ed0f4d7c8e09766678439e7a1450ebe7addf901653d89b080cdd8c7d4fe7fcb8ebcef6d9b3c8a66ca64225fd0" method="post">
+-      <div style="padding-left:10px;padding-top:10px;">
+-        <span style="font-weight:normal !important"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">If you need to change your intent, please modify by selecting and saving your option below:</font></font></span><br><br>
+-     <div class="" onclick="">
+-       
+-         <div style="padding-left:10px" class="intent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-           
+-           Return existing vehicle</font></font></div>
+-       
+-       <div class="field panelNew">
+-         <div class="intent"><input type="radio" id="1a" class=".subOption" name="Option" value="1a" style="height:11px" checked="" onclick="SubSaveCheck('1a')"><label for="1a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I plan to lease or finance a new Mercedes-Benz</font></font></label></div>
+-         <div class="intent"><input type="radio" id="1b" class=".subOption" name="Option" value="1b" style="height:11px" onclick="SubSaveCheck('1b')"><label for="1b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I do not plan to lease or finance a new Mercedes-Benz at this time</font></font></label></div></div>
+-        <div class="">
+-          <div style="padding-left:10px" class="intent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Purchase existing vehicle</font></font></div>
+-          
+-            <div class="field panelNew"><div class="intent"><input type="radio" id="2a" class=".subOption" name="Option" value="2a" style="height:11px" onclick="SubSaveCheck('2a')"><label for="2a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I plan to remit the full purchase option amount to MBFS directly</font></font></label></div>
+-            
+-          
+-           <div class="intent"><input type="radio" id="2d" class=".subOption" name="Option" value="2d" style="height:11px" onclick="SubSaveCheck('2d')"><label for="2c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I would like to apply for financing the purchase of my lease with MBFS</font></font></label></div>
+-          </div>
+-        <div class="field intent"><input type="radio" id="3" name="Option" value="3" style="height:11px" onclick="SubSaveCheck('3')"> <label for="3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></label>
+-        </div>
+-        <!--<div class="field"><input type="radio" id="4" name="Option" value="4" style="height:11px"  onclick="SaveCheck('4')"> <label for="4"></label></div>--><br>
+-        <input type="hidden" id="FirstName" name="FirstName" value="Pauly">
+-        <input type="hidden" id="Country" name="Country" value="CA">
+-         <input type="hidden" id="Source" name="Source" value="Landing Page">
+-         <input type="hidden" id="FinancialAgreementId" name="FinancialAgreementId" value="a0V8M000000VF36UAG">
+-         <input type="hidden" id="Dealer" name="Dealer" value="0018M00000FrAEBQA3">
+-        <input type="hidden" id="ContactId" name="ContactId" value="0038M00000SGNaoQAH">
+-        <input type="hidden" id="MatDays" name="MatDays" value="120">
+-          <input type="hidden" id="SalesStatus" name="SalesStatus" value="Indirect">
+-          <input type="hidden" id="ArrayReverse" name="ArrayReverse" value="">
+-      <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" class="submit" style="margin-left:5px;padding:15px 16px;background-color:#00adef;color:#ffffff;border:0;box-shadow:0;border-radius:0px;cursor:pointer" value="SAVE CHANGES" formaction="https://cloud.mbfsdev.com/retention-intent-capture?qs=4916aa3e1272030f1f74b8b02c90745166ef75d5da5eee691c7bb45187eb227f470726e4d9ddfb9c7439921e243cb94b765cef93d16f21a87129e440e5ea0d8f0fcf7bc93ed7edacd088778e8fee847d1ba8d698c2b5e47ba03119f3b72caedd31ebbf206691a63406f220c0426136116649e41302c853a32a2fd37dc6fc9e8a22567955c43bfad935d117e8635842b80eb63b4864eeae8ed722b706ff77c833ed5cc3a460479436b090ae1d94e4dab3b526d22a9f5e20fd100e523aa1176649d51bd3e639f7854d3bbeaeb1784bb95fc66de66ed0f4d7c8e09766678439e7a1450ebe7addf901653d89b080cdd8c7d4fe7fcb8ebcef6d9b3c8a66ca64225fd0" onload="SaveChecker()"></font></font> 
+-               
+-      </div>
+-    <br>
+-      
+-    </div></div></form></td><td width="4%"></td></tr>
+- 
+-</table><br><br>
+-
+-
+-<script>
+-  window.onload = function(){
+-   console.log('test2');
+-    var selectedOption = document.getElementById("optionVariable").value;
+-  if (selectedOption){
+-   document.querySelector('.submit2').disabled= true;
+-  } else{
+-   document.querySelector('.submit2').disabled= false;
+-}
+- }
+-  
+-   function SaveChecker2(){
+-   console.log('test2');
+-var selectedOption = document.getElementById("optionVariable").value;
+-  if (selectedOption){
+-   document.querySelector('.submit2').disabled= true;
+-  }
+- }
+-  function SaveCheck2(option)
+-  {
+-    console.log('Savecheck2');
+-    var selectedOption = document.getElementById("optionVariable").value;
+-   /* document.getElementById('1').checked=false;
+-    document.getElementById('2').checked=false;
+-    document.getElementById('3').checked=false;
+-    document.getElementById(option).checked=true;*/
+-    if(option==selectedOption){
+-       //document.querySelector('.submit').disabled=true;
+-       document.querySelector('.submit2').disabled= true;
+-    }else{
+-       //document.querySelector('.submit').disabled=false;
+-       document.querySelector('.submit2').disabled= false;
+-    }
+-    
+-  }
+- function accClick(){
+- this.classList.toggle("active");
+-
+-    /* Toggle between hiding and showing the active panel */
+-    var panel = this.nextElementSibling;
+-    if (panel.style.display === "block") {
+-      panel.style.display = "none";
+-    } else {
+-      panel.style.display = "block";
+-    }
+-}
+-
+-function SubSaveCheck2(subOption)
+-  {
+-    console.log('Savecheck');
+-var selectedOption = document.getElementById("optionVariable").value;
+-var selectedSubOption = document.getElementById("subOptionVariable").value;
+-   console.log(subOption);
+-    if(document.getElementById('1a2') != null)
+-    {
+-       /* document.getElementById('1').checked=false;
+-        document.getElementById('2').checked=false;*/
+-        document.getElementById('3').checked=false;
+-        document.getElementById('1a').checked=false;
+-        document.getElementById('1b').checked=false;
+-       /* document.getElementById('1c').checked=false;*/
+-        document.getElementById('2a').checked=false;
+-        /*document.getElementById('2b').checked=false;
+-        document.getElementById('2c').checked=false;*/
+-        document.getElementById('2d').checked=false;
+-        document.getElementById(subOption).checked=true;
+-    }
+-    
+-    if(subOption==selectedSubOption||subOption==selectedOption){
+-       document.querySelector('.submit2').disabled=true;
+-           document.querySelector('.submit').disabled= true;
+-    }else{
+-       document.querySelector('.submit2').disabled=false;
+-         document.querySelector('.submit').disabled= false;
+-    }
+-  }
+-</script>
+-
+-<hr>
+-<table width="100%">
+-
+-  <tr><td width="4%"></td><td align="left" style="">
+-    <p style="padding: 0 0 10px 0;text-align:left;padding-left:10px;font-size:24px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-                     We have acknowledged your intention to </font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">return your existing vehicle and lease or finance a new Mercedes-Benz</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . 
+-
+-    </font></font></p></td><td width="4%"></td></tr>
+-    <tr><td width="4%"></td><td>
+-    
+-    <div style="padding-left:10px;text-align:left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">You will need to contact your local dealer to order your new vehicle at least 60 days prior to the end of your lease to minimize delivery delays. If you are unable to take delivery of your new vehicle prior to the end of your lease, please call Mercedes-Benz Financial Services at 800-202-6969 to request a lease extension. </font></font><br><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">We offer courtesy pre-inspections to avoid surprise fees when you return your vehicle. Schedule your appointment today on </font></font><b><u><a href="https://autovinlive.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AutoVIN</font></font></a></u></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font></font><br><br><span style="color:red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">If your lease is ending in less than 60 days and you have not yet selected your new vehicle, please contact Mercedes-Benz Financial Services at 800-202-6969 to determine the next steps.</font></font></span></div>
+-    
+-   </td><td width="4%"></td></tr><tr><td>&nbsp;</td></tr>
+-     <tr><td width="4%"></td><td align="left" style=""><form style="padding: 0 0 10px 0;text-align:left;background-color:#ececec;width:100%;font-weight:bold;vertical-alignment:centre" action="https://cloud.mbfsdev.com/retention-intent-capture?qs=4916aa3e1272030f1f74b8b02c90745166ef75d5da5eee691c7bb45187eb227f470726e4d9ddfb9c7439921e243cb94b765cef93d16f21a87129e440e5ea0d8f0fcf7bc93ed7edacd088778e8fee847d1ba8d698c2b5e47ba03119f3b72caedd31ebbf206691a63406f220c0426136116649e41302c853a32a2fd37dc6fc9e8a22567955c43bfad935d117e8635842b80eb63b4864eeae8ed722b706ff77c833ed5cc3a460479436b090ae1d94e4dab3b526d22a9f5e20fd100e523aa1176649d51bd3e639f7854d3bbeaeb1784bb95fc66de66ed0f4d7c8e09766678439e7a1450ebe7addf901653d89b080cdd8c7d4fe7fcb8ebcef6d9b3c8a66ca64225fd0" method="post">
+-      <div style="padding-left:10px;padding-top:10px;">
+-        <span style="font-weight:normal !important"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">If you wish to change your intention, please change it by selecting and saving your option below:</font></font></span><!--<span style="font-weight:normal !important">Please select your intent and also your second level intent (if relevant), or if this is incorrect, please modify by selecting and saving your option below:</span>--><br><br>
+-     <div class="" onclick="">
+-           <div style="padding-left:10px" class="intent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-           
+-           Return of existing vehicle</font></font></div>
+-          <div class="field panelNew">
+-                
+-         <div class="intent"><input type="radio" id="1a2" class=".subOption" name="Option" value="1a" style="height:11px" checked="" onclick="SubSaveCheck2('1a')"><label for="1a2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I am planning to lease or finance a new Mercedes-Benz</font></font></label></div>
+-           <div class="intent"><input type="radio" id="1b2" class=".subOption" name="Option" value="1b" style="height:11px" onclick="SubSaveCheck2('1b')"><label for="1b2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I am not planning to lease or finance a new Mercedes-Benz at this time.</font></font></label></div>
+-      
+-          </div>
+-     </div>
+-        <div class=""><div style="padding-left:10px" class="intent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+-           
+-           Buy your existing vehicle</font></font></div>
+-          <div class="field panelNew">
+-          
+-        <div class="intent"><input type="radio" id="2a2" class=".subOption" name="Option" value="2a" style="height:11px" onclick="SubSaveCheck2('2a')"><label for="2a2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I plan to remit the full refund balance directly to SfMB</font></font></label></div>
+-           
+-          
+-           <div class="intent"><input type="radio" id="2d2" class=".subOption" name="Option" value="2d" style="height:11px" onclick="SubSaveCheck2('2d')"><label for="2c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I would like to request financing of the repayment balance with SfMB</font></font></label></div>
+-     
+-          </div>
+-          </div>
+-        <div class="field intent"><input type="radio" id="32" name="Option" value="3" style="height:11px" onclick="SubSaveCheck2('3')"> <label for="32"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></label>
+-        </div>
+-<br>
+-        <input type="hidden" id="FirstName" name="FirstName" value="Pauly">
+-        <input type="hidden" id="Country" name="Country" value="CA">
+-         <input type="hidden" id="Source" name="Source" value="Landing Page">
+-         <input type="hidden" id="FinancialAgreementId" name="FinancialAgreementId" value="a0V8M000000VF36UAG">
+-         <input type="hidden" id="Dealer" name="Dealer" value="0018M00000FrAEBQA3">
+-        <input type="hidden" id="ContactId" name="ContactId" value="0038M00000SGNaoQAH">
+-        <input type="hidden" id="MatDays" name="MatDays" value="120">
+-              <input type="hidden" id="SalesStatus" name="SalesStatus" value="Indirect">
+-                  <input type="hidden" id="ArrayReverse" name="ArrayReverse" value="">
+-      <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" class="submit2" style="margin-left:5px;padding:15px 16px;background-color:#00adef;color:#ffffff;border:0;box-shadow:0;border-radius:0px;cursor:pointer" value="SAVE CHANGES" formaction="https://cloud.mbfsdev.com/retention-intent-capture?qs=4916aa3e1272030f1f74b8b02c90745166ef75d5da5eee691c7bb45187eb227f470726e4d9ddfb9c7439921e243cb94b765cef93d16f21a87129e440e5ea0d8f0fcf7bc93ed7edacd088778e8fee847d1ba8d698c2b5e47ba03119f3b72caedd31ebbf206691a63406f220c0426136116649e41302c853a32a2fd37dc6fc9e8a22567955c43bfad935d117e8635842b80eb63b4864eeae8ed722b706ff77c833ed5cc3a460479436b090ae1d94e4dab3b526d22a9f5e20fd100e523aa1176649d51bd3e639f7854d3bbeaeb1784bb95fc66de66ed0f4d7c8e09766678439e7a1450ebe7addf901653d89b080cdd8c7d4fe7fcb8ebcef6d9b3c8a66ca64225fd0" onload="SaveChecker2()"></font></font> 
+-               
+-      </div>
+-    </form><br>
+-      
+-    </td><td width="4%"></td></tr>
+-
+-</table><br><br>
+-
+-<div style="background-color:black;height:100px">
+-</div>
+-<div style="display:none">
+-  <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mercedes-Benz Financial Services</font></font></b><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 14372 Heritage Parkway Fort Worth, TX, 76177, </font></font><br><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">120
+-  </font></font><a href="https://click.mbfsdev.com/profile_center.aspx?qs=2eb8648d2187224bb07a13e09b6c1b45f4fa5f325c4344528eebccbeb40cafc3263f55b2c619192ce13ae9f1b6d55d70" alias="Update Profile"></a></div>
+-
+-
+-  </td></tr></table></center></td></tr></table>
+-  </div>
+- </div>
+-</div>
+-   </td></tr></table>
++			<div data-type="slot" data-key="col1"></div>
+ 		</div>
+ 	</div>
+ </div>
+```
+
+</details>
+
+- `content-blocks/82515_json_test.html` -- "json test" (modified in SFMC by Rishi Ganesh on 2024-03-05)
+
+<details>
+<summary>Diff for content-blocks/82515_json_test.html</summary>
+
+```diff
+--- a/content-blocks/82515_json_test.html
++++ b/content-blocks/82515_json_test.html
+@@ -58,13 +58,7 @@
+ <div class="layout layout-canvas-g">
+ 	<div class="section">
+ 		<div class="columns col1">
+-			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
+-     var str = '[{ "prop1": "propVal","prop2": "propVal2" }]';
+-     var obj = Platform.Function.ParseJSON(Stringify(str));
+-     var val = obj.prop1;
+-  
+-  Write((obj));
+-</script></td></tr></table>
++			<div data-type="slot" data-key="col1"></div>
+ 		</div>
+ 	</div>
+ </div>
+```
+
+</details>
+
+- `content-blocks/66965_test_cc.html` -- "test cc" (modified in SFMC by Rishi Ganesh on 2023-09-01)
+
+<details>
+<summary>Diff for content-blocks/66965_test_cc.html</summary>
+
+```diff
+--- a/content-blocks/66965_test_cc.html
++++ b/content-blocks/66965_test_cc.html
+@@ -58,26 +58,7 @@
+ <div class="layout layout-canvas-g">
+ 	<div class="section">
+ 		<div class="columns col1">
+-			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
+-    Platform.Load("Core", "1.1.1");
+-  
+-        var url = 'https://account.demandware.com/dwsso/oauth2/access_token';
+-        var contentType = 'application/x-www-form-urlencoded';
+-        var payload = '{"clientId": "c2d6962e-23e4-4407-931e-6328c25b3b8a","clientSecret": "cHiT8e2lXLkOpH!T6Otu","grant_type": "client_credentials"}';
+-        var accessTokenResult = HTTP.Post(url, contentType, payload);
+-      Write(accessTokenResult)
+-        var statusCode = accessTokenResult["StatusCode"];
+-        var response = accessTokenResult["Response"][0];
+-        var accessToken = Platform.Function.ParseJSON(response).access_token;
+-        var BearerT = 'Bearer ' + val;
+-      var updateResults = Platform.Function.UpsertData("test_ignore",["Flag"],["accessToken"]);
+-      
+-        // Debug info below
+-       // Write(resultCode + '<br>');
+-    //    Write(BearerT + '<br>');
+-   
+-  
+-</script></td></tr></table>
++			<div data-type="slot" data-key="col1"></div>
+ 		</div>
+ 	</div>
+ </div>
+```
+
+</details>
+
+- `content-blocks/58266_gs_lp.html` -- "gs_lp" (modified in SFMC by Rishi Ganesh on 2023-05-02)
+
+<details>
+<summary>Diff for content-blocks/58266_gs_lp.html</summary>
+
+```diff
+--- a/content-blocks/58266_gs_lp.html
++++ b/content-blocks/58266_gs_lp.html
+@@ -58,33 +58,7 @@
+ <div class="layout layout-canvas-g">
+ 	<div class="section">
+ 		<div class="columns col1">
+-			
+-
+-<script runat="server">
+-  Platform.Load("Core", "1.1.1");
+-  try {
+-      var paramtskey = Request.GetQueryStringParameter("tskey");
+-      var parammetric = Request.GetQueryStringParameter("metric");
+-
+-      if (parammetric === "all") {
+-          var tsd = TriggeredSend.Init(paramtskey);
+-          var triggerSendTracking = tsd.Tracking.Retrieve();
+-          var tsTracking = Stringify(triggerSendTracking);
+-          if (tsTracking.length > 2) {
+-            var outputmetric = Stringify(triggerSendTracking);
+-          } else {
+-            var outputmetric = '{"CustomerKey":"' + paramtskey + '"}';
+-          } 
+-      }
+-   
+-    else {
+-          var outputmetric = '{"Name":"0","Unique":"0"}';
+-      }
+-      Write(outputmetric);
+-  } catch (ex) {
+-      Write("error message: " + ex);
+-  }
+-  </script>
++			<div data-type="slot" data-key="col1"></div>
+ 		</div>
+ 	</div>
+ </div>
+```
+
+</details>
+
+- `content-blocks/52923_trg.html` -- "trg" (modified in SFMC by Rishi Ganesh on 2023-02-03)
+
+<details>
+<summary>Diff for content-blocks/52923_trg.html</summary>
+
+```diff
+--- a/content-blocks/52923_trg.html
++++ b/content-blocks/52923_trg.html
+@@ -58,25 +58,7 @@
+ <div class="layout layout-canvas-g">
+ 	<div class="section">
+ 		<div class="columns col1">
+-			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
+- Platform.Load("core","1");
+- var vfirstName='firstName';
+- var vSubscriberKey="key";
+- var vEmailAddress="test@test.com";
+- var test = DataExtension.Init("ts_test");
+- test.Rows.Add(
+-  {
+-   firstName:vfirstName,
+-  
+-   EmailAddress:vEmailAddress
+-  }
+- );
+-  
+-  Write(vfirstName);
+-  Write(vEmailAddress);
+-  Write(vSubscriberKey);
+-
+-</script></td></tr></table>
++			<div data-type="slot" data-key="col1"></div>
+ 		</div>
+ 	</div>
+ </div>
+```
+
+</details>
+
+- `content-blocks/51998_Populate_CDP_data_extensions.html` -- "Populate CDP data extensions" (modified in SFMC by Rishi Ganesh on 2023-01-17)
+
+<details>
+<summary>Diff for content-blocks/51998_Populate_CDP_data_extensions.html</summary>
+
+```diff
+--- a/content-blocks/51998_Populate_CDP_data_extensions.html
++++ b/content-blocks/51998_Populate_CDP_data_extensions.html
+@@ -59,7 +59,7 @@
+ <div class="layout layout-canvas-g">
+  <div class="section">
+   <div class="columns col1">
+-   <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%=TreatAsContent(httpget("https://gist.githubusercontent.com/vsilak-sfmc/a8339ebc9e484a178c57d7a473398394/raw/24c338787537ed8d8f3a1b50e2da0f66f92bf0c2/cdp-data-extensions-insert.html"))=%%</td></tr></table>
++   <div data-type="slot" data-key="col1"></div>
+   </div>
+  </div>
+ </div>
+```
+
+</details>
+
+### Deleted (8)
+- `templates/100332_contest.html`
+
+<details>
+<summary>Last known content of templates/100332_contest.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#808080;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" role="banner" aria-label="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="77274" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/a9feb2bd-57b9-47b7-9060-fd1e4353faf2.png" alt="Placeholder image" height="197" width="200" style="display: block; height: 197px; width: 200px; text-align: center; padding: 0px;"></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><span style="font-size:18px;"><b>HI</b></span><br>
+<br>
+&nbsp; &nbsp; &nbsp;&nbsp;<b>THIS TO INFORM THAT</b><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; WE are happy to anounce that you&nbsp; the winner of contest .<br>
+<br>
+&nbsp;click button to fill form</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#0C0C0C" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #0C0C0C;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #0C0C0C; border: 1px solid #5D5D5D; padding: 0px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">click heare to </a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="77275" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/7bb881ce-e59f-4d5e-982a-4d18de92064a.png" alt="Placeholder image" height="66" width="66" style="display: block; height: 66px; width: 66px; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="facebook follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Facebook</a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="twitter follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Twitter</a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/23e506de-1872-4b15-bc53-4678e591b3d8.png" alt="Pinterest" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="pinterest follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Pinterest</a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="instagram follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Instagram</a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="snapchat follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/99c991ce-3026-4e51-931c-35907dcaaf70.png" alt="Snapchat" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="snapchat follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Snapchat</a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" role="contentinfo" aria-label="footer" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;"><a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><span style="font-size:12px;">Quo ea modus impedit omittantur. Mel suavitate comceptam et, in vim nihil tibique. Is vis epicuri fierent accusamus, enim liveravisse necessitatibus no eos. </span></div>
+</td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/100373_male.html`
+
+<details>
+<summary>Last known content of templates/100373_male.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#808080;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" role="banner" aria-label="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="77274" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/a9feb2bd-57b9-47b7-9060-fd1e4353faf2.png" alt="Placeholder image" height="197" width="200" style="display: block; height: 197px; width: 200px; text-align: center; padding: 0px;"></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+	Thank you for visiting our store&nbsp;</h1></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#5D5D5D" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #5D5D5D;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #5D5D5D; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">click here</a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="100370" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/bb309797-64a2-41eb-9c6c-3b2a12874f2e.jpg" alt="Placeholder image" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/23e506de-1872-4b15-bc53-4678e591b3d8.png" alt="Pinterest" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="snapchat follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/99c991ce-3026-4e51-931c-35907dcaaf70.png" alt="Snapchat" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" role="contentinfo" aria-label="footer" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;"><a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><span style="font-size:12px;">Quo ea modus impedit omittantur. Mel suavitate comceptam et, in vim nihil tibique. Is vis epicuri fierent accusamus, enim liveravisse necessitatibus no eos. </span></div>
+</td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/100374_female.html`
+
+<details>
+<summary>Last known content of templates/100374_female.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#181818;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" role="banner" aria-label="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="77274" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/a9feb2bd-57b9-47b7-9060-fd1e4353faf2.png" alt="Image placeholder" height="197" width="200" style="display: block; height: 197px; width: 200px; text-align: center; padding: 0px;"></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#5D5D5D" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #5D5D5D;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #5D5D5D; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">click here</a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+	Thank you for visiting our store&nbsp;</h1></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="100371" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/a5a78224-53b2-413f-b36a-43e6d501030f.jpg" alt="Image placeholder" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/23e506de-1872-4b15-bc53-4678e591b3d8.png" alt="Pinterest" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="snapchat follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/99c991ce-3026-4e51-931c-35907dcaaf70.png" alt="Snapchat" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" role="contentinfo" aria-label="footer" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;"><a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><span style="font-size:12px;">Quo ea modus impedit omittantur. Mel suavitate comceptam et, in vim nihil tibique. Is vis epicuri fierent accusamus, enim liveravisse necessitatibus no eos. </span></div>
+</td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/101386_BMW.html`
+
+<details>
+<summary>Last known content of templates/101386_BMW.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#181818;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" role="banner" aria-label="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101383" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/11be47db-e780-4211-a51f-af9565ac9b21.jpg" alt="THANK YOU " height="112" width="200" style="display: block; height: 112px; width: 200px; text-align: center; padding: 0px;"></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#007FFF" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #007FFF;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #007FFF; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">CLICK HERE </a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+	<span style="font-family:Comic Sans MS,cursive,sans-serif;"><i>THANK YOU</i>&nbsp;</span></h1><div style="text-align: center;">
+	THANK YOU FOR YOUR RECENT PURCHASE . YOUR SATISFACTION WITH OUR VEHICLE AND WITH OUR DEALERSHIP IS OUR FIRST PRIORITY.</div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101383" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/11be47db-e780-4211-a51f-af9565ac9b21.jpg" alt="Image placeholder" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/23e506de-1872-4b15-bc53-4678e591b3d8.png" alt="Pinterest" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="snapchat follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/99c991ce-3026-4e51-931c-35907dcaaf70.png" alt="Snapchat" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" role="contentinfo" aria-label="footer" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;"><a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><span style="font-size:12px;">Quo ea modus impedit omittantur. Mel suavitate comceptam et, in vim nihil tibique. Is vis epicuri fierent accusamus, enim liveravisse necessitatibus no eos. </span></div>
+</td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/101412_TATA_CAR.html`
+
+<details>
+<summary>Last known content of templates/101412_TATA_CAR.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#181818;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table role="presentation" class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" valign="top" role="banner" aria-label="header">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101395" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/692f8fed-5c21-40b5-b26b-81ffc5cc4565.png" alt="Placeholder" height="184" width="200" style="display: block; height: 184px; width: 200px; text-align: center; padding: 0px;"></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top"  role="article" aria-label="article">
+								<table role="presentation" cellpadding="0" cellspacing="0" width="100%" class="slot-styling" style="border-bottom: 1px solid #AEAEAE;">
+                                  <tbody>
+                                      <tr>
+                                        <td class=\"camarker-inner slot-styling\" style=\"padding-top: 10px; padding-bottom: 10px;\">
+                                          <div data-type=\"block\" data-key=\"46rmc6vjl9mtalb42aa89z4cxrg08yogyyrl7v4ng7fwfljif6r\" data-original-key=\"none\"></div>
+                                        </td>
+                                      </tr>
+                                  </tbody>
+                                </table>
+
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner" align="left"><table role="presentation" cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table role="presentation" cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 50%; padding-right: 10.5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><h1 style="font-family : Arial,helvetica,sans-serif; font-size : 20px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+	<span style="font-family:Georgia,serif;">we would like to express our most sincere thanks for your valubel buisness. your satisfaction is our first priority.</span></h1></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-bottom: 10px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="left"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#007FFF" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #007FFF;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: left; background-color: #007FFF; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">Click Here</a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101398" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/28452082-e1e5-4f0b-afd4-0dae70e27578.png" alt="" width="344" style="display: block; padding: 0px; text-align: center; border: 0px solid transparent; height: auto; width: 100%;"></td></tr></table></td></tr></table></td><td class="responsive-td" valign="top" style="width: 50%; padding-left: 10.5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><span style="font-size: 12px;"><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;THANK YOU</i></span></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-bottom: 10px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101411" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/cd8056f1-c69b-4819-8703-087d0a3d3027.jpeg" alt="Placeholder" width="100%" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;"></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101409" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/0741cf63-e822-44e9-95b9-2e1b3808f881.jpeg" alt="" width="300" style="display: block; padding: 0px; text-align: center; border: 0px solid transparent; height: auto; width: 100%;"></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top" role="article" aria-label="article">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/23e506de-1872-4b15-bc53-4678e591b3d8.png" alt="Pinterest" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="snapchat follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/99c991ce-3026-4e51-931c-35907dcaaf70.png" alt="Snapchat" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top" role="contentinfo" aria-label="footer">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;"><a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><span style="font-size:12px;">Quo ea modus impedit omittantur. Mel suavitate comceptam et, in vim nihil tibique. Is vis epicuri fierent accusamus, enim liveravisse necessitatibus no eos. </span></div>
+</td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/101413_FORD_CAR.html`
+
+<details>
+<summary>Last known content of templates/101413_FORD_CAR.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#000000;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#ffffff" text="#000000" style="background-color: #ffffff; color: #000000; padding: 0px; -webkit-text-size-adjust:none; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <table class="tb_properties border_style" style="background-color:#FFFFFF;" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr> <!-- top slot -->
+                                <td align="center" class="header" valign="top">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                          <td align="left" valign="top">
+                                            <table cellspacing="0" cellpadding="0" style="width:100%">
+                                              <tbody>
+                                              <tr>
+                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div>
+	<span style="font-family:Comic Sans MS,cursive,sans-serif;"><span style="font-size:23px;">we would like to express our most sincere thanks for your valubel buisness. your satisfaction is our first priority.</span></span></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="facebook follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Facebook</a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="twitter follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Twitter</a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="instagram follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">Instagram</a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="youtube follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/cda3af82-7aa0-4d2d-983b-66d71f7765a6.png" alt="YouTube" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td><td style="padding-right: 10px;"><a href="" alias="youtube follow" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">YouTube</a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101396" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/927808cf-ca29-4b12-a5ce-b16649245f25.png" alt="" height="135" width="375" style="display: block; padding: 0px; text-align: center; border: 0px solid transparent; height: 135px; width: 375px;"></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" bgcolor="#007FFF" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #007FFF;"><a target="_blank" class="buttonstyles" style=" font-size: 16px; font-family: Arial, helvetica, sans-serif; color: #FFFFFF; text-align: center; text-decoration: none; display: block; background-color: #007FFF; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" href="http://" title="" alias="" conversion="false" data-linkto="http://">Click Here</a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+
+
+
+
+
+
+
+<style>
+
+.ie-radio-check {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  margin: 0 0 0 -9999px;
+  float: left;
+  position: absolute;
+  -webkit-appearance: none;
+}
+input:checked~.ie-carousel {
+  display: block !important;
+}
+input:checked~.ie-carouselFallback {
+  display: none;
+}
+.mc-carousel-id-1721405816356 { text-align: center; }
+
+.mc-carousel-id-1721405816356 .ie-carousel-wrap {
+    
+    margin: 0 auto
+  }
+
+.ie-carousel-wrap {
+  position: relative;
+}
+.ie-carousel input:focus~.ie-thumb {
+  outline: Highlight auto 2px;
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-offset: 3px;
+}
+.ie-slide {
+  width: 100%;
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.mc-carousel-id-1721405816356 .ie-slide {
+  padding-bottom: 66.54545454545455%;
+}
+.ie-thumb {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: .3em .1em;
+  display: inline-block;
+  border: .1em solid;
+}
+.ie-carousel:not(:has(input:checked)) .ie-start ~ .ie-thumb{
+  background:currentColor;
+}
+input:checked~.ie-thumb {
+  background: currentColor !important;
+}
+.ie-pos-arrow {
+  max-height: 0;
+  text-align: left;
+}
+.ie-arrow {
+  display: inline-block;
+  max-height: 0;
+  max-width: 0;
+  border: 1em solid transparent;
+  border-right-color: currentColor;
+  border-left-width: 0;
+  opacity: 0.99; 
+  position: relative; 
+  vertical-align: middle;
+  margin: 0 5% 0 .2em;
+}
+.mc-carousel-id-1721405816356 .ie-arrow-padding {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom:66.54545454545455%;
+  width: 0px;
+}
+.ie-apple-clickarea {
+  height: 200px;
+  width: 3em;
+  width:clamp(45px, 3em, 70px);
+  float: left;
+  transform: translate(-5px, -50%);
+}
+
+.mc-carousel-id-1721405816356 input:checked~* .ie-pos-arrow, 
+.ie-start {
+  text-align: right;
+}
+.mc-carousel-id-1721405816356 input:checked~* .ie-pos-arrow .ie-apple-clickarea, 
+.ie-start .ie-apple-clickarea {
+  float: right;
+  transform: translate(5px, -50%);
+}
+.mc-carousel-id-1721405816356 input:checked~* .ie-arrow, 
+.ie-start .ie-arrow {
+  border-right-width: 0;
+  border-left: 1em solid;
+  margin: 0 .2em 0 5%;  
+}
+
+.mc-carousel-id-1721405816356 input:checked~.ie-start~* .ie-end {
+  display: block;
+  text-align: left;
+}
+.mc-carousel-id-1721405816356 input:checked~.ie-start~* .ie-end .ie-arrow {
+  border-left-width: 0;
+  border-right: 1em solid;
+  margin: 0 5% 0 .2em;  
+}
+.mc-carousel-id-1721405816356 input:checked+.ie-pos-arrow,
+.mc-carousel-id-1721405816356 input:checked~label label .ie-pos-arrow {
+  display: none;
+}
+.mc-carousel-id-1721405816356 input:checked~.ie-start~* .ie-end .ie-arrow .ie-apple-clickarea {
+  float: left;
+  transform: translate(-5px, -50%);
+}
+
+.ie-img-wrap {
+  display: none;
+}
+.ie-carousel .ie-mid .ie-img1{
+  display:block;
+  position:initial;
+}
+.mc-carousel-id-1721405816356 input:checked ~ label .ie-mid .ie-img1{
+  display:none;
+}
+
+
+.mc-carousel-id-1721405816356 input:checked+.ie-img1~* .ie-mid .ie-img1,
+.mc-carousel-id-1721405816356 input:checked+.ie-img2~* .ie-mid .ie-img2 { 
+  display:block;
+}
+
+.mc-carousel-id-1721405816356 input:checked ~ .ie-end {
+    display: none;
+}
+
+
+input:checked+.mc-carousel-id-1721405816356 .ie-img1 span { 
+  background-image: url(https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/11dc2cb4-609c-4faf-bd9b-c4c3d9c8f4cd.jpeg); 
+}
+input:checked+.mc-carousel-id-1721405816356 .ie-img2 span { 
+  background-image: url(https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/9983eb6f-95a8-40d6-9eef-4b76390e33f1.jpeg); 
+}
+
+.ie-carousel {
+  direction: rtl;
+}
+.ie-carousel label {
+  direction: ltr;
+}
+.ie-arrow-wrap {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+.ie-arrow-wrap:hover .ie-arrow{
+  transform:scale(1.1);
+}
+
+  @supports (animation: carousel-anim) and (position: absolute) {
+      .mc-carousel-id-1721405816356 .ie-img-wrap {
+        animation: mc-carousel-id-1721405816356-anim 15s infinite;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+      .ie-mid{
+        position:relative;
+      }
+
+      .mc-carousel-id-1721405816356 .ie-img1{ animation-delay:-15s }.mc-carousel-id-1721405816356 .ie-img2{ animation-delay:-7.5s }
+
+      .ie-arrow {
+        z-index: 2;
+      }
+      .mc-carousel-id-1721405816356 input:checked~* .ie-img-wrap {
+        position: initial;
+        display: none;
+        animation: none;
+      }
+      @keyframes mc-carousel-id-1721405816356-anim {
+        0%{z-index:1;opacity:1; }
+        49%{opacity:1;}
+        50%{z-index:1;}
+        51%{z-index:0;opacity:0;}
+        99%{z-index:0;opacity:0; }
+        100%{opacity:1}
+      }
+      .mc-carousel-id-1721405816356:has(input) .ie-thumb {
+        animation-name: mc-carousel-id-1721405816356-thumb;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        background:currentColor;
+      }
+      .mc-carousel-id-1721405816356:has(input:checked) .ie-thumb {
+        animation:none;
+        background:none;
+      }
+      @keyframes mc-carousel-id-1721405816356-thumb {
+        0%,100% { background:currentColor; }
+        50% { background:currentColor; }
+        51%, 99% { background:none; }
+      }
+    }
+    @media (prefers-reduced-motion) {    
+      .ie-img-wrap {
+        position: initial;
+        display: none;
+        animation: none;
+      }
+    }  
+  
+</style>
+
+<style>
+.& .ie-carousel input:focus~.ie-thumb{
+  outline: Highlight auto 5px;
+} 
+</style>
+
+<!--[if mso]><!-->
+<input type="radio" id="interactive" style="display:none;display:contents;mso-hide:all;" checked="">
+  <div class="ie-carousel mc-carousel-id-1721405816356" style="display:none">
+    <div role="group" aria-label="carousel" class="ie-carousel-wrap">
+
+<label role="presentation">
+  <input type="radio" name="mc-carousel-id-1721405816356" class="ie-radio-check" aria-label="">
+  <div class="ie-pos-arrow ie-img1">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+  <div class="ie-pos-arrow ie-start">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+<label role="presentation">
+  <input type="radio" name="mc-carousel-id-1721405816356" class="ie-radio-check" aria-label="">
+  <div class="ie-pos-arrow ie-img2">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+  <div class="ie-pos-arrow ie-end">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+<label role="presentation">
+  <div class="ie-mid">
+
+<span class="ie-img-wrap ie-img2"><span class="ie-slide" role="img" title=""></span></span>
+
+<span class="ie-img-wrap ie-img1"><span class="ie-slide" role="img" title=""></span></span>
+
+  </div>
+</label>
+
+    <div class="ie-thumb ie-img2"><span></span></div>
+  </label>
+  
+    <div class="ie-thumb ie-img1"><span></span></div>
+  </label>
+  
+  </div>
+</div>
+<!--<![endif]-->
+
+
+
+
+<div class="ie-carouselFallback" style="text-align:center">
+  
+    <span style="display:block;"><img src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/11dc2cb4-609c-4faf-bd9b-c4c3d9c8f4cd.jpeg" alt="" width="100%" style="max-width:100%; vertical-align:middle"></span>
+    
+</div></td></tr></table>
+                                                </td>
+                                              </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/101414_SWIFT_CAR.html`
+
+<details>
+<summary>Last known content of templates/101414_SWIFT_CAR.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#181818;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <!-- added the border style here -->
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <!-- end of comment -->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <!-- end of comment -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" role="banner" aria-label="header" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><img data-assetid="101406" src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/ca79b67e-9423-4ba0-86b7-ce3f962e4502.jpeg" alt="THANK YOU " width="200" style="display: block; height: auto; width: 100%; text-align: center; padding: 0px;"></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td class="responsive-td" valign="top" style="width: 100%;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+
+
+
+
+
+
+
+<style>
+
+.ie-radio-check {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  margin: 0 0 0 -9999px;
+  float: left;
+  position: absolute;
+  -webkit-appearance: none;
+}
+input:checked~.ie-carousel {
+  display: block !important;
+}
+input:checked~.ie-carouselFallback {
+  display: none;
+}
+.mc-carousel-id-1721407062134 { text-align: center; }
+
+.mc-carousel-id-1721407062134 .ie-carousel-wrap {
+    
+    margin: 0 auto
+  }
+
+.ie-carousel-wrap {
+  position: relative;
+}
+.ie-carousel input:focus~.ie-thumb {
+  outline: Highlight auto 2px;
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-offset: 3px;
+}
+.ie-slide {
+  width: 100%;
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.mc-carousel-id-1721407062134 .ie-slide {
+  padding-bottom: 56.00000000000001%;
+}
+.ie-thumb {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: .3em .1em;
+  display: inline-block;
+  border: .1em solid;
+}
+.ie-carousel:not(:has(input:checked)) .ie-start ~ .ie-thumb{
+  background:currentColor;
+}
+input:checked~.ie-thumb {
+  background: currentColor !important;
+}
+.ie-pos-arrow {
+  max-height: 0;
+  text-align: left;
+}
+.ie-arrow {
+  display: inline-block;
+  max-height: 0;
+  max-width: 0;
+  border: 1em solid transparent;
+  border-right-color: currentColor;
+  border-left-width: 0;
+  opacity: 0.99; 
+  position: relative; 
+  vertical-align: middle;
+  margin: 0 5% 0 .2em;
+}
+.mc-carousel-id-1721407062134 .ie-arrow-padding {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom:56.00000000000001%;
+  width: 0px;
+}
+.ie-apple-clickarea {
+  height: 200px;
+  width: 3em;
+  width:clamp(45px, 3em, 70px);
+  float: left;
+  transform: translate(-5px, -50%);
+}
+
+.mc-carousel-id-1721407062134 input:checked~* .ie-pos-arrow, 
+.ie-start {
+  text-align: right;
+}
+.mc-carousel-id-1721407062134 input:checked~* .ie-pos-arrow .ie-apple-clickarea, 
+.ie-start .ie-apple-clickarea {
+  float: right;
+  transform: translate(5px, -50%);
+}
+.mc-carousel-id-1721407062134 input:checked~* .ie-arrow, 
+.ie-start .ie-arrow {
+  border-right-width: 0;
+  border-left: 1em solid;
+  margin: 0 .2em 0 5%;  
+}
+
+.mc-carousel-id-1721407062134 input:checked~.ie-start~* .ie-end {
+  display: block;
+  text-align: left;
+}
+.mc-carousel-id-1721407062134 input:checked~.ie-start~* .ie-end .ie-arrow {
+  border-left-width: 0;
+  border-right: 1em solid;
+  margin: 0 5% 0 .2em;  
+}
+.mc-carousel-id-1721407062134 input:checked+.ie-pos-arrow,
+.mc-carousel-id-1721407062134 input:checked~label label .ie-pos-arrow {
+  display: none;
+}
+.mc-carousel-id-1721407062134 input:checked~.ie-start~* .ie-end .ie-arrow .ie-apple-clickarea {
+  float: left;
+  transform: translate(-5px, -50%);
+}
+
+.ie-img-wrap {
+  display: none;
+}
+.ie-carousel .ie-mid .ie-img1{
+  display:block;
+  position:initial;
+}
+.mc-carousel-id-1721407062134 input:checked ~ label .ie-mid .ie-img1{
+  display:none;
+}
+
+
+.mc-carousel-id-1721407062134 input:checked+.ie-img1~* .ie-mid .ie-img1,
+.mc-carousel-id-1721407062134 input:checked+.ie-img2~* .ie-mid .ie-img2 { 
+  display:block;
+}
+
+.mc-carousel-id-1721407062134 input:checked ~ .ie-end {
+    display: none;
+}
+
+
+input:checked+.mc-carousel-id-1721407062134 .ie-img1 span { 
+  background-image: url(https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/73dd56fc-0cab-493c-9e41-ea56124e2a2c.jpeg); 
+}
+input:checked+.mc-carousel-id-1721407062134 .ie-img2 span { 
+  background-image: url(https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/852a4925-5296-418b-bbb5-879263fc6c29.jpeg); 
+}
+
+.ie-carousel {
+  direction: rtl;
+}
+.ie-carousel label {
+  direction: ltr;
+}
+.ie-arrow-wrap {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+.ie-arrow-wrap:hover .ie-arrow{
+  transform:scale(1.1);
+}
+
+  @supports (animation: carousel-anim) and (position: absolute) {
+      .mc-carousel-id-1721407062134 .ie-img-wrap {
+        animation: mc-carousel-id-1721407062134-anim 15s infinite;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+      .ie-mid{
+        position:relative;
+      }
+
+      .mc-carousel-id-1721407062134 .ie-img1{ animation-delay:-15s }.mc-carousel-id-1721407062134 .ie-img2{ animation-delay:-7.5s }
+
+      .ie-arrow {
+        z-index: 2;
+      }
+      .mc-carousel-id-1721407062134 input:checked~* .ie-img-wrap {
+        position: initial;
+        display: none;
+        animation: none;
+      }
+      @keyframes mc-carousel-id-1721407062134-anim {
+        0%{z-index:1;opacity:1; }
+        49%{opacity:1;}
+        50%{z-index:1;}
+        51%{z-index:0;opacity:0;}
+        99%{z-index:0;opacity:0; }
+        100%{opacity:1}
+      }
+      .mc-carousel-id-1721407062134:has(input) .ie-thumb {
+        animation-name: mc-carousel-id-1721407062134-thumb;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        background:currentColor;
+      }
+      .mc-carousel-id-1721407062134:has(input:checked) .ie-thumb {
+        animation:none;
+        background:none;
+      }
+      @keyframes mc-carousel-id-1721407062134-thumb {
+        0%,100% { background:currentColor; }
+        50% { background:currentColor; }
+        51%, 99% { background:none; }
+      }
+    }
+    @media (prefers-reduced-motion) {    
+      .ie-img-wrap {
+        position: initial;
+        display: none;
+        animation: none;
+      }
+    }  
+  
+</style>
+
+<style>
+.& .ie-carousel input:focus~.ie-thumb{
+  outline: Highlight auto 5px;
+} 
+</style>
+
+<!--[if mso]><!-->
+<input type="radio" id="interactive" style="display:none;display:contents;mso-hide:all;" checked="">
+  <div class="ie-carousel mc-carousel-id-1721407062134" style="display:none">
+    <div role="group" aria-label="carousel" class="ie-carousel-wrap">
+
+<label role="presentation">
+  <input type="radio" name="mc-carousel-id-1721407062134" class="ie-radio-check" aria-label="undefined">
+  <div class="ie-pos-arrow ie-img1">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+  <div class="ie-pos-arrow ie-start">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+<label role="presentation">
+  <input type="radio" name="mc-carousel-id-1721407062134" class="ie-radio-check" aria-label="">
+  <div class="ie-pos-arrow ie-img2">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+  <div class="ie-pos-arrow ie-end">
+    <div class="ie-arrow-wrap">
+      <div class="ie-arrow-padding"></div>
+      <div class="ie-arrow"><div class="ie-apple-clickarea"></div></div>
+    </div>
+  </div>
+<label role="presentation">
+  <div class="ie-mid">
+
+<span class="ie-img-wrap ie-img2"><span class="ie-slide" role="img" title=""></span></span>
+
+<span class="ie-img-wrap ie-img1"><span class="ie-slide" role="img" title="undefined"></span></span>
+
+  </div>
+</label>
+
+    <div class="ie-thumb ie-img2"><span></span></div>
+  </label>
+  
+    <div class="ie-thumb ie-img1"><span></span></div>
+  </label>
+  
+  </div>
+</div>
+<!--<![endif]-->
+
+
+
+
+<div class="ie-carouselFallback" style="text-align:center">
+  
+    <span style="display:block;"><img src="https://image.s4.sfmc-content.com/lib/fe32117276640578751376/m/1/73dd56fc-0cab-493c-9e41-ea56124e2a2c.jpeg" alt="undefined" width="100%" style="max-width:100%; vertical-align:middle"></span>
+    
+</div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellspacing="0" cellpadding="5" role="presentation"><tr><td align="center"><table border="0" cellspacing="0" cellpadding="0" role="presentation"><tr><td class="innertd buttonblock" align="center" bgcolor="#007FFF" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #007FFF;"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #007FFF; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="http://" title="" alias="" conversion="false" data-linkto="http://">CLICK HERE </a></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+	<span style="font-family:Comic Sans MS,cursive,sans-serif;"><i>THANK YOU</i>&nbsp;</span></h1><div style="text-align: center;">
+	THANK YOU FOR YOUR RECENT PURCHASE . YOUR SATISFACTION WITH OUR VEHICLE AND WITH OUR DEALERSHIP IS OUR FIRST PRIORITY.</div></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table cellpadding="0" cellspacing="0" class="socialshare-wrapper" width="100%"><tr><td align="center"><table cellpadding="0" cellspacing="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/e76b988d-8feb-4d15-b8d9-1ccf4bee17cd.png" alt="Facebook" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/f071eec4-5672-4190-b5c4-03c64fd3f5bd.png" alt="Twitter" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/23e506de-1872-4b15-bc53-4678e591b3d8.png" alt="Pinterest" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/a52c2f3b-22ab-4dfc-ad5e-c4b50bec5650.png" alt="Instagram" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="snapchat follow"><img src="https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/99c991ce-3026-4e51-931c-35907dcaaf70.png" alt="Snapchat" width="24" height="24" style="display: block;; width: 24px !important; height: 24px !important"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" role="contentinfo" aria-label="footer" class="" valign="top">
+                                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;"><a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" href="http://" style="color:#181818;text-decoration:none;" title="">LINK</a></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><span style="font-size:12px;">Quo ea modus impedit omittantur. Mel suavitate comceptam et, in vim nihil tibique. Is vis epicuri fierent accusamus, enim liveravisse necessitatibus no eos. </span></div>
+</td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+</details>
+
+- `templates/68363_Autocumulus_Main_Template.html`
+
+<details>
+<summary>Last known content of templates/68363_Autocumulus_Main_Template.html</summary>
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style type="text/css">
+            ReadMsgBody{ width: 100%;}
+            .ExternalClass {width: 100%;}
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+            body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+            p { margin: 1em 0;}
+            table td { border-collapse: collapse;}
+            img {outline:0;}
+            a img {border:none;}
+            @-ms-viewport{ width: device-width;}
+        </style>
+        <style type="text/css">
+            @media only screen and (max-width: 480px) {
+            .container {width: 100% !important;}
+            .footer { width:auto !important; margin-left:0; }
+            .mobile-hidden { display:none !important; }
+            .logo { display:block !important; padding:0 !important; }
+            img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+            .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+            .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+            .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+            .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+            .nav4, .nav5, .nav6 { display: none !important; }
+            .tableBlock {width:100% !important;}
+            .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+            .fluid, .fluid-centered {
+            width: 100% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            .fluid-centered {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+            body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+            h1 { font-size: 22px !important; line-height: normal !important;}
+            h2 { font-size: 20px !important; line-height: normal !important;}
+            h3 { font-size: 18px !important; line-height: normal !important;}
+            .buttonstyles {
+            font-family:arial,helvetica,sans-serif !important;
+            font-size: 16px !important;
+            color: #FFFFFF !important;
+            padding: 10px !important;
+            }
+            /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+            }
+            @media only screen and (max-width: 640px) {
+            .container { width:100% !important; }
+            .mobile-hidden { display:none !important; }
+            .logo { display:block !important; padding:0 !important; }
+            .photo img { width:100% !important; height:auto !important;}
+            .nav5, .nav6 { display: none !important;}
+            .fluid, .fluid-centered {
+            width: 100% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            .fluid-centered {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            }
+            }
+        </style>
+        <!--[if mso]>
+        <style type="text/css">
+            /* Begin Outlook Font Fix */
+            body, table, td {
+            font-family: Arial, Helvetica, sans-serif ;
+            font-size:16px;
+            color:#000000;
+            line-height:1;
+            }
+            /* End Outlook Font Fix */
+        </style>
+        <![endif]-->
+  <!--%%[]%%-->
+    </head>
+    <body bgcolor="#ffffff" text="#000000" style="background-color:#FFFFFF; color:#000000; padding:0px; -webkit-text-size-adjust:none; font-size:15px; font-family:Verdana,sans-serif;">
+        <div style="font-size:0; line-height:0;">
+            <custom name="opencounter" type="tracking">
+            <custom name="usermatch" type="tracking" />
+        </div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+                <td align="center">
+                    <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+                        <tr>
+                            <td>
+                                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" width="100%">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <!-- added padding here -->
+                                                    <td class="content_padding" style="">
+                                                        <!-- end of comment -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+               <tr>
+                                                                <!-- HEADER and LOGO-->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="headerlogo" data-label="Header and Logo">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+               <tr>
+                                                                <!-- BANNER -->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="bannerimage" data-label="Banner">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+               <tr>
+                                                                <!-- CONTENT -->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="contentarea" data-label="Content">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+               <tr>
+                                                                <!-- FOOTER -->
+                                                                <td align="center" class="header" valign="top">
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="left" valign="top">
+                                                                                    <table cellspacing="0" cellpadding="0" style="width:100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class="responsive-td" valign="top" style="width: 100%;">
+                                                                                                    <div data-type="slot" data-key="footer" data-label="Footer">
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+</details>
+
+### Unchanged: 37 asset(s)
+
+---
+
 ## 2026-05-15T09:58:34Z
 
 ### Added (1)

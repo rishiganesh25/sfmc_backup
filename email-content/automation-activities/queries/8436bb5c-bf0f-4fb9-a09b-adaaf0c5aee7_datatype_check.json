@@ -1,0 +1,16 @@
+{
+  "categoryId": 362901,
+  "createdDate": "2025-05-15T00:06:47.16",
+  "description": "",
+  "isFrozen": false,
+  "key": "8436BB5C-BF0F-4FB9-A09B-ADAAF0C5AEE7",
+  "modifiedDate": "2025-05-15T00:06:47.16",
+  "name": "datatype check",
+  "queryDefinitionId": "8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7",
+  "targetDescription": "",
+  "targetId": "71c5567d-5231-f011-a5c5-5cba2c7c1e38",
+  "targetKey": "CD3FC2C7-A3D6-4584-B3C2-518E0A29C855",
+  "targetName": "welcome_de_target",
+  "targetUpdateTypeId": 0,
+  "targetUpdateTypeName": "Overwrite"
+}

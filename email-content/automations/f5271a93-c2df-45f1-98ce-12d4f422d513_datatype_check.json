@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "",
+  "id": "f5271a93-c2df-45f1-98ce-12d4f422d513",
+  "lastRunInstanceId": "75bb3bda-57e6-4caf-aca3-2b60db038d7b",
+  "lastRunTime": "2025-05-15T00:07:09.64",
+  "modifiedDate": "",
+  "name": "datatype check",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the Customer Data Extension for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "d53a2bfc-63e8-488d-8f1b-4d53d802df29",
+  "lastRunInstanceId": "4dee2042-97ca-4e4e-8eea-555f405cc538",
+  "lastRunTime": "2024-03-28T06:26:00.793",
+  "modifiedDate": "",
+  "name": "523015076-Customer",
+  "schedule": {
+    "scheduleStatus": "paused"
+  },
+  "status": "PausedSchedule",
+  "statusCode": "PausedSchedule",
+  "steps": []
+}

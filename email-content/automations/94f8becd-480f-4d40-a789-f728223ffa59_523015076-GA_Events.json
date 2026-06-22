@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the GA Events Data Extension for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "94f8becd-480f-4d40-a789-f728223ffa59",
+  "lastRunInstanceId": "7f9a2ded-7f89-4326-a9ea-5aaa60eff11b",
+  "lastRunTime": "2024-03-28T08:40:02.28",
+  "modifiedDate": "",
+  "name": "523015076-GA Events",
+  "schedule": {
+    "scheduleStatus": "paused"
+  },
+  "status": "PausedSchedule",
+  "statusCode": "PausedSchedule",
+  "steps": []
+}

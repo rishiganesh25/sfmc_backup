@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the BU2_Customers Data Extension for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "81b310f0-6482-408f-9291-a86159967d6f",
+  "lastRunInstanceId": "c148c25b-86c1-4d79-95c6-3cc8ee0d1e47",
+  "lastRunTime": "2025-02-26T11:29:00.6",
+  "modifiedDate": "",
+  "name": "523025842-BU2_Customers",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

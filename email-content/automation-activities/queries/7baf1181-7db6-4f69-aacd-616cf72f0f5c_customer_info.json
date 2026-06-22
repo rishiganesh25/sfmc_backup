@@ -1,0 +1,16 @@
+{
+  "categoryId": 362901,
+  "createdDate": "2024-07-23T07:01:12.127",
+  "description": "",
+  "isFrozen": false,
+  "key": "7BAF1181-7DB6-4F69-AACD-616CF72F0F5C",
+  "modifiedDate": "2024-07-23T07:07:50.627",
+  "name": "customer_info",
+  "queryDefinitionId": "7baf1181-7db6-4f69-aacd-616cf72f0f5c",
+  "targetDescription": "",
+  "targetId": "e3230f90-f348-ef11-a5b4-5cba2c6f7278",
+  "targetKey": "DB8252D7-99E2-4CC0-A073-5B7874F880D3",
+  "targetName": "customer_info_2",
+  "targetUpdateTypeId": 0,
+  "targetUpdateTypeName": "Overwrite"
+}

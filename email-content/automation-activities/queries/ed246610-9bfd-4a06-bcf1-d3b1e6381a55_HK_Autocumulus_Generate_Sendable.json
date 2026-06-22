@@ -1,0 +1,16 @@
+{
+  "categoryId": 362901,
+  "createdDate": "2023-09-25T04:11:22.733",
+  "description": "HK_Autocumulus_Generate_Sendable",
+  "isFrozen": false,
+  "key": "ED246610-9BFD-4A06-BCF1-D3B1E6381A55",
+  "modifiedDate": "2024-07-08T03:42:39.99",
+  "name": "HK_Autocumulus_Generate_Sendable",
+  "queryDefinitionId": "ed246610-9bfd-4a06-bcf1-d3b1e6381a55",
+  "targetDescription": "Customers with Score_Sendable",
+  "targetId": "fbaac982-8b5b-ee11-b869-48df37937b75",
+  "targetKey": "4246C343-2D2F-4A85-BC99-FDBF9FD805FB",
+  "targetName": "Customers with Score_Sendable",
+  "targetUpdateTypeId": 1,
+  "targetUpdateTypeName": "Update"
+}

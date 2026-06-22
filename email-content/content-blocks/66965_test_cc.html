@@ -58,26 +58,7 @@ body {
 <div class="layout layout-canvas-g">
 	<div class="section">
 		<div class="columns col1">
-			<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
-    Platform.Load("Core", "1.1.1");
-  
-        var url = 'https://account.demandware.com/dwsso/oauth2/access_token';
-        var contentType = 'application/x-www-form-urlencoded';
-        var payload = '{"clientId": "c2d6962e-23e4-4407-931e-6328c25b3b8a","clientSecret": "cHiT8e2lXLkOpH!T6Otu","grant_type": "client_credentials"}';
-        var accessTokenResult = HTTP.Post(url, contentType, payload);
-      Write(accessTokenResult)
-        var statusCode = accessTokenResult["StatusCode"];
-        var response = accessTokenResult["Response"][0];
-        var accessToken = Platform.Function.ParseJSON(response).access_token;
-        var BearerT = 'Bearer ' + val;
-      var updateResults = Platform.Function.UpsertData("test_ignore",["Flag"],["accessToken"]);
-      
-        // Debug info below
-       // Write(resultCode + '<br>');
-    //    Write(BearerT + '<br>');
-   
-  
-</script></td></tr></table>
+			<div data-type="slot" data-key="col1"></div>
 		</div>
 	</div>
 </div>

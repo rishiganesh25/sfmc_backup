@@ -27,7 +27,7 @@
     "createdDate": "2022-12-01T07:38:04.997-06:00",
     "modifiedDate": "2022-12-01T07:40:14.043-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "50428_DM_TEST.html",
@@ -42,7 +42,7 @@
     "createdDate": "2022-12-06T08:01:05.487-06:00",
     "modifiedDate": "2022-12-06T08:05:21.997-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "51303_BT_Test.html",
@@ -57,7 +57,7 @@
     "createdDate": "2022-12-22T00:42:07.273-06:00",
     "modifiedDate": "2022-12-22T00:44:58.25-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "74492_test1.html",
@@ -72,7 +72,7 @@
     "createdDate": "2023-12-04T23:19:20.537-06:00",
     "modifiedDate": "2023-12-04T23:19:36.32-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "74626_Lead_Engagement.html",
@@ -87,7 +87,7 @@
     "createdDate": "2023-12-06T12:09:41.24-06:00",
     "modifiedDate": "2024-07-07T07:38:27.027-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "99819_tesrtnb.html",
@@ -102,7 +102,7 @@
     "createdDate": "2024-07-07T07:34:02.24-06:00",
     "modifiedDate": "2024-07-07T07:34:20.9-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "99820_hfkf.txt",
@@ -132,7 +132,7 @@
     "createdDate": "2024-07-11T09:26:40.067-06:00",
     "modifiedDate": "2024-07-11T09:31:21.447-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "100377_male_email.html",
@@ -147,7 +147,7 @@
     "createdDate": "2024-07-12T02:01:30.52-06:00",
     "modifiedDate": "2024-07-12T02:02:14.627-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "100378_female_emaIl.html",
@@ -162,7 +162,7 @@
     "createdDate": "2024-07-12T02:02:55.27-06:00",
     "modifiedDate": "2024-07-12T02:03:39.67-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "101501_TATA.html",
@@ -177,7 +177,7 @@
     "createdDate": "2024-07-19T11:39:21.633-06:00",
     "modifiedDate": "2025-05-15T00:36:02.807-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "206589_GitHub_DemoTATA_-_20260417_121318.html",
@@ -192,7 +192,7 @@
     "createdDate": "2026-04-17T00:43:35.04-06:00",
     "modifiedDate": "2026-04-17T00:43:35.04-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "210091_Test_Email.html",
@@ -207,7 +207,7 @@
     "createdDate": "2026-04-28T01:44:36.117-06:00",
     "modifiedDate": "2026-05-15T03:56:52.453-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   },
   {
     "file": "212949_SFMC_Vault_test.html",
@@ -222,6 +222,6 @@
     "createdDate": "2026-05-15T03:57:16.363-06:00",
     "modifiedDate": "2026-05-15T03:57:16.363-06:00",
     "modifiedBy": "Rishi Ganesh",
-    "contentSource": "views.html.content+views.html.slots"
+    "contentSource": "views.html.content+slots"
   }
 ]

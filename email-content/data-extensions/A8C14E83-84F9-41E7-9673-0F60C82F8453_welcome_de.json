@@ -1,0 +1,48 @@
+{
+  "categoryId": "362895",
+  "createdDate": "2022-09-26T22:57:49.113",
+  "customerKey": "A8C14E83-84F9-41E7-9673-0F60C82F8453",
+  "description": "",
+  "fields": [
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "name",
+      "ordinal": "0"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "EmailAddress",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "254",
+      "name": "email",
+      "ordinal": "1"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Boolean",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "",
+      "name": "isHOL",
+      "ordinal": "2"
+    },
+    {
+      "defaultValue": "",
+      "fieldType": "Text",
+      "isPrimaryKey": "false",
+      "isRequired": "false",
+      "maxLength": "50",
+      "name": "test",
+      "ordinal": "3"
+    }
+  ],
+  "isSendable": "true",
+  "isTestable": "true",
+  "modifiedDate": "2025-05-15T00:33:00.247",
+  "name": "welcome_de"
+}

@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends CURRENT data to the Data Scientists for scoring and is an important componentof the Einstein Engagement Scoring application.",
+  "id": "05881d6f-648b-41c0-9b19-7d017764fd93",
+  "lastRunInstanceId": "41aba863-f42b-438b-92db-e47d14ac89da",
+  "lastRunTime": "2026-01-27T02:20:06.403",
+  "modifiedDate": "",
+  "name": "523025841-ChatMessagingWhatsAppTrackingView-PS",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends CURRENT data to the Data Scientists for scoring and is an important componentof the Einstein Engagement Scoring application.",
+  "id": "95ea2d64-e11c-4171-a6a5-576697c159e5",
+  "lastRunInstanceId": "f8d5ecf1-023f-4a48-b67a-6ec24c6aef23",
+  "lastRunTime": "2026-02-27T02:19:00.747",
+  "modifiedDate": "",
+  "name": "523015076-SFMCEmailBulkMessage-PS",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

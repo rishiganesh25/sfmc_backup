@@ -1,0 +1,15 @@
+{
+  "createdDate": "",
+  "description": "This automation sends the data contained in the tests3 Data Extension for consumption by external applications connected with the Marketing Cloud Platform.",
+  "id": "559fa91b-ec6a-4c7f-9649-f130f0e8e5fd",
+  "lastRunInstanceId": "553a1be5-310c-4b60-a200-b071988cdafb",
+  "lastRunTime": "2024-07-25T02:42:00.923",
+  "modifiedDate": "",
+  "name": "523015076-tests3",
+  "schedule": {
+    "scheduleStatus": "none"
+  },
+  "status": "Ready",
+  "statusCode": "Ready",
+  "steps": []
+}

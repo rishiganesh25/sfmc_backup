@@ -1,0 +1,217 @@
+{
+  "activities": [
+    {
+      "arguments": {
+        "activityId": "{{Activity.Id}}",
+        "contactId": "{{Context.ContactId}}",
+        "contactKey": "{{Context.ContactKey}}",
+        "definitionId": "{{Context.DefinitionId}}",
+        "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+        "objectMap": {
+          "objects": [
+            {
+              "AKS": {
+                "fieldName": "Id",
+                "type": "Contact"
+              },
+              "action": "Create",
+              "fields": [
+                {
+                  "FieldLabel": "Last Name",
+                  "FieldName": "LastName",
+                  "FieldType": "string",
+                  "FieldValue": "{{Event.\"DEAudience-d9f74d45-1b3e-8bc2-12dc-28e41c45e4dd\".\"name\"}}",
+                  "FieldValueLabel": "name",
+                  "MappingType": "Constant",
+                  "Processor": "static",
+                  "Required": "true"
+                }
+              ],
+              "lookup": null,
+              "order": "1",
+              "subtype": null,
+              "type": "Contact"
+            }
+          ]
+        },
+        "requestObjectId": "{{Context.RequestObjectId}}",
+        "startActivityKey": "{{Context.StartActivityKey}}",
+        "version": "1.0"
+      },
+      "configurationArguments": {
+        "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+        "applicationExtensionKey": "Salesforce_Activity_Contact"
+      },
+      "description": "",
+      "id": "047dbd4e-191d-4796-94fc-6489524972ce",
+      "key": "SALESCLOUDACTIVITY-1",
+      "metaData": {
+        "expressionBuilderPrefix": "Contact",
+        "isConfigured": true
+      },
+      "name": "create contact",
+      "outcomes": [
+        {
+          "arguments": {},
+          "key": "f6e50f2c-f3ac-4db9-87cb-b097e97aec9c",
+          "metaData": {
+            "invalid": false
+          }
+        }
+      ],
+      "schema": {
+        "arguments": {
+          "activityId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "asyncDiscardDate": {
+            "access": "Hidden",
+            "dataType": "Date",
+            "direction": "Out",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "contactId": {
+            "access": "Hidden",
+            "dataType": "Number",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "contactKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "definitionId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "definitionInstanceId": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": false,
+            "readOnly": false
+          },
+          "objectMap": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "requestObjectId": {
+            "access": "Hidden",
+            "dataType": "LongNumber",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "salesforceObjectID": {
+            "access": "Visible",
+            "dataType": "Text",
+            "direction": "Out",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "startActivityKey": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          },
+          "version": {
+            "access": "Hidden",
+            "dataType": "Text",
+            "direction": "In",
+            "isNullable": true,
+            "readOnly": false
+          }
+        }
+      },
+      "type": "SALESCLOUDACTIVITY"
+    }
+  ],
+  "campaigns": [],
+  "categoryId": 362910,
+  "channel": "",
+  "createdDate": "2025-09-29T10:14:14.233",
+  "defaults": {
+    "email": [
+      "{{Contact.SendableAttribute.Email.Contacts.Contact_Salesforce.\"Email\"}}"
+    ],
+    "properties": {
+      "analyticsTracking": {
+        "analyticsType": "google",
+        "enabled": false,
+        "urlDomainsToTrack": []
+      }
+    }
+  },
+  "definitionId": "1042465a-00c8-4949-8158-86c105b6c5b6",
+  "definitionType": "Multistep",
+  "description": "",
+  "entryMode": "MultipleEntries",
+  "executionMode": "Production",
+  "exits": [],
+  "goals": [],
+  "id": "1042465a-00c8-4949-8158-86c105b6c5b6",
+  "key": "b195e76b-a9fc-d00b-380a-7f842a9a81cb",
+  "lastPublishedDate": "2025-09-29T10:14:38",
+  "metaData": {
+    "dataSource": "ContactsModel",
+    "disableEndWait": true,
+    "highThroughputSending": {
+      "email": false
+    }
+  },
+  "modifiedDate": "2025-09-29T10:14:38.827",
+  "name": "New Journey - September 29 2025 at 9.41 PM",
+  "notifiers": [],
+  "scheduledStatus": "Draft",
+  "status": "Published",
+  "triggers": [
+    {
+      "arguments": {
+        "dequeueReason": "{{Context.DequeueReason}}",
+        "filterResult": "true",
+        "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+        "startActivityKey": "{{Context.StartActivityKey}}"
+      },
+      "configurationArguments": {
+        "criteria": "",
+        "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+        "schemaVersionId": 0
+      },
+      "description": "",
+      "id": "54357b8d-cf91-4719-801a-ae21202ad9b9",
+      "key": "TRIGGER",
+      "metaData": {
+        "chainType": "None",
+        "configurationRequired": false,
+        "entrySourceGroupConfigUrl": "jb:///data/entry/audience/entrysourcegroupconfig.json",
+        "eventDefinitionId": "ce82ece7-d5e4-402d-8ace-a113557ba558",
+        "eventDefinitionKey": "DEAudience-d9f74d45-1b3e-8bc2-12dc-28e41c45e4dd",
+        "iconUrl": "/images/icon-data-extension.svg",
+        "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+        "title": "Data Extension"
+      },
+      "name": "TRIGGER",
+      "outcomes": [],
+      "type": "EmailAudience"
+    }
+  ],
+  "version": 1,
+  "workflowApiVersion": 1.0
+}

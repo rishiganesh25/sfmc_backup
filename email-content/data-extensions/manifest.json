@@ -1,0 +1,762 @@
+[
+  {
+    "file": "1sgKj00000000GUIAY_85RKj000000KymPMAS_BU_AWARE_ON_BU_AWARE_ON_1sgKj00000000GUIAY_85RKj000000KymPMAS.json",
+    "customerKey": "1sgKj00000000GUIAY_85RKj000000KymPMAS",
+    "name": "BU_AWARE_ON_BU_AWARE_ON_1sgKj00000000GUIAY_85RKj000000KymPMAS",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2025-01-28T09:11:19.37",
+    "modifiedDate": "2025-01-28T09:11:19.37"
+  },
+  {
+    "file": "9D9CCCEC-9DC4-40F9-A36E-59FD35074532_CloudPages_DataExtension.json",
+    "customerKey": "9D9CCCEC-9DC4-40F9-A36E-59FD35074532",
+    "name": "CloudPages_DataExtension",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 29,
+    "createdDate": "2022-12-07T07:50:18.8",
+    "modifiedDate": "2022-12-07T07:50:18.8"
+  },
+  {
+    "file": "Customer_Customer.json",
+    "customerKey": "Customer",
+    "name": "Customer",
+    "description": "Customer demographics and key attributes",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2023-01-17T04:24:19.6",
+    "modifiedDate": "2024-07-06T08:11:01.223"
+  },
+  {
+    "file": "64B1C1F4-EA3E-43E0-86D4-9BDC8D61A733_Customer_Segment_0.json",
+    "customerKey": "64B1C1F4-EA3E-43E0-86D4-9BDC8D61A733",
+    "name": "Customer Segment 0",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2024-07-06T08:34:24.14",
+    "modifiedDate": "2024-07-06T08:34:24.14"
+  },
+  {
+    "file": "E4EA06A1-E5C7-49C8-B6CF-B5681610D49D_Customer_Segment_1.json",
+    "customerKey": "E4EA06A1-E5C7-49C8-B6CF-B5681610D49D",
+    "name": "Customer Segment 1",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2024-07-06T08:34:24.377",
+    "modifiedDate": "2024-07-06T08:34:24.377"
+  },
+  {
+    "file": "36B44062-6C2B-4153-B99B-561BBCCA7740_Customer_remaining_subs.json",
+    "customerKey": "36B44062-6C2B-4153-B99B-561BBCCA7740",
+    "name": "Customer remaining subs",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2024-07-06T09:02:00.273",
+    "modifiedDate": "2024-07-06T09:02:00.273"
+  },
+  {
+    "file": "1sgHn000000CadDIAS_85RHn000000002vMAA_I_Customers_with_Score_Customers_with_S_1sgHn000000CadDIAS_85RHn000000002vMAA_I.json",
+    "customerKey": "1sgHn000000CadDIAS_85RHn000000002vMAA_I",
+    "name": "Customers with Score_Customers with S_1sgHn000000CadDIAS_85RHn000000002vMAA_I",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 10,
+    "createdDate": "2023-09-20T00:25:23.917",
+    "modifiedDate": "2023-09-20T00:25:23.917"
+  },
+  {
+    "file": "4246C343-2D2F-4A85-BC99-FDBF9FD805FB_Customers_with_Score_Sendable.json",
+    "customerKey": "4246C343-2D2F-4A85-BC99-FDBF9FD805FB",
+    "name": "Customers with Score_Sendable",
+    "description": "Customers with Score_Sendable",
+    "isSendable": "true",
+    "fieldCount": 10,
+    "createdDate": "2023-09-25T04:08:54.387",
+    "modifiedDate": "2023-09-25T04:08:54.387"
+  },
+  {
+    "file": "8FF58788-A1E3-445C-9C87-919A1F8A12BD_DC_MC_ATF_RelatedAttribute_Journey.json",
+    "customerKey": "8FF58788-A1E3-445C-9C87-919A1F8A12BD",
+    "name": "DC_MC_ATF_RelatedAttribute_Journey",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2026-03-04T01:57:49.247",
+    "modifiedDate": "2026-03-04T02:02:25.49"
+  },
+  {
+    "file": "E43C5B82-EE78-4C1D-857B-C7E39598E430_DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json",
+    "customerKey": "E43C5B82-EE78-4C1D-857B-C7E39598E430",
+    "name": "DC_MC_ATF_RelatedAttributes_Multi_Record_Journey",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 8,
+    "createdDate": "2026-03-10T01:14:14.407",
+    "modifiedDate": "2026-03-15T11:46:02.597"
+  },
+  {
+    "file": "0D59B209-4D24-4E3C-A641-E0F9A94AC7F1_DC_MC_Actioin_trigger_flow_UCA.json",
+    "customerKey": "0D59B209-4D24-4E3C-A641-E0F9A94AC7F1",
+    "name": "DC_MC_Actioin_trigger_flow_UCA",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2026-03-04T00:09:35.45",
+    "modifiedDate": "2026-03-10T01:22:13.81"
+  },
+  {
+    "file": "215D45A9-BB0E-4F81-BD62-158301AC780E_DC_MC_Action_triggered_Flow_Journey.json",
+    "customerKey": "215D45A9-BB0E-4F81-BD62-158301AC780E",
+    "name": "DC_MC_Action_triggered_Flow_Journey",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 4,
+    "createdDate": "2026-03-04T00:07:21.067",
+    "modifiedDate": "2026-03-04T00:07:21.067"
+  },
+  {
+    "file": "4B585F9D-9F72-475F-81B1-C4274D1B21E4_Deletion_2.json",
+    "customerKey": "4B585F9D-9F72-475F-81B1-C4274D1B21E4",
+    "name": "Deletion_2",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2025-04-16T10:39:03.78",
+    "modifiedDate": "2025-04-16T10:40:00.863"
+  },
+  {
+    "file": "EAE9464C-A916-49C7-A030-6EDFCA4B88FE_Deletion_3.json",
+    "customerKey": "EAE9464C-A916-49C7-A030-6EDFCA4B88FE",
+    "name": "Deletion_3",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2025-04-16T10:52:01.91",
+    "modifiedDate": "2025-04-16T10:52:01.91"
+  },
+  {
+    "file": "0E60292F-95B7-4539-847D-1AB60228813D_Deletion_DC.json",
+    "customerKey": "0E60292F-95B7-4539-847D-1AB60228813D",
+    "name": "Deletion_DC",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 4,
+    "createdDate": "2025-03-20T23:42:33.78",
+    "modifiedDate": "2025-03-20T23:42:33.78"
+  },
+  {
+    "file": "6F050D7C-4E69-47D0-B7E1-B22C37562A14_Demo_Builder_Subscribers.json",
+    "customerKey": "6F050D7C-4E69-47D0-B7E1-B22C37562A14",
+    "name": "Demo Builder Subscribers",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 25,
+    "createdDate": "2022-08-19T10:15:29.03",
+    "modifiedDate": "2022-08-19T10:15:29.03"
+  },
+  {
+    "file": "3C0A87C1-25D7-45F1-B67E-3B9B24D39EFF_Distributed_Marketing.json",
+    "customerKey": "3C0A87C1-25D7-45F1-B67E-3B9B24D39EFF",
+    "name": "Distributed_Marketing",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 16,
+    "createdDate": "2022-12-06T08:10:48.497",
+    "modifiedDate": "2022-12-06T08:10:48.497"
+  },
+  {
+    "file": "Einstein_MC_Predictive_Scores_Einstein_MC_Predictive_Scores.json",
+    "customerKey": "Einstein_MC_Predictive_Scores",
+    "name": "Einstein_MC_Predictive_Scores",
+    "description": "Einstein_MC_Predictive_Scores",
+    "isSendable": "false",
+    "fieldCount": 12,
+    "createdDate": "2022-07-06T10:50:38.86",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "45D60799-D6D3-44E6-88B0-63A1AA85B1DC_ExpressionBuilderAttributes.json",
+    "customerKey": "45D60799-D6D3-44E6-88B0-63A1AA85B1DC",
+    "name": "ExpressionBuilderAttributes",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 4,
+    "createdDate": "2022-07-06T10:49:41.68",
+    "modifiedDate": "2022-07-06T10:49:41.68"
+  },
+  {
+    "file": "A7028FE6-CF88-4405-9BC2-DF381E4264F8_GA_Events.json",
+    "customerKey": "A7028FE6-CF88-4405-9BC2-DF381E4264F8",
+    "name": "GA Events",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 30,
+    "createdDate": "2023-02-20T04:30:46.873",
+    "modifiedDate": "2023-02-20T04:49:27.74"
+  },
+  {
+    "file": "IGO_PRODUCTATTRIBS_IGO_PRODUCTATTRIBS.json",
+    "customerKey": "IGO_PRODUCTATTRIBS",
+    "name": "IGO_PRODUCTATTRIBS",
+    "description": "IGO_PRODUCTATTRIBS",
+    "isSendable": "false",
+    "fieldCount": 5,
+    "createdDate": "2022-07-06T10:50:38.46",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "IGO_PRODUCTS_IGO_PRODUCTS.json",
+    "customerKey": "IGO_PRODUCTS",
+    "name": "IGO_PRODUCTS",
+    "description": "IGO_PRODUCTS",
+    "isSendable": "false",
+    "fieldCount": 6,
+    "createdDate": "2022-07-06T10:50:38.41",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "IGO_PROFILES_IGO_PROFILES.json",
+    "customerKey": "IGO_PROFILES",
+    "name": "IGO_PROFILES",
+    "description": "IGO_PROFILES",
+    "isSendable": "false",
+    "fieldCount": 15,
+    "createdDate": "2022-07-06T10:50:38.16",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "IGO_PURCHASES_IGO_PURCHASES.json",
+    "customerKey": "IGO_PURCHASES",
+    "name": "IGO_PURCHASES",
+    "description": "IGO_PURCHASES",
+    "isSendable": "false",
+    "fieldCount": 12,
+    "createdDate": "2022-07-06T10:50:38.333",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "IGO_VIEWS_IGO_VIEWS.json",
+    "customerKey": "IGO_VIEWS",
+    "name": "IGO_VIEWS",
+    "description": "IGO_VIEWS",
+    "isSendable": "false",
+    "fieldCount": 5,
+    "createdDate": "2022-07-06T10:50:38.24",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "3C19E630-3642-4455-AB6D-A9602DFEA4AA_IS_TEST.json",
+    "customerKey": "3C19E630-3642-4455-AB6D-A9602DFEA4AA",
+    "name": "IS_TEST",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 4,
+    "createdDate": "2022-12-06T00:12:23.657",
+    "modifiedDate": "2022-12-06T00:12:23.657"
+  },
+  {
+    "file": "0E88736E-1BA1-45EF-9080-850F580105A1_Loyalty_Profile.json",
+    "customerKey": "0E88736E-1BA1-45EF-9080-850F580105A1",
+    "name": "Loyalty Profile",
+    "description": "Membership details for the customers signed up for the loyalty program",
+    "isSendable": "false",
+    "fieldCount": 6,
+    "createdDate": "2023-01-17T04:24:19.52",
+    "modifiedDate": "2023-01-17T04:24:19.52"
+  },
+  {
+    "file": "MCP_Claude_Test_MCP_Claude_Test.json",
+    "customerKey": "MCP_Claude_Test",
+    "name": "MCP_Claude_Test",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 4,
+    "createdDate": "2026-06-05T01:34:23.643",
+    "modifiedDate": "2026-06-05T01:34:23.643"
+  },
+  {
+    "file": "FADE0378-BFD0-4960-81B9-AC23E31AC13A_MSD_Enquiry.json",
+    "customerKey": "FADE0378-BFD0-4960-81B9-AC23E31AC13A",
+    "name": "MSD Enquiry",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 49,
+    "createdDate": "2023-02-20T01:52:32.89",
+    "modifiedDate": "2023-02-20T04:20:19.7"
+  },
+  {
+    "file": "CC67E67C-081F-4CD4-BF6A-9997A2B8455E_Marketing_Preference.json",
+    "customerKey": "CC67E67C-081F-4CD4-BF6A-9997A2B8455E",
+    "name": "Marketing Preference",
+    "description": "Contains marketing communication preferences for the customers",
+    "isSendable": "false",
+    "fieldCount": 4,
+    "createdDate": "2023-01-17T04:24:19.52",
+    "modifiedDate": "2023-01-17T04:24:19.52"
+  },
+  {
+    "file": "930F1FAD-67A0-47FB-B8F3-CC193BFF55E0_MobileLineOrphanContact.json",
+    "customerKey": "930F1FAD-67A0-47FB-B8F3-CC193BFF55E0",
+    "name": "MobileLineOrphanContact",
+    "description": "Used for storing Group Connect orphen contacts.",
+    "isSendable": "false",
+    "fieldCount": 21,
+    "createdDate": "2022-07-06T10:50:24.607",
+    "modifiedDate": "2022-07-06T10:50:24.607"
+  },
+  {
+    "file": "PI_ABANDONED_CART_EVENT_PI_ABANDONED_CART_EVENT.json",
+    "customerKey": "PI_ABANDONED_CART_EVENT",
+    "name": "PI_ABANDONED_CART_EVENT",
+    "description": "Template for creating data extension for journey builder integration",
+    "isSendable": "false",
+    "fieldCount": 8,
+    "createdDate": "2022-07-06T10:50:38.987",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "PI_ABANDONED_CART_ITEMS_PI_ABANDONED_CART_ITEMS.json",
+    "customerKey": "PI_ABANDONED_CART_ITEMS",
+    "name": "PI_ABANDONED_CART_ITEMS",
+    "description": "Template for creating data extension for journey builder integration",
+    "isSendable": "false",
+    "fieldCount": 4,
+    "createdDate": "2022-07-06T10:50:39.063",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "PI_CONTENT_PI_CONTENT.json",
+    "customerKey": "PI_CONTENT",
+    "name": "PI_CONTENT",
+    "description": "PI_CONTENT",
+    "isSendable": "false",
+    "fieldCount": 4,
+    "createdDate": "2022-07-06T10:50:38.633",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "PI_CONTENTATTRIBS_PI_CONTENTATTRIBS.json",
+    "customerKey": "PI_CONTENTATTRIBS",
+    "name": "PI_CONTENTATTRIBS",
+    "description": "PI_CONTENTATTRIBS",
+    "isSendable": "false",
+    "fieldCount": 5,
+    "createdDate": "2022-07-06T10:50:38.72",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "PI_CONTENTVIEWS_PI_CONTENTVIEWS.json",
+    "customerKey": "PI_CONTENTVIEWS",
+    "name": "PI_CONTENTVIEWS",
+    "description": "PI_CONTENTVIEWS",
+    "isSendable": "false",
+    "fieldCount": 5,
+    "createdDate": "2022-07-06T10:50:38.537",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "PI_SESSIONS_PI_SESSIONS.json",
+    "customerKey": "PI_SESSIONS",
+    "name": "PI_SESSIONS",
+    "description": "PI_SESSIONS",
+    "isSendable": "false",
+    "fieldCount": 7,
+    "createdDate": "2022-07-06T10:50:38.787",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "PI_SESSION_ENDS_PI_SESSION_ENDS.json",
+    "customerKey": "PI_SESSION_ENDS",
+    "name": "PI_SESSION_ENDS",
+    "description": "PI_SESSION_ENDS",
+    "isSendable": "false",
+    "fieldCount": 5,
+    "createdDate": "2022-07-06T10:50:38.287",
+    "modifiedDate": "2022-07-06T10:50:45.71"
+  },
+  {
+    "file": "F6D58713-CF5F-45C1-97D0-C4A5D31904D2_S3_Customer_Profile.json",
+    "customerKey": "F6D58713-CF5F-45C1-97D0-C4A5D31904D2",
+    "name": "S3_Customer_Profile",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 6,
+    "createdDate": "2023-01-17T04:48:02.013",
+    "modifiedDate": "2023-01-17T04:48:02.013"
+  },
+  {
+    "file": "53503E6C-BD7E-4E88-92F6-274D9B09B84B_S3_Order_Headers.json",
+    "customerKey": "53503E6C-BD7E-4E88-92F6-274D9B09B84B",
+    "name": "S3_Order_Headers",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 8,
+    "createdDate": "2023-01-17T04:48:56.02",
+    "modifiedDate": "2023-01-17T04:51:03.757"
+  },
+  {
+    "file": "211E69C8-4D35-4265-8B89-CABCAC3F7839_S3_Order_Line_Items.json",
+    "customerKey": "211E69C8-4D35-4265-8B89-CABCAC3F7839",
+    "name": "S3_Order_Line_Items",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 8,
+    "createdDate": "2023-01-17T04:53:27.213",
+    "modifiedDate": "2023-01-17T04:53:27.213"
+  },
+  {
+    "file": "1sgGB00000000ChYAI_85RGB00000000432AA_I_TD_Segments_MCE_Activation_1sgGB00000000ChYAI_85RGB00000000432AA_I.json",
+    "customerKey": "1sgGB00000000ChYAI_85RGB00000000432AA_I",
+    "name": "TD Segments_MCE Activation_1sgGB00000000ChYAI_85RGB00000000432AA_I",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 13,
+    "createdDate": "2025-05-08T12:08:03.75",
+    "modifiedDate": "2025-05-08T12:08:03.75"
+  },
+  {
+    "file": "1sgKj00000000GZIAY_85RKj000000KymUMAS_Test1_BU_AWARE_ON_1_1sgKj00000000GZIAY_85RKj000000KymUMAS.json",
+    "customerKey": "1sgKj00000000GZIAY_85RKj000000KymUMAS",
+    "name": "Test1_BU_AWARE_ON_1_1sgKj00000000GZIAY_85RKj000000KymUMAS",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2025-01-28T23:58:35.56",
+    "modifiedDate": "2025-01-28T23:58:35.56"
+  },
+  {
+    "file": "D1CA6FAE-102D-4F4A-86DD-0745B2B07172__ChatMessagingSubscription.json",
+    "customerKey": "D1CA6FAE-102D-4F4A-86DD-0745B2B07172",
+    "name": "_ChatMessagingSubscription",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 15,
+    "createdDate": "2022-07-06T10:50:27.857",
+    "modifiedDate": "2022-07-06T10:50:27.857"
+  },
+  {
+    "file": "5BD623F3-3724-4176-88E6-6CA42CF09C9B__EnterpriseAttribute.json",
+    "customerKey": "5BD623F3-3724-4176-88E6-6CA42CF09C9B",
+    "name": "_EnterpriseAttribute",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 0,
+    "createdDate": "2022-07-06T10:50:28.883",
+    "modifiedDate": "2022-07-06T10:50:28.883"
+  },
+  {
+    "file": "80C108D2-3709-494B-8403-0E92A8492AAF__MobileAddress.json",
+    "customerKey": "80C108D2-3709-494B-8403-0E92A8492AAF",
+    "name": "_MobileAddress",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 20,
+    "createdDate": "2022-07-06T10:50:23.047",
+    "modifiedDate": "2022-07-06T10:50:23.047"
+  },
+  {
+    "file": "B9D13BDA-C454-4177-B38B-610162BE196C__MobileAddressApplication.json",
+    "customerKey": "B9D13BDA-C454-4177-B38B-610162BE196C",
+    "name": "_MobileAddressApplication",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 5,
+    "createdDate": "2022-07-06T10:50:26.9",
+    "modifiedDate": "2022-07-06T10:50:26.9"
+  },
+  {
+    "file": "C87F2119-21D2-46A5-92DC-A247A2C160F6__MobileLineAddress.json",
+    "customerKey": "C87F2119-21D2-46A5-92DC-A247A2C160F6",
+    "name": "_MobileLineAddress",
+    "description": "Used for storing Group Connect channel addresses.",
+    "isSendable": "false",
+    "fieldCount": 6,
+    "createdDate": "2022-07-06T10:50:24.59",
+    "modifiedDate": "2022-07-06T10:50:24.59"
+  },
+  {
+    "file": "DDDB8285-A247-43AE-8696-01543400EF9B__MobileLineAddressContact.json",
+    "customerKey": "DDDB8285-A247-43AE-8696-01543400EF9B",
+    "name": "_MobileLineAddressContact",
+    "description": "Used for storing Group Connect channel contacts.",
+    "isSendable": "true",
+    "fieldCount": 8,
+    "createdDate": "2022-07-06T10:50:24.573",
+    "modifiedDate": "2022-07-06T10:50:24.573"
+  },
+  {
+    "file": "C676D3C5-7504-4119-A796-31ADD4AFA3F5__MobileLineProfile.json",
+    "customerKey": "C676D3C5-7504-4119-A796-31ADD4AFA3F5",
+    "name": "_MobileLineProfile",
+    "description": "Used for storing Group Connect channel profiles.",
+    "isSendable": "false",
+    "fieldCount": 6,
+    "createdDate": "2022-07-06T10:50:24.59",
+    "modifiedDate": "2022-07-06T10:50:24.59"
+  },
+  {
+    "file": "9C23A24D-B682-4CC6-84BA-58D48C425676__MobileLineProfileAttribute.json",
+    "customerKey": "9C23A24D-B682-4CC6-84BA-58D48C425676",
+    "name": "_MobileLineProfileAttribute",
+    "description": "Used for storing Group Connect channel profile attributes.",
+    "isSendable": "false",
+    "fieldCount": 8,
+    "createdDate": "2022-07-06T10:50:24.607",
+    "modifiedDate": "2022-07-06T10:50:24.607"
+  },
+  {
+    "file": "7740331B-20B5-49A7-AD7A-BFCB78631179__MobileLineSubscription.json",
+    "customerKey": "7740331B-20B5-49A7-AD7A-BFCB78631179",
+    "name": "_MobileLineSubscription",
+    "description": "Used for storing Group Connect channel subscription.",
+    "isSendable": "false",
+    "fieldCount": 7,
+    "createdDate": "2022-07-06T10:50:24.607",
+    "modifiedDate": "2022-07-06T10:50:24.607"
+  },
+  {
+    "file": "02F5C2B3-A6F0-42AA-B0DE-6A9DAA00C867__MobileSubscription.json",
+    "customerKey": "02F5C2B3-A6F0-42AA-B0DE-6A9DAA00C867",
+    "name": "_MobileSubscription",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 14,
+    "createdDate": "2022-07-06T10:50:23.14",
+    "modifiedDate": "2022-07-06T10:50:23.14"
+  },
+  {
+    "file": "C3E93DF4-85F5-4D86-A129-51D1353D4353__PushAddress.json",
+    "customerKey": "C3E93DF4-85F5-4D86-A129-51D1353D4353",
+    "name": "_PushAddress",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 35,
+    "createdDate": "2022-07-06T10:50:23.25",
+    "modifiedDate": "2022-07-06T10:50:23.25"
+  },
+  {
+    "file": "42463394-5EA6-4D01-995B-71D3E406BAF4__PushTag.json",
+    "customerKey": "42463394-5EA6-4D01-995B-71D3E406BAF4",
+    "name": "_PushTag",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 7,
+    "createdDate": "2022-07-06T10:50:23.377",
+    "modifiedDate": "2022-07-06T10:50:23.377"
+  },
+  {
+    "file": "abandoned_browse_1670481871_abandoned_browse_1670481871.json",
+    "customerKey": "abandoned_browse_1670481871",
+    "name": "abandoned_browse_1670481871",
+    "description": "Data Extension for Triggers",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2022-12-08T00:44:38.193",
+    "modifiedDate": "2022-12-08T00:44:38.193"
+  },
+  {
+    "file": "abandoned_cart_1671689694_abandoned_cart_1671689694.json",
+    "customerKey": "abandoned_cart_1671689694",
+    "name": "abandoned_cart_1671689694",
+    "description": "Data Extension for Triggers",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2022-12-22T00:15:00.383",
+    "modifiedDate": "2022-12-22T00:15:00.383"
+  },
+  {
+    "file": "AC98C46E-90A3-46D0-A86E-90202E39F650_car.json",
+    "customerKey": "AC98C46E-90A3-46D0-A86E-90202E39F650",
+    "name": "car",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2024-07-19T12:22:03.43",
+    "modifiedDate": "2024-07-23T08:23:11.297"
+  },
+  {
+    "file": "B048C73D-18D9-4378-8FFA-816C02CF8271_car2.json",
+    "customerKey": "B048C73D-18D9-4378-8FFA-816C02CF8271",
+    "name": "car2",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2024-07-23T06:42:27.293",
+    "modifiedDate": "2024-07-23T09:11:10.057"
+  },
+  {
+    "file": "D0F0A226-22E6-4D17-BFB6-D7723A55DBF0_customer_info.json",
+    "customerKey": "D0F0A226-22E6-4D17-BFB6-D7723A55DBF0",
+    "name": "customer_info",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2024-07-23T06:58:08.683",
+    "modifiedDate": "2024-07-23T06:58:08.683"
+  },
+  {
+    "file": "DB8252D7-99E2-4CC0-A073-5B7874F880D3_customer_info_2.json",
+    "customerKey": "DB8252D7-99E2-4CC0-A073-5B7874F880D3",
+    "name": "customer_info_2",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2024-07-23T07:00:41.54",
+    "modifiedDate": "2024-07-23T07:00:41.54"
+  },
+  {
+    "file": "DA10F9A8-D6DA-4C8B-B3B7-3A33FF644B57_gmart.json",
+    "customerKey": "DA10F9A8-D6DA-4C8B-B3B7-3A33FF644B57",
+    "name": "gmart",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 8,
+    "createdDate": "2024-07-28T22:48:50.417",
+    "modifiedDate": "2024-07-29T13:54:05.297"
+  },
+  {
+    "file": "18237CE0-5E38-4E5F-BBB0-6E8E6615641B_puma.json",
+    "customerKey": "18237CE0-5E38-4E5F-BBB0-6E8E6615641B",
+    "name": "puma",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 5,
+    "createdDate": "2024-07-10T09:19:24.75",
+    "modifiedDate": "2024-07-10T09:20:15.727"
+  },
+  {
+    "file": "2DBCD3B1-3ECA-4C19-95C4-320116454535_puma_-_20240712_123500.json",
+    "customerKey": "2DBCD3B1-3ECA-4C19-95C4-320116454535",
+    "name": "puma - 20240712_123500",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 6,
+    "createdDate": "2024-07-12T01:06:20.473",
+    "modifiedDate": "2024-07-12T01:35:22.793"
+  },
+  {
+    "file": "test_test.json",
+    "customerKey": "test",
+    "name": "test",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 2,
+    "createdDate": "2022-10-22T08:28:47.99",
+    "modifiedDate": "2023-02-03T11:51:03.503"
+  },
+  {
+    "file": "8EA28DEF-5230-40CE-A98F-4C0049197903_test_data.json",
+    "customerKey": "8EA28DEF-5230-40CE-A98F-4C0049197903",
+    "name": "test data",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 10,
+    "createdDate": "2023-09-28T06:18:12.523",
+    "modifiedDate": "2023-09-28T06:18:12.523"
+  },
+  {
+    "file": "E92C2AB0-611F-4926-8E2D-C2C32D645FD1_test_filter.json",
+    "customerKey": "E92C2AB0-611F-4926-8E2D-C2C32D645FD1",
+    "name": "test filter",
+    "description": "Contains marketing communication preferences for the customers",
+    "isSendable": "false",
+    "fieldCount": 4,
+    "createdDate": "2024-07-06T08:30:21.203",
+    "modifiedDate": "2024-07-06T08:30:21.203"
+  },
+  {
+    "file": "6860D71D-67FC-4B2A-ACE7-08FA3A69DE3D_test_DC.json",
+    "customerKey": "6860D71D-67FC-4B2A-ACE7-08FA3A69DE3D",
+    "name": "test_DC",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 3,
+    "createdDate": "2024-11-19T11:33:17.827",
+    "modifiedDate": "2024-11-19T11:33:17.827"
+  },
+  {
+    "file": "5BDD6023-CEFE-4209-9BCB-00AB2A47CA79_tested.json",
+    "customerKey": "5BDD6023-CEFE-4209-9BCB-00AB2A47CA79",
+    "name": "tested",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 1,
+    "createdDate": "2024-04-17T01:03:51.703",
+    "modifiedDate": "2024-04-17T01:03:51.703"
+  },
+  {
+    "file": "DF7868C0-2125-44C1-80B7-3027D3B494A8_tests3.json",
+    "customerKey": "DF7868C0-2125-44C1-80B7-3027D3B494A8",
+    "name": "tests3",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 3,
+    "createdDate": "2024-06-26T00:35:24.167",
+    "modifiedDate": "2024-06-26T00:35:24.167"
+  },
+  {
+    "file": "C2E7C328-87EC-437A-9977-7C847FEDDC0B_trans_api.json",
+    "customerKey": "C2E7C328-87EC-437A-9977-7C847FEDDC0B",
+    "name": "trans_api",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 6,
+    "createdDate": "2023-03-16T04:14:54.623",
+    "modifiedDate": "2023-03-16T04:14:54.623"
+  },
+  {
+    "file": "ts_test_ts_test.json",
+    "customerKey": "ts_test",
+    "name": "ts_test",
+    "description": "Triggered Send Source Data Extension Template",
+    "isSendable": "true",
+    "fieldCount": 7,
+    "createdDate": "2023-02-03T12:04:18.337",
+    "modifiedDate": "2023-03-16T04:17:02.453"
+  },
+  {
+    "file": "A8C14E83-84F9-41E7-9673-0F60C82F8453_welcome_de.json",
+    "customerKey": "A8C14E83-84F9-41E7-9673-0F60C82F8453",
+    "name": "welcome_de",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 4,
+    "createdDate": "2022-09-26T22:57:49.113",
+    "modifiedDate": "2025-05-15T00:33:00.247"
+  },
+  {
+    "file": "CD3FC2C7-A3D6-4584-B3C2-518E0A29C855_welcome_de_target.json",
+    "customerKey": "CD3FC2C7-A3D6-4584-B3C2-518E0A29C855",
+    "name": "welcome_de_target",
+    "description": "",
+    "isSendable": "true",
+    "fieldCount": 3,
+    "createdDate": "2025-05-15T00:04:44.807",
+    "modifiedDate": "2025-05-15T00:04:44.807"
+  },
+  {
+    "file": "58FAE1F6-E5EB-4419-9CF3-A9FB598BDD6E_\u30c6\u30b9\u30c8.json",
+    "customerKey": "58FAE1F6-E5EB-4419-9CF3-A9FB598BDD6E",
+    "name": "\u30c6\u30b9\u30c8",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 1,
+    "createdDate": "2023-11-27T01:47:25.403",
+    "modifiedDate": "2023-11-27T01:47:47.043"
+  },
+  {
+    "file": "C099F9BC-D0FC-475C-932C-8ED23CF5E45E_\u30c6\u30b9\u30c8_1.json",
+    "customerKey": "C099F9BC-D0FC-475C-932C-8ED23CF5E45E",
+    "name": "\u30c6\u30b9\u30c8_1",
+    "description": "",
+    "isSendable": "false",
+    "fieldCount": 1,
+    "createdDate": "2023-11-27T01:55:34.527",
+    "modifiedDate": "2023-11-27T01:55:34.527"
+  }
+]
