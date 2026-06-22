@@ -1,4 +1,4 @@
-name: Sync SFMC Email Content
+name: Sync SFMC Content
 
 on:
   schedule:
@@ -24,12 +24,12 @@ jobs:
       - name: Install dependencies
         run: pip install httpx
 
-      - name: Fetch SFMC emails and content blocks
+      - name: Sync all SFMC content
         env:
           SFMC_CLIENT_ID: ${{ secrets.SFMC_CLIENT_ID }}
           SFMC_CLIENT_SECRET: ${{ secrets.SFMC_CLIENT_SECRET }}
           SFMC_SUBDOMAIN: ${{ secrets.SFMC_SUBDOMAIN }}
-        run: python scripts/sync_emails.py
+        run: python scripts/sync.py
 
       - name: Commit and push changes
         run: |
@@ -42,7 +42,7 @@ jobs:
             if [ -f email-content/.commit-summary ]; then
               git commit -F email-content/.commit-summary
             else
-              git commit -m "chore: sync SFMC email content $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              git commit -m "chore: sync SFMC content $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             fi
             git push
           fi
