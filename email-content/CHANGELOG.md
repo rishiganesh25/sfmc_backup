@@ -1,5 +1,177 @@
 # SFMC Content Builder Changelog
 
+## 2026-07-11T02:11:35Z
+
+### Modified (82)
+- `automations/c7daa5fb-2e44-4844-a1fb-6360fd90d5f0_523015076-_ChatMessagingSubscriptionView-PS.json` -- "523015076-_ChatMessagingSubscriptionView-PS" (modified 2026-02-27)
+
+- `automations/51ee8860-da5a-450f-ad77-008856bc0ac0_523015076-_MobileSubscriptionView-PS.json` -- "523015076-_MobileSubscriptionView-PS" (modified 2026-02-27)
+
+- `automations/560cac58-b702-4e2a-bde8-8adc3ec4b7eb_523015076-ActivityIncView-PS.json` -- "523015076-ActivityIncView-PS" (modified 2026-03-04)
+
+- `automations/68cd3eb2-deea-455c-9004-97584e4d0793_523015076-ChatMessagingMOLogView-PS.json` -- "523015076-ChatMessagingMOLogView-PS" (modified 2026-01-27)
+
+- `automations/a691459c-8571-40d4-af2e-10a62346d5c3_523015076-ChatMessagingSendEventView-PS.json` -- "523015076-ChatMessagingSendEventView-PS" (modified 2026-01-27)
+
+- `automations/e5934bd7-6665-41bd-a8e3-dc0da903a093_523015076-ChatMessagingWhatsAppTrackingView-PS.json` -- "523015076-ChatMessagingWhatsAppTrackingView-PS" (modified 2026-01-27)
+
+- `automations/d53a2bfc-63e8-488d-8f1b-4d53d802df29_523015076-Customer.json` -- "523015076-Customer" (modified 2024-03-28)
+
+- `automations/a4527033-5b58-4c98-b96a-9a86f4d8b300_523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json` -- "523015076-DC_MC_ATF_RelatedAttributes_Multi_Record_Journey" (modified 2026-05-18)
+
+- `automations/9f05d4d4-3cfc-4e6d-9f67-1ef1d5ccff0a_523015076-DefinitionIncView-PS.json` -- "523015076-DefinitionIncView-PS" (modified 2026-03-04)
+
+- `automations/f6f44785-fab7-4433-9e14-ddc36b521218_523015076-Deletion_2.json` -- "523015076-Deletion_2" (modified 2025-05-15)
+
+- `automations/ee4b1a7d-5ebf-4e48-8403-311db2a6f846_523015076-Deletion_3.json` -- "523015076-Deletion_3" (modified 2025-05-15)
+
+- `automations/78853647-2307-4e64-9cb6-6909b7360308_523015076-Deletion_DC.json` -- "523015076-Deletion_DC" (modified 2025-04-14)
+
+- `automations/94f8becd-480f-4d40-a789-f728223ffa59_523015076-GA_Events.json` -- "523015076-GA Events" (modified 2024-03-28)
+
+- `automations/a4c81bf1-5186-4bf1-b2af-2f221705a1ab_523015076-PSExtended-24.json` -- "523015076-PSExtended-24" (modified 2026-02-26)
+
+- `automations/a006c266-7939-46f3-8863-03bfd4bed88a_523015076-PSHist01.json` -- "523015076-PSHist#01" (modified 2026-01-27)
+
+- `automations/9f30b442-ce81-4b79-b121-3112dfd1fcad_523015076-PSMain.json` -- "523015076-PSMain" (modified 2026-02-26)
+
+- `automations/26b6b0d3-c10b-40d8-bb8c-79132f0c8b60_523015076-PSMain_1h.json` -- "523015076-PSMain_1h" (modified 2026-02-27)
+
+- `automations/bc2aa83d-6af0-45d2-a616-8e3939a109de_523015076-PSSub.json` -- "523015076-PSSub" (modified 2026-02-27)
+
+- `automations/95ea2d64-e11c-4171-a6a5-576697c159e5_523015076-SFMCEmailBulkMessage-PS.json` -- "523015076-SFMCEmailBulkMessage-PS" (modified 2026-02-27)
+
+- `automations/de3fe3de-67c6-4c26-ab65-64974b7287e2_523015076-SFMCSMSBulkMessage-PS.json` -- "523015076-SFMCSMSBulkMessage-PS" (modified 2026-02-27)
+
+- `automations/d429c4b4-e5e0-4233-9f3f-ccac2366aed2_523015076-SFMCSMSEngagementDR-PS.json` -- "523015076-SFMCSMSEngagementDR-PS" (modified 2026-01-27)
+
+- `automations/370e4ed6-2578-4ca2-9efe-e9a247435125_523015076-SFMCSMSEngagementMO-PS.json` -- "523015076-SFMCSMSEngagementMO-PS" (modified 2026-01-27)
+
+- `automations/d19179c6-81fa-4b94-8f6f-36f4a8c353c8_523015076-SFMCSMSEngagementMOResponseClick-PS.json` -- "523015076-SFMCSMSEngagementMOResponseClick-PS" (modified 2026-01-27)
+
+- `automations/a9a0b6e0-7fed-4232-a4b6-3ec2070dd014_523015076-SFMCSMSEngagementMOResponse-PS.json` -- "523015076-SFMCSMSEngagementMOResponse-PS" (modified 2026-01-27)
+
+- `automations/6be87c13-ffa5-4851-9691-ea3f6099779a_523015076-SFMCSMSEngagementSendClick-PS.json` -- "523015076-SFMCSMSEngagementSendClick-PS" (modified 2026-01-27)
+
+- `automations/c81ef06d-3546-4f93-93db-0159e739e7e3_523015076-SFMCSMSEngagementSendV2-PS.json` -- "523015076-SFMCSMSEngagementSendV2-PS" (modified 2026-01-27)
+
+- `automations/559fa91b-ec6a-4c7f-9649-f130f0e8e5fd_523015076-tests3.json` -- "523015076-tests3" (modified 2024-07-25)
+
+- `automations/901c86ea-1ed9-4315-baef-1f01d1c6d571_523025841-_ChatMessagingSubscriptionView-PS.json` -- "523025841-_ChatMessagingSubscriptionView-PS" (modified 2026-02-27)
+
+- `automations/5c6b9bd4-6ad1-4faf-af14-c83c14eb119c_523025841-_MobileSubscriptionView-PS.json` -- "523025841-_MobileSubscriptionView-PS" (modified 2026-02-27)
+
+- `automations/e433a9c9-458d-477a-a675-7964ec163c94_523025841-BU1_Customer_Data.json` -- "523025841-BU1_Customer_Data" (modified 2025-02-26)
+
+- `automations/eb1b2cd8-e4db-424a-b0e9-be215785f3db_523025841-ChatMessagingMOLogView-PS.json` -- "523025841-ChatMessagingMOLogView-PS" (modified 2026-01-27)
+
+- `automations/57f5fc3b-0537-4c2b-b655-6c3b553b6949_523025841-ChatMessagingSendEventView-PS.json` -- "523025841-ChatMessagingSendEventView-PS" (modified 2026-01-27)
+
+- `automations/05881d6f-648b-41c0-9b19-7d017764fd93_523025841-ChatMessagingWhatsAppTrackingView-PS.json` -- "523025841-ChatMessagingWhatsAppTrackingView-PS" (modified 2026-01-27)
+
+- `automations/44b06454-f773-4b5e-b2f9-b5c164fc1f19_523025841-SFMCSMSBulkMessage-PS.json` -- "523025841-SFMCSMSBulkMessage-PS" (modified 2026-02-27)
+
+- `automations/b54c29a7-7db1-48e4-8279-393bc30a0891_523025841-SFMCSMSEngagementDR-PS.json` -- "523025841-SFMCSMSEngagementDR-PS" (modified 2026-01-27)
+
+- `automations/316aed5d-983c-4800-be14-31b310c2b7e0_523025841-SFMCSMSEngagementMO-PS.json` -- "523025841-SFMCSMSEngagementMO-PS" (modified 2026-01-27)
+
+- `automations/51162411-2e5e-442d-9755-53535b3e037d_523025841-SFMCSMSEngagementMOResponseClick-PS.json` -- "523025841-SFMCSMSEngagementMOResponseClick-PS" (modified 2026-01-27)
+
+- `automations/1491b368-7ba3-4245-927c-b493da7ec632_523025841-SFMCSMSEngagementMOResponse-PS.json` -- "523025841-SFMCSMSEngagementMOResponse-PS" (modified 2026-01-27)
+
+- `automations/31421e89-6297-4b60-9cfb-246e79fb28c6_523025841-SFMCSMSEngagementSendClick-PS.json` -- "523025841-SFMCSMSEngagementSendClick-PS" (modified 2026-01-27)
+
+- `automations/db3cc85d-4ad1-4eb9-bb01-023a0a9af7a2_523025841-SFMCSMSEngagementSendV2-PS.json` -- "523025841-SFMCSMSEngagementSendV2-PS" (modified 2026-01-27)
+
+- `automations/18eb34fb-f5f7-403d-9df0-280628cd6b9b_523025841-SFMCWhatsAppBulkMessageView-PS.json` -- "523025841-SFMCWhatsAppBulkMessageView-PS" (modified 2026-02-27)
+
+- `automations/b9bbc160-9163-4726-b91f-5350dade6c7f_523025842-_ChatMessagingSubscriptionView-PS.json` -- "523025842-_ChatMessagingSubscriptionView-PS" (modified 2026-02-27)
+
+- `automations/7d0ea93d-f766-4021-aac4-7e892bbb32d8_523025842-_MobileSubscriptionView-PS.json` -- "523025842-_MobileSubscriptionView-PS" (modified 2026-02-27)
+
+- `automations/81b310f0-6482-408f-9291-a86159967d6f_523025842-BU2_Customers.json` -- "523025842-BU2_Customers" (modified 2025-02-26)
+
+- `automations/479c97ff-2ef7-4972-9114-9f4012b87237_523025842-ChatMessagingMOLogView-PS.json` -- "523025842-ChatMessagingMOLogView-PS" (modified 2026-01-27)
+
+- `automations/bc7d89da-1459-4e7c-8603-886f263c5957_523025842-ChatMessagingSendEventView-PS.json` -- "523025842-ChatMessagingSendEventView-PS" (modified 2026-01-27)
+
+- `automations/c3361761-8354-4feb-9803-c67757de11c0_523025842-ChatMessagingWhatsAppTrackingView-PS.json` -- "523025842-ChatMessagingWhatsAppTrackingView-PS" (modified 2026-01-27)
+
+- `automations/803f924b-e21b-4718-9489-b2199e476243_523025842-SFMCSMSBulkMessage-PS.json` -- "523025842-SFMCSMSBulkMessage-PS" (modified 2026-02-27)
+
+- `automations/57a891e9-568b-4fe9-886c-4a43115cb32a_523025842-SFMCSMSEngagementDR-PS.json` -- "523025842-SFMCSMSEngagementDR-PS" (modified 2026-01-27)
+
+- `automations/22c0f361-53d2-4b66-acc2-5c0af1802953_523025842-SFMCSMSEngagementMO-PS.json` -- "523025842-SFMCSMSEngagementMO-PS" (modified 2026-01-27)
+
+- `automations/b2c8ad00-20bb-45fc-b195-841d1df32a81_523025842-SFMCSMSEngagementMOResponseClick-PS.json` -- "523025842-SFMCSMSEngagementMOResponseClick-PS" (modified 2026-01-27)
+
+- `automations/f78da0b1-1236-409b-9740-dc7898f37091_523025842-SFMCSMSEngagementMOResponse-PS.json` -- "523025842-SFMCSMSEngagementMOResponse-PS" (modified 2026-01-27)
+
+- `automations/c9838b47-7012-4417-b54d-dc0cfafb55b0_523025842-SFMCSMSEngagementSendClick-PS.json` -- "523025842-SFMCSMSEngagementSendClick-PS" (modified 2026-01-27)
+
+- `automations/3dc8576b-7c65-410b-a26c-079f3bb02b1a_523025842-SFMCSMSEngagementSendV2-PS.json` -- "523025842-SFMCSMSEngagementSendV2-PS" (modified 2026-01-27)
+
+- `automations/93b7e229-e200-4473-b3c0-c4475b46bcca_523025842-SFMCWhatsAppBulkMessageView-PS.json` -- "523025842-SFMCWhatsAppBulkMessageView-PS" (modified 2026-02-27)
+
+- `automations/2cd3136e-0345-43ce-b17a-1704924b715d_car.json` -- "car
+" (modified 2024-07-23)
+
+- `automations/0c1de56f-04af-4560-8cdc-fbf250013ab7_cars.json` -- "cars" (modified 2024-07-23)
+
+- `automations/f5271a93-c2df-45f1-98ce-12d4f422d513_datatype_check.json` -- "datatype check" (modified 2025-05-15)
+
+- `automations/c19d53fb-59ef-4e4b-ae81-283896aae5f7_DFUAPIBUMapping.json` -- "DFUAPIBUMapping" (modified 2026-03-25)
+
+- `automations/cefae37a-9fb2-4a8d-ab0c-fca68bfb705f_HK_Autocumulus_Automation.json` -- "HK_Autocumulus_Automation" (modified 2023-10-04)
+
+- `automations/cb0319f9-7d8b-4b17-b8f7-41e9ef8e2f91_test1.json` -- "test1" (modified 2023-11-27)
+
+- `automation-activities/queries/d5f429bb-54ff-4672-abc0-440390b35631_car.sql` -- "car (.sql)" (modified 2024-07-23)
+
+- `automation-activities/queries/cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.sql` -- "car_filter (.sql)" (modified 2024-07-23)
+
+- `automation-activities/queries/7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.sql` -- "customer_info (.sql)" (modified 2024-07-23)
+
+- `automation-activities/queries/8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.sql` -- "datatype check (.sql)" (modified 2025-05-15)
+
+- `automation-activities/queries/ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.sql` -- "HK_Autocumulus_Generate_Sendable (.sql)" (modified 2024-07-08)
+
+- `automation-activities/queries/64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.sql` -- "test1 (.sql)" (modified 2023-11-27)
+
+- `journeys/2f878a6d-6c20-43cc-9c6f-45cec4a0df33_IS_TEST.json` -- "IS TEST" (modified 0001-01-01)
+
+- `journeys/b252fd65-0842-4791-94c8-8e7a14460a99_New_Journey_-_December_6_2022_at_735_PM.json` -- "New Journey - December 6 2022 at 7.35 PM" (modified 2022-12-06)
+
+- `journeys/1a031381-7e7a-408d-9613-92c2546387ea_New_Journey_-_March_16_2023_at_350_PM.json` -- "New Journey - March 16 2023 at 3.50 PM" (modified 0001-01-01)
+
+- `journeys/26c42072-3035-4a2d-9442-df2afce0a1d0_New_Journey_-_July_10_2024_at_622_PM.json` -- "New Journey - July 10 2024 at 6.22 PM" (modified 0001-01-01)
+
+- `journeys/c7caf3a9-7036-42fa-b9d4-33dff6f7e8e1_New_Journey_-_July_12_2024_at_1217_PM.json` -- "New Journey - July 12 2024 at 12.17 PM" (modified 0001-01-01)
+
+- `journeys/c49b7c66-5a8e-4d07-baa0-b0acf932ba1d_New_Journey_-_July_12_2024_at_1243_PM.json` -- "New Journey - July 12 2024 at 12.43 PM" (modified 0001-01-01)
+
+- `journeys/acf3f83f-0f8e-40bf-8e69-7a9fc1f2cc56_conte.json` -- "conte" (modified 2024-07-12)
+
+- `journeys/3c515159-02c4-46f8-bff4-b05d615ef021_New_Journey_-_July_12_2024_at_134_PM.json` -- "New Journey - July 12 2024 at 1.34 PM" (modified 2024-07-12)
+
+- `journeys/af9b55fb-94b7-4870-8f48-c6fdb4b14c04_New_Journey_-_July_20_2024_at_1211_AM.json` -- "New Journey - July 20 2024 at 12.11 AM" (modified 2024-07-19)
+
+- `journeys/53bdbfff-0771-4cd2-b9c5-0e7da098824e_TD_Bank_Customer_Journey.json` -- "TD_Bank_Customer_Journey" (modified 0001-01-01)
+
+- `journeys/ac1247ae-d34b-495b-9d6f-188edfe1a200_HK_Autocumulus_Journey.json` -- "HK_Autocumulus_Journey" (modified 0001-01-01)
+
+- `journeys/1042465a-00c8-4949-8158-86c105b6c5b6_New_Journey_-_September_29_2025_at_941_PM.json` -- "New Journey - September 29 2025 at 9.41 PM" (modified 2025-09-29)
+
+- `journeys/bc7d1f23-b099-48db-9c3e-f92b61587f7d_DC_MC_Next.json` -- "DC_MC_Next" (modified 2026-03-04)
+
+- `journeys/aa57153c-ca0f-4a96-ad4b-b1f96072dfc8_New_Journey_-_March_4_2026_at_126_PM.json` -- "New Journey - March 4 2026 at 1.26 PM" (modified 2026-03-04)
+
+- `journeys/21c816b0-cdad-4a4d-8752-7cd298563fc4_DC_MC_ATF_RelatedAttributes_Multi_Record_Journey.json` -- "DC_MC_ATF_RelatedAttributes_Multi_Record_Journey" (modified 2026-03-10)
+
+### Unchanged: 136 asset(s)
+
+---
+
 ## 2026-07-10T02:35:39Z
 
 ### Modified (82)
