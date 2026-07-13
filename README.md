@@ -23,10 +23,10 @@ SFMCVault backs up eight categories of SFMC assets, spanning Content Builder, Da
 | **Templates** | Email templates (layouts) | `.html` | `email-content/templates/` |
 | **Content Blocks** | Freeform, Text, HTML, Text + Image, Image, Styling, Einstein Content, Code Snippet, Live Setting, Interactive Email Form, and Interactive CloudPage blocks — plus a few related Content Builder asset types that share the same query: web pages, web templates, default templates, JSON messages, Journey Builder templates, and package definitions.<sup>*</sup> | `.html` / `.txt` / `.json` | `email-content/content-blocks/` |
 | **Images** | PNG, JPEG, GIF, WebP, SVG, BMP, TIFF, and PDF assets (downloaded as binary files, with SHA-256 change detection) | binary | `email-content/images/` |
-| **Data Extensions** | Data Extension definitions and full field schemas (name, field type, length, primary key, required, default value, ordinal) — retrieved via the SOAP API | `.json` | `email-content/data-extensions/` |
-| **Automations** | Automation definitions including status, schedule, and ordered steps | `.json` | `email-content/automations/` |
-| **Automation Activities** | SQL Query, SSJS Script, Import, Data Extract, and File Transfer activities. Query SQL and SSJS code are also written out as standalone `.sql` / `.ssjs` files for readable diffs. | `.json` (+ `.sql` / `.ssjs`) | `email-content/automation-activities/` |
-| **Journeys** | Journey Builder interactions with their full canvas — activities, triggers, goals, version, and status | `.json` | `email-content/journeys/` |
+| **Data Extensions** | Data Extension definitions and full field schemas (name, field type, length, primary key, required, default value, ordinal) — retrieved via the SOAP API | `.json` | `data-extensions/` |
+| **Automations** | Automation definitions including status, schedule, and ordered steps | `.json` | `automations/` |
+| **Automation Activities** | SQL Query, SSJS Script, Import, Data Extract, and File Transfer activities. Query SQL and SSJS code are also written out as standalone `.sql` / `.ssjs` files for readable diffs. | `.json` (+ `.sql` / `.ssjs`) | `automation-activities/` |
+| **Journeys** | Journey Builder interactions with their full canvas — activities, triggers, goals, version, and status | `.json` | `journeys/` |
 
 Each category also gets a `manifest.json` with metadata for every asset.
 
@@ -88,7 +88,7 @@ To enable it:
 
 From now on, the workflow will:
 - Run `scripts/sync.py` daily
-- Commit any changes to `email-content/` with a detailed commit message
+- Commit any changes to the asset folders (`email-content/`, `data-extensions/`, `automations/`, `automation-activities/`, `journeys/`) with a detailed commit message
 - Skip the commit if nothing has changed
 
 ---
@@ -97,23 +97,26 @@ From now on, the workflow will:
 
 After the first sync, your repository will look like this:
 
+Email-related Content Builder assets live under `email-content/`, while every other asset type gets its own top-level folder:
+
 ```
-email-content/
-├── emails/
-│   ├── 12345_Welcome_Email.html
-│   ├── 67890_Promo_Campaign.html
-│   └── manifest.json
-├── templates/
-│   ├── 11111_Main_Template.html
-│   └── manifest.json
-├── content-blocks/
-│   ├── 22222_Header_Block.html
-│   ├── 33333_Footer_Block.html
-│   └── manifest.json
-├── images/
-│   ├── 44444_Logo.png
-│   ├── 55555_Banner.jpg
-│   └── manifest.json
+.
+├── email-content/                # email-related Content Builder assets only
+│   ├── emails/
+│   │   ├── 12345_Welcome_Email.html
+│   │   ├── 67890_Promo_Campaign.html
+│   │   └── manifest.json
+│   ├── templates/
+│   │   ├── 11111_Main_Template.html
+│   │   └── manifest.json
+│   ├── content-blocks/
+│   │   ├── 22222_Header_Block.html
+│   │   ├── 33333_Footer_Block.html
+│   │   └── manifest.json
+│   └── images/
+│       ├── 44444_Logo.png
+│       ├── 55555_Banner.jpg
+│       └── manifest.json
 ├── data-extensions/
 │   ├── abc-def-123_Master_Subscribers.json
 │   └── manifest.json
@@ -193,7 +196,7 @@ A running history of every sync, showing what was added, modified, or deleted --
 - **Commit history** — click the "commits" link on the repo page to see all syncs
 - **File history** — open any file and click **History** to see every change to that specific email
 - **Blame view** — open any file and click **Blame** to see who changed each line
-- **CHANGELOG.md** — browse to `email-content/CHANGELOG.md` for a human-readable summary
+- **CHANGELOG.md** — browse to `CHANGELOG.md` at the repo root for a human-readable summary
 
 ### Via Git CLI
 
@@ -207,8 +210,8 @@ git show <commit-hash>
 # View full change history for one email
 git log -p -- email-content/emails/12345_Welcome_Email.html
 
-# Compare two points in time
-git diff <old-hash> <new-hash> -- email-content/
+# Compare two points in time (across all asset folders)
+git diff <old-hash> <new-hash> -- email-content/ data-extensions/ automations/ automation-activities/ journeys/
 ```
 
 ---

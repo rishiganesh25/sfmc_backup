@@ -23,16 +23,16 @@ Output:
     email-content/content-blocks/manifest.json
     email-content/images/{id}_{name}.{ext}
     email-content/images/manifest.json
-    email-content/data-extensions/{key}_{name}.json
-    email-content/data-extensions/manifest.json
-    email-content/automations/{id}_{name}.json
-    email-content/automations/manifest.json
-    email-content/automation-activities/{type}/{id}_{name}.*
-    email-content/automation-activities/manifest.json
-    email-content/journeys/{id}_{name}.json
-    email-content/journeys/manifest.json
-    email-content/CHANGELOG.md
-    email-content/.commit-summary
+    data-extensions/{key}_{name}.json
+    data-extensions/manifest.json
+    automations/{id}_{name}.json
+    automations/manifest.json
+    automation-activities/{type}/{id}_{name}.*
+    automation-activities/manifest.json
+    journeys/{id}_{name}.json
+    journeys/manifest.json
+    CHANGELOG.md
+    .commit-summary
 """
 
 from __future__ import annotations
@@ -56,19 +56,22 @@ import httpx
 # ---------------------------------------------------------------------------
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUTPUT_DIR = REPO_ROOT / "email-content"
 
-EMAILS_DIR = OUTPUT_DIR / "emails"
-TEMPLATES_DIR = OUTPUT_DIR / "templates"
-CONTENT_BLOCKS_DIR = OUTPUT_DIR / "content-blocks"
-IMAGES_DIR = OUTPUT_DIR / "images"
-DATA_EXT_DIR = OUTPUT_DIR / "data-extensions"
-AUTOMATIONS_DIR = OUTPUT_DIR / "automations"
-ACTIVITIES_DIR = OUTPUT_DIR / "automation-activities"
-JOURNEYS_DIR = OUTPUT_DIR / "journeys"
+# Email-related Content Builder assets live under email-content/.
+EMAIL_CONTENT_DIR = REPO_ROOT / "email-content"
+EMAILS_DIR = EMAIL_CONTENT_DIR / "emails"
+TEMPLATES_DIR = EMAIL_CONTENT_DIR / "templates"
+CONTENT_BLOCKS_DIR = EMAIL_CONTENT_DIR / "content-blocks"
+IMAGES_DIR = EMAIL_CONTENT_DIR / "images"
 
-CHANGELOG_FILE = OUTPUT_DIR / "CHANGELOG.md"
-COMMIT_SUMMARY_FILE = OUTPUT_DIR / ".commit-summary"
+# Non-email assets each live in their own top-level folder.
+DATA_EXT_DIR = REPO_ROOT / "data-extensions"
+AUTOMATIONS_DIR = REPO_ROOT / "automations"
+ACTIVITIES_DIR = REPO_ROOT / "automation-activities"
+JOURNEYS_DIR = REPO_ROOT / "journeys"
+
+CHANGELOG_FILE = REPO_ROOT / "CHANGELOG.md"
+COMMIT_SUMMARY_FILE = REPO_ROOT / ".commit-summary"
 META_FILES = {"manifest.json"}
 
 # Content Builder asset-type IDs
@@ -1377,7 +1380,7 @@ def main() -> int:
         else:
             enriched = emails
         print(f"Writing emails to {EMAILS_DIR}/...")
-        manifest, changes = write_cb_assets(enriched, EMAILS_DIR, "emails")
+        manifest, changes = write_cb_assets(enriched, EMAILS_DIR, "email-content/emails")
         _print_changes("Emails", changes)
         return manifest, changes
 
@@ -1399,7 +1402,7 @@ def main() -> int:
         else:
             enriched = templates
         print(f"Writing templates to {TEMPLATES_DIR}/...")
-        manifest, changes = write_cb_assets(enriched, TEMPLATES_DIR, "templates")
+        manifest, changes = write_cb_assets(enriched, TEMPLATES_DIR, "email-content/templates")
         _print_changes("Templates", changes)
         return manifest, changes
 
@@ -1421,7 +1424,7 @@ def main() -> int:
         else:
             enriched = blocks
         print(f"Writing content blocks to {CONTENT_BLOCKS_DIR}/...")
-        manifest, changes = write_cb_assets(enriched, CONTENT_BLOCKS_DIR, "content-blocks")
+        manifest, changes = write_cb_assets(enriched, CONTENT_BLOCKS_DIR, "email-content/content-blocks")
         _print_changes("Content blocks", changes)
         return manifest, changes
 
@@ -1438,7 +1441,7 @@ def main() -> int:
         images = fetch_cb_assets(token, rest_url, IMAGE_TYPE_IDS, "images")
         print(f"Retrieved {len(images)} image(s).")
         print(f"Downloading images to {IMAGES_DIR}/...")
-        manifest, changes = write_image_assets(images, IMAGES_DIR, "images", token)
+        manifest, changes = write_image_assets(images, IMAGES_DIR, "email-content/images", token)
         _print_changes("Images", changes)
         return manifest, changes
 
