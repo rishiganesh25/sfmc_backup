@@ -25,7 +25,7 @@ SFMCVault backs up eight categories of SFMC assets, spanning Content Builder, Da
 | **Images** | PNG, JPEG, GIF, WebP, SVG, BMP, TIFF, and PDF assets (downloaded as binary files, with SHA-256 change detection) | binary | `email-content/images/` |
 | **Data Extensions** | Data Extension definitions and full field schemas (name, field type, length, primary key, required, default value, ordinal) — retrieved via the SOAP API | `.json` | `data-extensions/` |
 | **Automations** | Automation definitions including status, schedule, and ordered steps | `.json` | `automations/` |
-| **Automation Activities** | SQL Query, SSJS Script, Import, Data Extract, and File Transfer activities. Query SQL and SSJS code are also written out as standalone `.sql` / `.ssjs` files for readable diffs. | `.json` (+ `.sql` / `.ssjs`) | `automation-activities/` |
+| **Automation Activities** | SQL Query, SSJS Script, Import, Data Extract, and File Transfer activities. Query SQL and SSJS code are also written out as standalone `.sql` / `.ssjs` files for readable diffs. | `.json` (+ `.sql` / `.ssjs`) | `automations/automation-activities/` |
 | **Journeys** | Journey Builder interactions with their full canvas — activities, triggers, goals, version, and status | `.json` | `journeys/` |
 
 Each category also gets a `manifest.json` with metadata for every asset.
@@ -88,7 +88,7 @@ To enable it:
 
 From now on, the workflow will:
 - Run `scripts/sync.py` daily
-- Commit any changes to the asset folders (`email-content/`, `data-extensions/`, `automations/`, `automation-activities/`, `journeys/`) with a detailed commit message
+- Commit any changes to the asset folders (`email-content/`, `data-extensions/`, `automations/`, `journeys/`) with a detailed commit message
 - Skip the commit if nothing has changed
 
 ---
@@ -122,20 +122,20 @@ Email-related Content Builder assets live under `email-content/`, while every ot
 │   └── manifest.json
 ├── automations/
 │   ├── 78901_Nightly_Import.json
-│   └── manifest.json
-├── automation-activities/
-│   ├── queries/
-│   │   ├── 55501_Active_Subscribers.json
-│   │   ├── 55501_Active_Subscribers.sql
-│   │   └── manifest.json
-│   ├── scripts/
-│   │   ├── 66601_Cleanup_Script.json
-│   │   ├── 66601_Cleanup_Script.ssjs
-│   │   └── manifest.json
-│   ├── imports/
-│   ├── data-extracts/
-│   ├── file-transfers/
-│   └── manifest.json
+│   ├── manifest.json
+│   └── automation-activities/
+│       ├── queries/
+│       │   ├── 55501_Active_Subscribers.json
+│       │   ├── 55501_Active_Subscribers.sql
+│       │   └── manifest.json
+│       ├── scripts/
+│       │   ├── 66601_Cleanup_Script.json
+│       │   ├── 66601_Cleanup_Script.ssjs
+│       │   └── manifest.json
+│       ├── imports/
+│       ├── data-extracts/
+│       ├── file-transfers/
+│       └── manifest.json
 ├── journeys/
 │   ├── 90123_Onboarding_Journey.json
 │   └── manifest.json
@@ -211,7 +211,7 @@ git show <commit-hash>
 git log -p -- email-content/emails/12345_Welcome_Email.html
 
 # Compare two points in time (across all asset folders)
-git diff <old-hash> <new-hash> -- email-content/ data-extensions/ automations/ automation-activities/ journeys/
+git diff <old-hash> <new-hash> -- email-content/ data-extensions/ automations/ journeys/
 ```
 
 ---

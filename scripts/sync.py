@@ -27,8 +27,8 @@ Output:
     data-extensions/manifest.json
     automations/{id}_{name}.json
     automations/manifest.json
-    automation-activities/{type}/{id}_{name}.*
-    automation-activities/manifest.json
+    automations/automation-activities/{type}/{id}_{name}.*
+    automations/automation-activities/manifest.json
     journeys/{id}_{name}.json
     journeys/manifest.json
     CHANGELOG.md
@@ -67,7 +67,8 @@ IMAGES_DIR = EMAIL_CONTENT_DIR / "images"
 # Non-email assets each live in their own top-level folder.
 DATA_EXT_DIR = REPO_ROOT / "data-extensions"
 AUTOMATIONS_DIR = REPO_ROOT / "automations"
-ACTIVITIES_DIR = REPO_ROOT / "automation-activities"
+# Automation activities live nested under the automations folder.
+ACTIVITIES_DIR = AUTOMATIONS_DIR / "automation-activities"
 JOURNEYS_DIR = REPO_ROOT / "journeys"
 
 CHANGELOG_FILE = REPO_ROOT / "CHANGELOG.md"
@@ -1054,7 +1055,7 @@ def write_all_activities(
             name = item.get("name", "unnamed")
             safe = sanitize_filename(name)
             json_filename = f"{act_id}_{safe}.json"
-            json_rel = f"automation-activities/{type_key}/{json_filename}"
+            json_rel = f"automations/automation-activities/{type_key}/{json_filename}"
             mod_date = item.get("modifiedDate", "")
 
             record = dict(item)
@@ -1079,7 +1080,7 @@ def write_all_activities(
             if code_field and item.get(code_field):
                 code_filename = f"{act_id}_{safe}{code_ext}"
                 code_content = item[code_field]
-                code_rel = f"automation-activities/{type_key}/{code_filename}"
+                code_rel = f"automations/automation-activities/{type_key}/{code_filename}"
 
                 code_change = _detect_change(
                     code_filename, code_rel, f"{name} ({code_ext})", code_content,
@@ -1104,7 +1105,7 @@ def write_all_activities(
                 "modifiedDate": mod_date,
             })
 
-        deleted = _remove_stale(sub_dir, existing_files, written, f"automation-activities/{type_key}")
+        deleted = _remove_stale(sub_dir, existing_files, written, f"automations/automation-activities/{type_key}")
         _write_manifest(sub_dir, manifest, key_fn=lambda m: m.get("name", ""))
 
         combined_manifest.extend(manifest)
