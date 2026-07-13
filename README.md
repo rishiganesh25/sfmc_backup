@@ -1,6 +1,6 @@
 # SFMCVault
 
-SFMCVault is a version-control framework for Salesforce Marketing Cloud (SFMC) Content Builder. It automatically backs up all your emails, templates, content blocks, and images from SFMC into a Git repository, giving you a full audit trail of every change -- who changed what, when, and exactly what was different.
+SFMCVault is a version-control framework for Salesforce Marketing Cloud (SFMC). It automatically backs up your emails, templates, content blocks, images, Data Extensions, Automations, automation activities, and Journeys from SFMC into a Git repository, giving you a full audit trail of every change -- who changed what, when, and exactly what was different.
 
 **Why SFMCVault?**
 
@@ -15,14 +15,22 @@ SFMC has no built-in version history for Content Builder assets. If someone edit
 
 ## What Gets Backed Up
 
-| Category | Asset Types | Output Directory |
-|---|---|---|
-| **Emails** | Template-based, HTML paste, Text-only | `email-content/emails/` |
-| **Templates** | Email templates (layouts) | `email-content/templates/` |
-| **Content Blocks** | HTML, Text, Image, Button, Freeform, Code snippet, Dynamic content, Smart capture, Social share/follow, Live content, Reference, Image carousel, Custom, A/B test | `email-content/content-blocks/` |
-| **Images** | PNG, JPEG, GIF, and other image assets | `email-content/images/` |
+SFMCVault backs up eight categories of SFMC assets, spanning Content Builder, Data Extensions, Automation Studio, and Journey Builder:
+
+| Category | What's Captured | Format | Output Directory |
+|---|---|---|---|
+| **Emails** | Template-based, HTML paste, and text-only emails. Template-based emails are compiled from their template skeleton + slot content into the full HTML. Subject line and preheader are saved as a header comment. | `.html` / `.txt` | `email-content/emails/` |
+| **Templates** | Email templates (layouts) | `.html` | `email-content/templates/` |
+| **Content Blocks** | Freeform, Text, HTML, Text + Image, Image, Styling, Einstein Content, Code Snippet, Live Setting, Interactive Email Form, and Interactive CloudPage blocks — plus a few related Content Builder asset types that share the same query: web pages, web templates, default templates, JSON messages, Journey Builder templates, and package definitions.<sup>*</sup> | `.html` / `.txt` / `.json` | `email-content/content-blocks/` |
+| **Images** | PNG, JPEG, GIF, WebP, SVG, BMP, TIFF, and PDF assets (downloaded as binary files, with SHA-256 change detection) | binary | `email-content/images/` |
+| **Data Extensions** | Data Extension definitions and full field schemas (name, field type, length, primary key, required, default value, ordinal) — retrieved via the SOAP API | `.json` | `email-content/data-extensions/` |
+| **Automations** | Automation definitions including status, schedule, and ordered steps | `.json` | `email-content/automations/` |
+| **Automation Activities** | SQL Query, SSJS Script, Import, Data Extract, and File Transfer activities. Query SQL and SSJS code are also written out as standalone `.sql` / `.ssjs` files for readable diffs. | `.json` (+ `.sql` / `.ssjs`) | `email-content/automation-activities/` |
+| **Journeys** | Journey Builder interactions with their full canvas — activities, triggers, goals, version, and status | `.json` | `email-content/journeys/` |
 
 Each category also gets a `manifest.json` with metadata for every asset.
+
+<sup>*</sup> Content Blocks are matched by SFMC asset type ID: `195, 196, 197, 198, 199, 202, 203, 205, 206, 214, 220, 227, 230, 231, 232, 233, 236`. Any asset with one of these types is stored in `content-blocks/`. Note that this does **not** include Button, Dynamic Content, Smart Capture, Social Share/Follow, Reference, Image Carousel, Custom, or A/B Test blocks — those asset types are not currently queried by the sync script.
 
 ---
 
@@ -43,8 +51,14 @@ Each category also gets a `manifest.json` with metadata for every asset.
 2. Click **New** to create a new package (e.g., "SFMCVault Backup")
 3. Click **Add Component** and select **API Integration**
 4. Choose **Server-to-Server** as the integration type
-5. Grant the following permissions:
-   - **Assets** — Read (under Content Builder)
+5. Grant the following **Read** permissions so every category can be backed up:
+   - **Assets** — Read (under Content Builder) — emails, templates, content blocks, images
+   - **Automations** — Read — automations and automation activities
+   - **Journeys** — Read — Journey Builder interactions
+   - **Data Extensions** — Read — Data Extension definitions (SOAP API)
+   - **List and Subscribers** — Read — Data Extension field definitions
+
+   > If you only grant **Assets**, SFMCVault still works but will skip Data Extensions, Automations, Automation Activities, and Journeys.
 6. Save the package and note down these three values:
    - **Client ID**
    - **Client Secret**
@@ -73,7 +87,7 @@ To enable it:
 4. Optionally, click **Run workflow** to trigger it manually
 
 From now on, the workflow will:
-- Run `scripts/sync_emails.py` daily
+- Run `scripts/sync.py` daily
 - Commit any changes to `email-content/` with a detailed commit message
 - Skip the commit if nothing has changed
 
@@ -99,6 +113,28 @@ email-content/
 ├── images/
 │   ├── 44444_Logo.png
 │   ├── 55555_Banner.jpg
+│   └── manifest.json
+├── data-extensions/
+│   ├── abc-def-123_Master_Subscribers.json
+│   └── manifest.json
+├── automations/
+│   ├── 78901_Nightly_Import.json
+│   └── manifest.json
+├── automation-activities/
+│   ├── queries/
+│   │   ├── 55501_Active_Subscribers.json
+│   │   ├── 55501_Active_Subscribers.sql
+│   │   └── manifest.json
+│   ├── scripts/
+│   │   ├── 66601_Cleanup_Script.json
+│   │   ├── 66601_Cleanup_Script.ssjs
+│   │   └── manifest.json
+│   ├── imports/
+│   ├── data-extracts/
+│   ├── file-transfers/
+│   └── manifest.json
+├── journeys/
+│   ├── 90123_Onboarding_Journey.json
 │   └── manifest.json
 ├── CHANGELOG.md
 └── .commit-summary
