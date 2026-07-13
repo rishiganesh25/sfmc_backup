@@ -70,7 +70,7 @@ Fork this repo and create a private repo
 
 ### Step 3: Set Up Automated Daily Sync (GitHub Actions)
 
-The repository includes a GitHub Actions workflow at `.github/workflows/sync-sfmc-emails.yml` that runs the sync automatically every day at midnight UTC.
+The repository includes a GitHub Actions workflow at `.github/workflows/sync-sfmc-metadata.yml` that runs the sync automatically every day at midnight UTC.
 
 To enable it:
 
