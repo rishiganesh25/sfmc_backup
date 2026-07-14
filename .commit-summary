@@ -1,4 +1,4 @@
-chore: sync SFMC content 2026-07-13T02:23:49Z
+chore: sync SFMC content 2026-07-14T02:45:33Z
 
 Added: 0 | Modified: 82 | Deleted: 0 | Unchanged: 136
 
@@ -65,12 +65,12 @@ Modified:
   - automations/c19d53fb-59ef-4e4b-ae81-283896aae5f7_DFUAPIBUMapping.json (DFUAPIBUMapping)
   - automations/cefae37a-9fb2-4a8d-ab0c-fca68bfb705f_HK_Autocumulus_Automation.json (HK_Autocumulus_Automation)
   - automations/cb0319f9-7d8b-4b17-b8f7-41e9ef8e2f91_test1.json (test1)
-  - automation-activities/queries/d5f429bb-54ff-4672-abc0-440390b35631_car.sql (car (.sql))
-  - automation-activities/queries/cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.sql (car_filter (.sql))
-  - automation-activities/queries/7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.sql (customer_info (.sql))
-  - automation-activities/queries/8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.sql (datatype check (.sql))
-  - automation-activities/queries/ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.sql (HK_Autocumulus_Generate_Sendable (.sql))
-  - automation-activities/queries/64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.sql (test1 (.sql))
+  - automations/automation-activities/queries/d5f429bb-54ff-4672-abc0-440390b35631_car.sql (car (.sql))
+  - automations/automation-activities/queries/cf5f54f9-b03b-4a0c-8f81-29c785a30c73_car_filter.sql (car_filter (.sql))
+  - automations/automation-activities/queries/7baf1181-7db6-4f69-aacd-616cf72f0f5c_customer_info.sql (customer_info (.sql))
+  - automations/automation-activities/queries/8436bb5c-bf0f-4fb9-a09b-adaaf0c5aee7_datatype_check.sql (datatype check (.sql))
+  - automations/automation-activities/queries/ed246610-9bfd-4a06-bcf1-d3b1e6381a55_HK_Autocumulus_Generate_Sendable.sql (HK_Autocumulus_Generate_Sendable (.sql))
+  - automations/automation-activities/queries/64cd25fa-99d5-4b4e-aceb-25d4d79de785_test1.sql (test1 (.sql))
   - journeys/2f878a6d-6c20-43cc-9c6f-45cec4a0df33_IS_TEST.json (IS TEST)
   - journeys/b252fd65-0842-4791-94c8-8e7a14460a99_New_Journey_-_December_6_2022_at_735_PM.json (New Journey - December 6 2022 at 7.35 PM)
   - journeys/1a031381-7e7a-408d-9613-92c2546387ea_New_Journey_-_March_16_2023_at_350_PM.json (New Journey - March 16 2023 at 3.50 PM)
